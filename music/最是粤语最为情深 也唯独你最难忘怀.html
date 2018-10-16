@@ -1,0 +1,2896 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="baidu-site-verification" content="cNhJHKEzsD" />
+<meta property="qc:admins" content="27354635321361636375" />
+<link rel="canonical" href="https://music.163.com/playlist?id=2388322013">
+<meta name="applicable-device" content="pc">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://music.163.com/m/playlist?id=2388322013">
+<meta name="mobile-agent" content="format=html5;url=https://music.163.com/m/playlist?id=2388322013">
+<title>最是粤语最为情深 也唯独你最难忘怀 - 歌单 - 网易云音乐</title>
+<meta name="keywords" content="最是粤语最为情深 也唯独你最难忘怀，鹿白川，粤语，流行，怀旧" />
+<meta name="description" content="我没有很刻意地去想念你
+我只是在很多个小瞬间想起你
+比如 一部电影
+一首歌 一句歌词
+一条马路和无数个闭上眼的瞬间
+封面来自画师：zipcy" />
+<meta property="og:title" content="最是粤语最为情深 也唯独你最难忘怀 - 歌单 - 网易云音乐" />
+<meta property="og:type" content="music.playlist" />
+<meta property="og:image" content="http://p2.music.126.net/ffKurGMmgRRY0BqTjf9XgQ==/109951163517968369.jpg" />
+<meta property="og:url" content="https://music.163.com/playlist?id=2388322013" />
+<script type="application/ld+json">
+{
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/playlist?id=2388322013",
+"appid": "1582028769404989",
+"title": "最是粤语最为情深 也唯独你最难忘怀",
+"images": ["http://p2.music.126.net/ffKurGMmgRRY0BqTjf9XgQ==/109951163517968369.jpg"],
+"description": "我没有很刻意地去想念你\n我只是在很多个小瞬间想起你\n比如 一部电影\n一首歌 一句歌词\n一条马路和无数个闭上眼的瞬间\n\n封面来自画师：zipcy",
+"pubDate": "2018-08-26T23:28:41"
+}
+</script>
+<script type="text/javascript">
+var GDownloadLink="";
+var GDevice = "phone";
+var GFrom="";
+var GClient="";
+var GPlatform="other";
+var GRef = '';
+var GInApp = false;
+var GMobile = false;
+var GAbroad = false;
+var GUser={};
+var GAllowRejectComment = false;
+var GEnc = true;
+var GEnvType = "online";
+var GWebpSupport = "1";
+window.NEJ_CONF = {p_csrf:{cookie:'__csrf',param:'csrf_token'}};
+GUtil = {
+getBase:function(){
+return location.protocol+'//'+location.hostname;
+},
+getPathAndHash:function(_url){//获取URL path 之后的所有内容,并将/#/替换成/m/使之成为path的一部分
+if(!_url) return '';
+var _reg0 = /^https?:\/\/.*?\//i,
+_reg1 = /\/?#\/?/i;
+return _url.replace(_reg0,'/').replace(_reg1,'/m/');
+},
+composeRefer:function(_url,_ref){//对所有的页面请求都加上ref参数表示被嵌套的来源
+if(!_ref) return _url;
+var _hi = _url.indexOf('#'),
+_si = _url.indexOf('?');
+if(_si>0&&(_si<_hi||_hi<0)){
+return _url.substring(0,_si+1)+'ref='+_ref+'&'+_url.substring(_si+1);
+}else if(_hi>0&&(_si<0||_si>_hi)){
+return _url.substring(0,_hi)+'?ref='+_ref+_url.substring(_hi);
+}else{
+return _url+'?ref='+_ref;
+}
+}
+};(function(){
+var _ua = window.navigator.userAgent,
+_isMobile = /(mobile|mobi|wap|iphone)/i.test(_ua),
+_isAndroid = /android/i.test(_ua),
+_isIpad = /(ipad)/i.test(_ua),
+_igList = [/^\/xiami$/,/^\/live$/],//不需要以单页面打开的列表，比如某些活动页面
+_pn = location.pathname,
+_idx = _pn.lastIndexOf('/'),
+_pReg = /\s*(\w+)\s*=\s*(\d+)\s*/,
+_redirect2mobile = function() {
+var _type,_murl,
+_id = 0,
+_hash = location.hash,
+_mReg = /^#\/?m?\/(share|song|playlist|djradio|dj|program|album|mv|artist|topic|radio|zysf|drqp|qp|activity|store|user|event|video|discover\/toplist)(\/(\d+))?/,
+_base = location.protocol+'//'+location.hostname,
+_sindex = _hash.lastIndexOf('?'),
+_search = _sindex>-1?_hash.substring(_sindex+1):'',
+_match = _mReg.exec(_hash);
+// 无hash || 不匹配 || 匹配但是商品之外不带参数 || 匹配且是排行榜
+if (!_hash.length || !_match || (_match[1] != 'store' && !_search) || /share|discover\/toplist/.test(_match[1])) {
+// 有hash && (没有参数 || 排行榜)
+if ((!_search || /share|discover\/toplist/.test(_match[1])) && _hash.length) {
+location.href = _base + '/' + _hash.replace('#', 'm');
+} else {
+location.href = _base + '/m/';
+}
+return;
+}
+_type = _match[1];
+_id = _match[3];
+if (_type == 'dj') _type = 'program';
+if (_type == 'store') {
+_murl = /^#\/store\/(product|concert)\/detail/.test(_hash) ? _hash.replace('#/store', '/store/m') : '/store/m/product/index';
+} else {
+_murl = '/' + _type + '?' + (_id ? 'id=' + _id + '&': '') + _search;
+}
+location.href = _base + _murl;
+};
+if(_isMobile || _isAndroid || _isIpad){
+_redirect2mobile();
+return;
+}
+if(!_pn||_pn=='/') return;
+for(var i in _igList){
+if(_igList[i].test(_pn)) return;
+}
+if(top==self){
+location.href = '/#'+GUtil.getPathAndHash(location.href);
+return;
+}
+//搜索引擎过来的内容页连接
+if(top==self&&/^\/static\/(song|playlist|album|artist)/i.test(_pn)){
+location.href = '/#'+_pn.substring(0,_idx).replace('/static/','/')+'?id='+_pn.substring(_idx+1);
+}
+})();
+(function(){
+var _addEvent = function(_node,_type,_cb){
+if(_node.addEventListener){
+_node.addEventListener(_type,_cb);
+}else if(_node.attachEvent){
+_node.attachEvent('on'+_type,_cb);
+}
+},
+_pathPrefixArray = [
+'/store/', // 商城
+'/m/at/', // 活动
+'/prime/m/', // 会员移动端页面
+'/oauth2/', // 授权
+'/m/oauth2/', // 授权
+'/octave/', // 新数字专辑
+'/v/', // 新数字专辑
+'/st/', // 静态页面
+'/nmusician/',// 音乐人
+'/nact/', // 新活动
+'/m/topic/' // 专栏移动端
+],
+_isNotMainsitePagePath = function(_pagePath){
+// 对于非主站内的页面的跳转 需要排除
+var _path = (_pagePath||'').replace(/^https?:\/\/.*?\//i, '/').split(/[?#]/)[0];
+for(var i=0;i<_pathPrefixArray.length;i++){
+if(_path.indexOf(_pathPrefixArray[i])===0) return true;
+}
+return false;
+},
+_onAnchorClick = function(_event){//截获所有<a>标签的点击事件，自定义页面的跳转
+_event = _event||window.event;
+var _el = _event.target||_event.srcElement,
+_base = location.protocol+'//'+location.host;
+while(_el&&_el!=document){
+if(_el.tagName&&_el.tagName.toLowerCase()=='a'){
+//fix ie6下有时javascript:;不能阻止默认事件的bug.
+if(_el.href.indexOf('javascript:')>=0){
+!!_event.preventDefault
+? _event.preventDefault()
+: _event.returnValue = !1;
+return;
+}
+if(_event.button==2) return;//ff 右键会触发click事件
+//商城有独立地顶栏了，排除掉。但会员、数字专辑、单曲的商品、订单页仍保持主站frame，
+//这些url往往是通过/vip2, /payfee这样的地址跳转的，也没有问题，如果真的有，URL用#配置就好了
+if(_isNotMainsitePagePath(_el.href)) return;
+//新窗口打开的链接、云音乐单页面形式的链接、站外的链接不做拦截处理。
+if(_el.target=='_blank'
+||_el.target=='blank'
+||_isNotSameHost(_el.href)
+||_el.href==_base
+||_el.href.indexOf(_base+'/#')>=0) return;
+!!_event.preventDefault
+? _event.preventDefault()
+: _event.returnValue = !1;
+location.dispatch2(_el.href);
+break;
+}else{
+_el = _el.parentNode;
+}
+}
+},
+_isNotSameHost = function(_href){
+var _same = true;
+if(_href.charAt(0)!='/'){
+var _index = _href.indexOf('//'+location.hostname);
+if(_index > 0){
+var _index2 = _href.indexOf('?');
+if(_index2 > 0 && _index2 < _index){
+_same = false;
+}
+}else{
+_same = false;
+}
+}
+return !_same;
+};
+_addEvent(document,'click',_onAnchorClick);
+//扩展一个js中直接使用的页面跳转的方法，以拦截js中的页面跳转行为
+location.dispatch2 = function(_url,_replace){
+var delegate = false;
+try{
+delegate = !!top.GDispatcher;
+}catch(e){
+delegate = false;
+}
+// 处理对于非主站内的页面的跳转
+if(_isNotMainsitePagePath(_url)){
+if(delegate && top.location && top.location.href){
+top.location.href = _url;
+}else{
+location.href = _url;
+}
+return;
+}
+if(delegate){
+top.GDispatcher.dispatch(_url,_replace);
+}else{
+_url = GUtil.composeRefer(_url,GRef);
+//邮箱音乐盒中，每次链接的跳转都要将proxy.html的地址合并到hash中
+if(GRef&&GRef=='mail'){
+var _hindex,_sindex,
+_reg = /(https?:\/\/.+\/proxy.html)/,
+_hreg = /#(.*?)$/,
+_href = decodeURIComponent(location.href);
+if(!_reg.test(decodeURIComponent(_url))&&_reg.test(_href)){
+_hindex = _url.indexOf('#');
+_sindex = _url.lastIndexOf('?');
+if(_hindex>0){
+_url = _url+(_sindex>_hindex?'&':'?')+'proxy='+encodeURIComponent(RegExp.$1);
+}else{
+_url = _url+'#proxy='+encodeURIComponent(RegExp.$1);
+}
+}
+}
+if(_replace){
+location.replace(_url);
+}else{
+location.href = _url;
+}
+}
+};
+})();(function(){
+if(window.addEventListener){
+window.addEventListener('scroll', onScroll)
+}else{
+window.attachEvent('onscroll', onScroll)
+}
+try{
+top.scrollTopbar(0);
+}catch(e){
+}
+function onScroll(){
+try{
+top.scrollTopbar(Math.max(document.body.scrollTop, document.documentElement.scrollTop));
+}catch(e){
+//ignore
+}
+};
+})();</script>
+<base href="//music.163.com/" target="_top">
+<link rel="shortcut icon" href="//s1.music.126.net/style/favicon.ico?v20180823" />
+<link href="//s2.music.126.net/web/s/core_b89548c2bf82f80aebaa337334825b78.css?b89548c2bf82f80aebaa337334825b78" type="text/css" rel="stylesheet"/><link href="//s2.music.126.net/web/s/pt_frame_b7a70010a3759c4f23fc8381c4a7b729.css?b7a70010a3759c4f23fc8381c4a7b729" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div data-module="discover" data-sub="other" id="g_top" class="m-top">&nbsp;</div>
+<div id="g_nav" class="m-subnav">&nbsp;</div>
+<script>
+try{
+top.matchNav("discover", "other");
+}catch(e){
+}
+</script>
+<div id="m-playlist" class="g-bd4 f-cb">
+<div class="g-mn4">
+<div class="g-mn4c">
+<div class="g-wrap6">
+<div class="m-info f-cb" id="auto-id-lnhSCK7kjkCW85p">
+<div class="cover u-cover u-cover-dj">
+<img src="http://p3.music.126.net/ffKurGMmgRRY0BqTjf9XgQ==/109951163517968369.jpg?param=200y200" class="j-img" data-src="http://p3.music.126.net/ffKurGMmgRRY0BqTjf9XgQ==/109951163517968369.jpg" data-key="UZz"/>
+<span class="msk"></span>
+</div>
+<div class="cnt">
+<div class="cntc">
+<div class="hd f-cb">
+<i class="f-fl u-icn u-icn-13"></i>
+<div class="tit">
+<h2 class="f-ff2 f-brk">最是粤语最为情深 也唯独你最难忘怀</h2>
+</div>
+</div>
+<div class="user f-cb">
+<a class="face" href="/user/home?id=493707309"><img src="http://p1.music.126.net/j2tHprJZi2zGfX5jBCuvwA==/109951163409236269.jpg?param=40y40"></a>
+<span class="name">
+<a href="/user/home?id=493707309" class="s-fc7">鹿白川</a>
+</span>
+<sup class="u-icn u-icn-84 "></sup>
+<span class="time s-fc4">2018-08-26&nbsp;创建</span>
+</div>
+<div id="content-operation" class="btns f-cb" data-rid="2388322013" data-type="13" data-special="0" >
+<a data-res-action="play"
+data-res-id="2388322013"
+data-res-type="13"
+href="javascript:;" class="u-btn2 u-btn2-2 u-btni-addply f-fl" hidefocus="true" title="播放"><i><em class="ply"></em>播放</i></a>
+<a data-res-action="addto"
+data-res-id="2388322013"
+data-res-type="13"
+href="javascript:;" class="u-btni u-btni-add" hidefocus="true" title="添加到播放列表"></a>
+<a data-res-id="2388322013"
+data-res-type="13"
+data-count="121974"
+data-res-action="fav"
+class="u-btni u-btni-fav " href="javascript:;">
+<i>(12万)</i>
+</a>
+<a data-res-id="2388322013"
+data-res-type="13"
+data-count="786"
+data-res-action="share"
+data-res-name="最是粤语最为情深 也唯独你最难忘怀"
+data-res-author="鹿白川"
+data-res-authors=""
+data-res-pic="http://p2.music.126.net/ffKurGMmgRRY0BqTjf9XgQ==/109951163517968369.jpg"
+class="u-btni u-btni-share " href="javascript:;"><i>(786)</i></a>
+<a data-res-id="2388322013"
+data-res-type="13"
+data-res-action="download"
+class="u-btni u-btni-dl " href="javascript:;"><i>下载</i></a>
+<a data-res-action="comment" href="javascript:;" class="u-btni u-btni-cmmt "><i>(<span id="cnt_comment_count">265</span>)</i></a>
+</div>
+<div class="tags f-cb">
+<b>标签：</b>
+<a class="u-tag" href="/discover/playlist/?cat=%E7%B2%A4%E8%AF%AD&order=hot"><i>粤语</i></a>
+<a class="u-tag" href="/discover/playlist/?cat=%E6%B5%81%E8%A1%8C&order=hot"><i>流行</i></a>
+<a class="u-tag" href="/discover/playlist/?cat=%E6%80%80%E6%97%A7&order=hot"><i>怀旧</i></a>
+</div>
+<p id="album-desc-more" class="intr f-brk"><b>介绍：</b>
+我没有很刻意地去想念你<br>
+我只是在很多个小瞬间想起你<br>
+比如 一部电影<br>
+一首歌 一句歌词<br>
+一条马路和无数个闭上眼的瞬间<br>
+<br>
+封面来自画师：zipcy<br>
+</p>
+</div>
+</div>
+</div>
+<div class="n-songtb">
+<div class="u-title u-title-1 f-cb">
+<h3>
+<span class="f-ff2">歌曲列表</span>
+</h3>
+<span class="sub s-fc3"><span id="playlist-track-count">100</span>首歌</span>
+<div class="more s-fc3">播放：<strong id="play-count" class="s-fc6">6773914</strong>次</div>
+<div class="out out-list s-fc3">
+<i class="u-icn u-icn-95 f-fl"></i>
+<a data-action="outchain" data-href="/outchain/0/2388322013/" class="des s-fc7">生成外链播放器</a>
+</div>
+</div>
+<div id="song-list-pre-cache" data-key="track_playlist-2388322013" data-simple="1" data-pvnamed="1">
+<div class="u-load s-fc4"><i class="icn"></i> 加载中...</div>
+<ul class="f-hide"><li><a href="/song?id=316498">勇</a></li><li><a href="/song?id=26402069">上心</a></li><li><a href="/song?id=118261">七友</a></li><li><a href="/song?id=65198">命硬</a></li><li><a href="/song?id=26584453">梦伴</a></li><li><a href="/song?id=26353080">蜚蜚</a></li><li><a href="/song?id=5231283">烂泥</a></li><li><a href="/song?id=111536">罪人</a></li><li><a href="/song?id=458013069">痛醒</a></li><li><a href="/song?id=191171">无赖</a></li><li><a href="/song?id=174122">面具</a></li><li><a href="/song?id=191508">走狗</a></li><li><a href="/song?id=174120">厌弃</a></li><li><a href="/song?id=191528">够钟</a></li><li><a href="/song?id=5260326">好人</a></li><li><a href="/song?id=66783">固执</a></li><li><a href="/song?id=107226">替身</a></li><li><a href="/song?id=66282">浮夸</a></li><li><a href="/song?id=66743">尊严</a></li><li><a href="/song?id=63892">献世</a></li><li><a href="/song?id=188550">春秋</a></li><li><a href="/song?id=255604">花火</a></li><li><a href="/song?id=213791">阁楼</a></li><li><a href="/song?id=328156">默契</a></li><li><a href="/song?id=5262067">六月</a></li><li><a href="/song?id=308299">喜帖街</a></li><li><a href="/song?id=33471531">罗生门</a></li><li><a href="/song?id=316686">处处吻</a></li><li><a href="/song?id=308353">钟无艳</a></li><li><a href="/song?id=28949444">喜欢你</a></li><li><a href="/song?id=224837">苦情人</a></li><li><a href="/song?id=330217">成就感</a></li><li><a href="/song?id=224086">电灯胆</a></li><li><a href="/song?id=214333">红眼睛</a></li><li><a href="/song?id=328295">多得他</a></li><li><a href="/song?id=307015">南瓜车</a></li><li><a href="/song?id=298489">座右铭</a></li><li><a href="/song?id=217965">多得你</a></li><li><a href="/song?id=316486">野孩子</a></li><li><a href="/song?id=224133">黑白照</a></li><li><a href="/song?id=298258">吴哥窟</a></li><li><a href="/song?id=82082">无双谱</a></li><li><a href="/song?id=86849">爱与诚</a></li><li><a href="/song?id=215317">假天真</a></li><li><a href="/song?id=189155">我的天</a></li><li><a href="/song?id=64355">情永落</a></li><li><a href="/song?id=86943">必杀技</a></li><li><a href="/song?id=28748419">陀飞轮</a></li><li><a href="/song?id=178921">生还者</a></li><li><a href="/song?id=219546">野种子</a></li><li><a href="/song?id=5250032">十分.爱</a></li><li><a href="/song?id=179768">心碎(粤)</a></li><li><a href="/song?id=247931">失重 (粤)</a></li><li><a href="/song?id=25718007">你瞒我瞒</a></li><li><a href="/song?id=25639351">人非草木</a></li><li><a href="/song?id=86477">爱得太迟</a></li><li><a href="/song?id=65766">富士山下</a></li><li><a href="/song?id=28718300">形影不离</a></li><li><a href="/song?id=65206">我有今日</a></li><li><a href="/song?id=30148268">念念不忘</a></li><li><a href="/song?id=135355">耿耿于怀</a></li><li><a href="/song?id=32705017">七年滋養</a></li><li><a href="/song?id=186453">春夏秋冬</a></li><li><a href="/song?id=64269">信口开河</a></li><li><a href="/song?id=112064">爱一个人</a></li><li><a href="/song?id=64797">于心有愧</a></li><li><a href="/song?id=280389">不只爱情</a></li><li><a href="/song?id=308169">年度之歌</a></li><li><a href="/song?id=5262094">缠绵游戏</a></li><li><a href="/song?id=188384">樱花树下</a></li><li><a href="/song?id=178993">还你门匙</a></li><li><a href="/song?id=32958490">别来无恙</a></li><li><a href="/song?id=27907601">你未讲过</a></li><li><a href="/song?id=66765">断绝来往</a></li><li><a href="/song?id=94639">相依为命</a></li><li><a href="/song?id=27713352">临别拥抱</a></li><li><a href="/song?id=219293">会过去的</a></li><li><a href="/song?id=94598">亲密关系</a></li><li><a href="/song?id=192353">相爱无梦</a></li><li><a href="/song?id=192648">怎会如此</a></li><li><a href="/song?id=214033">临走前吻我</a></li><li><a href="/song?id=66476">偏偏喜欢你</a></li><li><a href="/song?id=243927">感激遇到你</a></li><li><a href="/song?id=115162">月半小夜曲</a></li><li><a href="/song?id=82268">可爱不可爱</a></li><li><a href="/song?id=279103">杀死我的温柔</a></li><li><a href="/song?id=331196">爱得起 (Solo)</a></li><li><a href="/song?id=94219">不要离我太远</a></li><li><a href="/song?id=224048">再见不是朋友</a></li><li><a href="/song?id=213349">对不起不是你</a></li><li><a href="/song?id=5232526">花吃了这女孩</a></li><li><a href="/song?id=316637">假如让我说下去</a></li><li><a href="/song?id=316654">可惜我是水瓶座</a></li><li><a href="/song?id=82056">在你遥远的附近</a></li><li><a href="/song?id=307024">奇洛李维斯回信</a></li><li><a href="/song?id=25877497">原来过得很快乐</a></li><li><a href="/song?id=191510">我不要被你记住</a></li><li><a href="/song?id=27591711">不能爱恋 只能暗恋</a></li><li><a href="/song?id=224131">他不准我哭 - unplug</a></li><li><a href="/song?id=26902929">你知道我在等你们分手吗?</a></li></ul>
+<textarea id="song-list-pre-data" style="display:none;">Qvw9BHR4gQubKKTn5g4DsXn7wTuRZ3hRkxmR5rEwZFI2SkJ4Rrs1UT8lOCHDsTV0wTuqpMHeVhz0
+qH8JfoBEwFbYZV87ZnEfBuNQ9Lt1LQc0v0Fm4FIsLh+uZXz7VwsO/VZER/+1TlHzAmnt1U4aPUGq
+tjari/zUULBnLTyKpHh6NERFrzUh6XkiWvSqlJGF8VDB+38u9a4MmqQytLN0nyF8hXuBDklWnvek
+IukQyjaratPjjK7EFywKI6q2t2qUZl3ehXcDt1Jdb5OSDy7mOLPq1ZFKb8CuxmMCfCGJs8NjPPba
+OowG+nDnFSmRTkQOmZyOdmiunHElSPs6bYBR4lb7zAQOEU3AfQKgZz89igZhW8CvYfugrtemoSLL
+mbV88duzRbAASINg7wm2rTNJrun1OU1CKisM9lmOJYshIcDXTf4UIENxcBbVvBqWMi0fs627eeeL
+fK4MUN1tVr7ovHqhscEhdIzp7oH1OPva+xD/wFfGWaxzYZsXH01x3xZUvEDAKZnFsVJOFEy1OAQT
+ASO2A9Nn25q2XvwIuvFunsOm4vZ6OvFZXOH3YOsIf+6mjcv3Be42KCoNa8VJnEEN6uxbM2PbGVBF
+NLnUUKIC/R+32hJBUfxP2rkoav2oEF4LaquUCL7B9VG8UHy62WaVdAXZCLdnTVwcdSPvcsJS7Jtm
+5/sTxp2zQU0nWq3I1iqZTdi9wttdq9ilFSV29aZH2ypnmJ/rwfF1HPQh660OxT3fWRJ8OKTEWl18
+uokkg2+1VgSm+7Prv8Ck0n5JQiAtChmDscv3CCMIh1qFZyAts4uBVgeXjcH7Vhz0f4JTOmjkQdef
+XajeR/iOIubg+7uL4teXALHxNF0L9VKSeVtJUxjG3nwtA7fW608r9g5JU16ovoIf49urXfzUULGs
+7lcXPUH7xfWgEPAcBWdRsmZd0lbXFb7mCE+0+wSWWvQeUeqojAax1vddglLwHHwSy7sgcb84uHoI
+7YOP2ZCf/y2zrIF6kX5dqK3EcD7xpoWzHpvAnc2/Z7c1MGY+d/NQ/UEkOVOg0WvxP21/Ihz0bqRP
+3oW/ttNmmUqu8Byt2zsqsYG+yiIEUJaWlC061+PepvsGtAp+4KulBPUtFhda9FqLbQKNvolAeoEZ
+v8q+UEghQI7DgdqOesq6Se/gJZ1eUan8vQ9hYC1BA2QGLE3jox9N3k/ZtKC6pVVdjPJZpPSj3KRt
+AU50y/s4Fqp2kwj8tz/DRkBhrzO0OXq/Yrr1xMz/s6zeu1Fv3YolFgJIfKj9GTJR9LEpA2r5HlU9
+vHc1jHXeIfuhfotCVeKu/LAGMl7KtO9Rq5FNh5TTk2nkYmL7g75qnX+7UkFTh1retFC+ZMqARbGl
+pjj/g09B7GVsUMJvgv9NaipqfvuJSFFaAQrrhKblFs2vC7et+yjhm39/2OKAQho1h5DBOGEc9Puo
++35Gt8Cxw0DgO6BSu/ux4cCojInaQe8S+wggHzSe8wLgUTl0hfZBkRJd22TT4Q1B/I1IpUZPTYoN
+q12HHBkj/+faPfagprOk1eRtDtK/DCpCE3GfoUBbD2afpc21J+He1UfgZHGSBHzGrQY9DKoCfxBA
+JHGSSTqKU7c0c2xXf4LeECEOoBClNg44unX7UI+lOgcvoz6kgx86dcs9IeAsFPGWq0hHEJW/q3dt
+NhbzAvSfLTnkAJZlOrMj5Lkcazvso18jU7D9NgASf5ldI45XkeSgDy0KOvbfXTsXPNZK1GXBDxKr
+RIXyB3k9lg6hWgElB1NThb4PC4BNH5tcpfyAgS0ypRu0uxx7i70QeeICKMfeAWEtJjmb7sn9fMqY
+J/iCNLfCtlI4fKUDwm3LcxwB9ft/wAJQH5UESftXxFAaDJRRnAYb/6AwEDVNn03LDgcTxd/LLRKo
+8hOgKrykrWaTeRUVglf0A7bt4vv7dCsYoJMwaZ1A2V84SBfBqcYuc9Kl7jkuwiWuUAnki+M1q+t3
+wz+dpvv2kT3GoN1d4mpBt3YukOsYP/YWE2JNI5pvKACmifXKeIuCXXJlQu0Y81CO1rZmgURtqgR0
++dm7XSNS8IPj3wJmh0/sxfaOzf9JLlr0uswtoQp8+6+rUvCL2X6Og8vYHqb7bflQI3hpDyqm9yzK
+lZU9I59xPUXy2ouskkRx77jxOKVyO8Cz/8v7jTwZ5Aq8Zru6+7E7to20BvccAX/3rcxivyNmdq4D
+Uv3zArFvLQrDUOLN6uRB6CTWQK1H4XvCjp/7u0+0TSWNsUhqHPSwlDZXtVDiFgTHODoocJ8sBEB4
+gFDi+w63344oNhV/unfSQPGJQDQ9QfsEYqAh8FCLgu3CZl1R4kR5Bfu4ZBXqCvGU6fW4+0sRUgq/
+MJF3E3E/07cIwZx5OO6sZ2xl2oCSdlLTOSQBgcCchUbgajtyaqaVQFbN8sD5Kt8vXbbrkRO0Zahd
+aSDLpqgfv7cYUDiRPO58+8EaKraBVfAc3izW5ocIks7AwIgKNLA9tHQRciV8dx7uUn98MpX3HxkJ
+SHyE494t9Y2K9zmmnb8MHT31pneq+3YEpopN4kL4HyaRgt6X1q0toJigSKU8XV5k9zQB+UZXVvRF
+ZF77117mTueB41LqkYNhaPlfeWF3pRj1OOxQcZ5Fa/8RNKiWWie3pn8QERkqaZ/CPvw2kRQXkrx3
+utd16RD7SH75QnjukswgeYw4+59qezOaRrarh+GsP/u6fwQNPX8gu122GlxQGm1QvvLKgKuXsxbu
+cwRP36JlbCXubyPGTTQqv3773nzyUPQTrR+DKJh+r3pd3vux4V3Y+zKwYVBGr4kYbaxYYG54tFM8
+y77enaWsqpQaF57t4bFqE2awdFI2Ki/TRuk1UaRQOCFoH+vyhztmP3YIElD09X8Jn6QIwda69ZY2
+NS8l9Oyt055QdsfDame1n0/Z/+53JTj7VzAO/RI7xv95TlHkg2ntpAaLkt8jUWbat+NgUDBnLQpK
+yAvYZjbi9g9t4/R4UzLFf3yFDu/B+5gT9b88YGoKtLPRnyF8DauBf0lWclSkIt4Q1qweFXo1xvbo
+kSwKI6rSUnt32KusYudc4XohEMWfP7/qOLeAq+T9Yte/xCXViQ58jQ2+MpXbpSM6qVs3l4wepgg2
+cUswfBCSMKy3iTjbdvt2BCEpgcDUZbdT19MpefGKHlNzfzohgzjBUEcH6QFZCGsRUG18mHyJ0lz4
+woS3xB/WDvGcPPzgDj4cASGJiV2A6GP2KfuJfGRa9J1Pm8vz/PiU3Kbw8gtNwI2hzB7DJHdmT42M
+p2EZ337zW351OzHN8Xl6wqolwKDtyDlAtx+jxXmb5GlyuPm7JxS5e5ioR0f5ANc56C/bcnjbgIJz
+pgT7UvlTwgB/xze/uRynSr5PsqvAsZyZfKi+6Ork+wQm4la20URRUIEv+iU4347RdMuSIxE9viHb
+8kb72MLbvxPtaekykoLMsz3i++xVrBPmOrHWhYmY6V22v3MEBQbl1FY99rv1eggfaeGA5MnepgSN
+9+LFbr8jLDA1qosZ8yWfli2yXva79RGBVi/kDB9/fFeHCPX7IXiLb1Ao2XXIRKd2gU0wszTZTmlK
+B+8kNd453794foCBX9YO9RKsl2wCAexTPHKbsTiYpYKqsRy4vzySH7cwMK/Y95bqc3rq9ETDh3+6
+Fon954K25+tCISFoZsVltDyKyILYmTbiall6ugF4rdMEmPFe6XFtqBJt68L98U6/AOB3oY6uEAuS
+JXwLlkuCEMWuAxltgKrz7wHgLTMZm1/SEI0PRW4VwC2SpCXx+0DAAU/A5zrqlmmX0zOm+2JyXfsT
+s7AagXP92/YiyxVhSb5Bld71eQAneJX/8dMJyi6ddk/rwhlncbQ6t7Xf1yAtHe5PvaEhK0ZqKGxQ
+bSMkh4u8AhVtLvHXswtQfOrlBJBQwXzMXSO6sTNong6JohTtwnpy78DFBH/7vwxaJEEp2/c6ujAa
+uw8TnKep0ceEztAgrUOmxrfAktKQySu0W4pPjTindWgjMGzbVnUan4U4SH6cTWnABC0Z5JnL2QR8
+cUaWDf3bt1PeqfIWoHjOrLybVbCWahlKM14ZbgtJfJiuQWM8AA40qL5cHCZKvqM+sMGxwmi6qKUq
+U7KZGR1t538QXttmF7FBFG6b+sqeF/9Pcz++OKDy3PvYDC93/5R3GhOSSsylceD7tFWsE+aFZqWF
+iZV5v7al/qAhTXb0JUH8tcbngE6UW/2RT1jqmFQvo4Nuv7bIJAgeJo/hOJ5l5NJPCh78Ak14Ziha
+GldE3jNqAB84Mg/79dO3Oe/6cqD/dmKWUi1IpY4jTvk15FdL68i6UoDaW21hYfYKti/G1T12i7BO
+TUB1pt7T+LVU//yFRGrMT6gG+5J6Don5wBQCRWKJEUaBe/Y5BEiNDKqbSaaon42+xp2Vuv+Sc6/j
+gj8qsdb1SEhiXWeLuRyFvIFYdPWVC7KVDkeQ51kSjVRaAQ5JLahoviO/4Ld5y4/hFkjjLZghU8Aa
+ZYCqFarz7+0wLejuTXtSJAg4dFxwsFd8Nz07AB8Q+6HBynxhfJUoHEnsyy0Ny7+7DcBNlHtztlcT
+I2YYDpILr870Yc43Lt+X71NmUnQgkG23FZZcWv1BJbENTWpxGI79wJyD9TDDDRzLtsstAUGBA2NE
+P1/qUhJUuA7elEK0G2Ks81SseAYQdhpqVo09yzg6n8kEj/gleF9xuosLkn8avwQuQHyoPcpaRONB
+KiEx9fKOOjmcs9nbR29TRlVAXvbuZkH3/1rSXg6Ypo5ulHKaJZeeVcpscftUTX+6ruJmxwdA1jN6
+AFAnpP9Ry96fUDza7SqBCodGGTNApt09/4PA+y0OwYBYbBTrn1VJjBVnd19P6QSzwFBHF45KTfv/
++aD2C9htTfF/ZeAl8csKhVN9dymKcRL/xhwBqDidTTvWQvyKYcF89xwBOsUhRBoAwdhUUiNLKC43
+upB5nEHTkSRxkn8hLVIjO4dQhZrvOf+zNoeuikfGv9dsyBPsd3JdIFY2maSrUCi+oArLqJbKjIyc
+1+5fWwcHUE77F8K6uHwOs6yB9rAOOr8KRHUPpANKpXy7rLoFwIAXUFt/EIWxCPV8pV5KZudvYPb3
+y3Fo/1kTyiCV6cXZ7CwTZsMtTr5K7L5qjOe7n/tl4oP00u1qOstyMNbrtwu38FqdsS4t4HE9dvFF
+UkSbXBcgesu7nIAIERefT6jeXOGwfxDxqlL7E7aBkeOAKm5dm4cm5/T83sJhBHwseAoG9rYQIXMl
+Y6tdZjAjUY1+N7MfujJJTzzX2L38QOU3AY8vULG1tKoIvAKxpaY4OJU17qzd8XxgNaMt9RVK44d5
+EJKG0vZiBBO2CKCJDru3Z/ZCSPKYWJO2PY3CRYUkTgRc4YPaX3F/t4cVpjvIZXPNfDquHSVdSSOw
+ITEY+3RoGch8QIvYf/D7+7huyJANmZtHFCIDpqZ8FWbteBmuH4vjRqq3ckc8ZhX2LpcPjSMxsz+H
+U6/9FHnx+6+H69M2ssLVKotz7pogCI79ELTKVXFOYlSXYq66CF89pInN+8YfgN15vzJWO/mFkmdt
+amoOfIle4kZc4H7SuMqyt+/Bcw6zQbAaKjP7phKZnr4EdI5d/Ju5yLsTtSlyTvsf+WciD7cd+i9/
+BNtmBBD7ZlKBH02hLt4QslD0pusthcNbQb8ppYwEJ+ERpnyF4KxQX/VJCEpPJxy1nxbejaS/zSx7
+t1MAXJYTtuytM5cAsTrMvt/7BEDZEChaR2oLgXyzRkKBqjbr1vBQ6WfXLZw75x7kHnFWdL5t8U6d
+rWGMZcchh11/BLOfZXz73jwVvub9eW376g6zQfVPkoyR1jq2DZKCyJ9dF/LE+FtBzCXZTYBTkubq
+a+cn4Xq6IW60cT2FoLCLlGNKYHvngqMKzb9nsbbVgasPvsFkJAZu8YLgTvUAbaZ1CN8xaxyQlv8t
+9DRVCBWr+4mM0VD0ClZukExU1Y86q1+bJzQI9Iy7JnpQwU9iuInSsIE37m7xkdftWx5Nupb/RdZB
+seH6XzhH+z9xPXl8iSAfwygpy1Bl0SJSm8HZ+/9R2eBaATKZvhBG6pIZRi8pOMq6T3nwKgDxQRTy
+2TBZ5wb5aMoywY71gh1xckq2+5X9GkissZbp+6ilduZSciNnLCxKGaWmfxYB9N2QJlICHwl565Zp
+YnnI1zGX2DPmLt45XbR7bzWKYvvJJNoeh11zJV5C5AxlQY6+Go6SgoeKljs++Vi3++q74uSnXm0g
+Phiu2pX7IYfhP1Re0RBO3vvnAxniv7NqjEKO3gerZeL1f3wQktNXpP8PqhiM9g+lhEj1jpBlUEGM
+IxNSgDL0yIFPKnJlgXnwgiUZdq1fRoOxOlTKZ98oRWgTjJi3IwtCsYddIRBRWgGO9y1/jDX79W1S
+MALEHmL/eYW1sy18MFI5coCxNjlQxHFALkVAIlJI5q/XcqvYB9klOPvZsQ+M8Qewi7cAKMHxE47t
+i/VO+5J7ponenQLvRYMTXYCBKrGz9XyvA2dm5/yRkg9JP0AujBPWIASJxdm8agpmF0+MaiOun9b9
+oNHxQd/jiz4ESUeQ57oS2Pdl9A73rTc6vmfgvj12jBFEW5uP2ZApy0+cgFMR2J+3qN5c4XimELsi
+t/uM1uv5PDmeJX5Uy76XdY1BBPmofIMoJAQTjtMJTV44q4Ga6D5XP+43pcGd/0mjO/x5ztvnjoWs
+jy8lbbWHEk28ACx4Mk61pdIlfOrEBHgCwTim1kpU03NouIx81iL8L7alN4nmrV1n9iBOHtkjInFd
+UFbZ+8vy2+AcAf+HFRBoNvYfck2r8XAGSZSCOF8lFQ4h47weJpCDMjvKqgsKLC3b0vHJEA0U7g4t
+dv2j+xAkF+d2ZCVBv46AkxEsfPv9icpiyiRSjIUZZfRuU3dyw7g6/UB3ofbCZV+JeahVU2OBnCAD
+1dFutbbbXGwlnyVeispW5FFKQmbbGutt3ur7TZlCq1kRsyEh7VD0jPfnRUDrXiDATTmbdiTZd5Qt
+MlZHbcKF3a31q03ag4+z46zWo1VE1Ca+/oqd2Fwc/B6M50SZe7fXZV5t31yrCBOO8X6WUou3JFLm
+a/rhIUdlY4fnVtW83zRmkimV+6Zc4Y2XnfbpuhAQTbas/Y2kyCXJEBkLx4Pi+e/5SotY5Mi467+q
+ygiKpTrcwIA2LwJRMS0+I5vBDXViSa+w3zD2PR5uuJmHHusQ4kS7jCJAwhwB9QSJEka3wZwT9Vas
++SU/IaZXZkR0QHzb2bRqip869F13qgTFid1dgKvIbdzmEA2iF7aQLVkTBDohT3FtdHZw9kH/4BBS
+gKtXEftragwlkf/sIg5SNlJpnvTa7yfgDTKQDuCuRLc/P76m3XuLVspPaQc4zFMh+7qH1kggeQQo
+WiIx/LvHkL7eYhFdUYGsAweeShIYOPaCnP4B67kmYSr41KOWt3ReV12AcSSH1ruVnHqMCnmGbo7i
+ObOV9bHDDRyMsdfKs06U+avgCA6mAOwCyYyTBtIQTA67G6FIhy8lMYMSqRoEdjIIu9fdS+fkXim5
+U6ycEfnLPV1d3/QOpvdMOlj+pnM3nZZARkvHbqbuYTGZkwVWsBSXv5mwM3A89iGoiQFuGocBAQmY
+IXg9fvIREoNIbOuqRFOtnY5NGmppRdohRw7BbwnjUvnLq1u1MUFzzCYSCPXGVJfM4IBv1FBjKt8t
+UqxxGHG+ELv7V4eAl2wC/FEqdFJGH+i7t71U3IMX/+/bloE5Qiwli2ZZ+g/vgAvec9ubwDdUUgu6
+XDM3jLrJt4I+0xY/vyF/5wjf1vAcYpqbOTKzRtJb2g9zPcTbV54LNP2301Y2Eqx4gydxFxNJzTDn
+Bsul1+6Kvz3bUEj72bFJCnwOXYC3L3tJ2ZK2r7oPvgOxpXyJ3J0FwTY0WiydpmKqXah8peZK09aq
+kQdUyz9XE3mMpSCViWVqvCwTZhdPea5K7D++/VPnfvsEHxwB0pRqqMtyEudLt0FNKBxITrq7nz++
+dvGrUkWbJ9l5MctPs6xdEmqfT6jeJ+GwfxC7Ik37E7aBkTxBNqpdAFzILfQu3tJhBHxCeApIpDAQ
+EBMlL5mBaeg87Y3BN8rBQXNJo2SmT/B8OmxSCbEvULG1hxKLvAKxpaZOEwTr7mprpkhg46Ot9RVK
+SYd5EBW20qL7OPvSpTqJ/S23QfZ5VMlsQ12ec2sZgjA/wC3W4FmiSt5z1k8TIcOAQl9II6tI+Jn/
+UUF8H1D2un/3MalV/VIS/mUleFNX3pwAB5YXwZZrSZKQZbSqCT7aJVK2NIFHEInNnIOeEd/cIcAs
+VkBJjMRwCzS6i5im8Yc7UIdjZFieX+d8IbQg54vR1kni9pCiQf84YlZdqP8PBsvAgCoH7wnCQaOl
+rGrvP74QLfuFlsP8YG5vlOvyt+Tip8pGG7hxHBe6JWMwt1ZT7vk0eO4o3++A4C3XIsiUmQL8wb7j
+rSV5PS3ehWpnREqUT4G2cW2oUUcljHw0h6wO3g5JUt9d+hy4h0m7nxWSmKDaTV2R2mBCIUlTnaiN
+lwefXaBTseE5Qeu2zLeARJZEnXSJTrMjsPqDeQHXT0mMldm6tLPFnXgAZbpJTk8aT17IJFLMBCfh
+fiF5hbVpAuJAzcag8ijhU9VnEXQVviHJjMx+UxRNZwAnx4PINPyh9RVB+wSoQCHvB++Hyy1WvlvZ
+3W0I/ACxCPz/IHyHRC1ioHtEt11vXT1USeYOT4DtJHeLgUURUjh0sfgAphDq4DYAwSw467RqJMYX
+3/dT6RrYQbTd1gj7KHDTjqhHl1I6ifHnUiPqors/DWz+OyFWlh9ddA66EQgVlvoceWdlqqhdajdt
+T47iW8rNZbgvrYs3jUEwGRlT01xarduBeE4Iv8mF+TiG8ZtCa5T/GWZAkIWpBQQSgRGoLvI1cNP5
+MXmqzBNXE6ABUhciQ94vEtJ5d81RDUtZBgRouIz+4yQ3o0/JE1FfAofUIkS75yF6ROYfAQIa/bDi
+ieumKGCDsSO0qovs7xVtQLt8h/hHeYWmP4A0LFOLFONq4ZfbMpZV0aVGnhV6xRP3YaLvtTg6qowE
+rS2lrI0SJNam3aXqAvGmV6r7SZUOe1Kx/jVrIwqa3kqlXhCcsJdCUTtu6pp1Re4OQP0aZj/i5zVQ
+9ABzZxO3w4G3Iz6ZrBEIOCHRHAEO4+l/Mln7QNoI01AoR90Tnc1yt6N8yjzfVuf6L6T3INVyt6S2
+DasPy5IM/OQTL5JOTVZtsQ8KydsRt10AKOLxEw5Ri6gG+5JHIYnp5hgUOPXeJIC3KqSHxXyShgMA
+jhBiJBUVCnmV94z25px532rmclJieU+MrkEs4F1ZoNF8Qd/jrT6VDkeQLcsSjUEcASEio2I69mdq
+bVJ2OP1wFfcukjpoFQ9m/YASTbEcHiCMLY1GUmYit/v/1jP5ctY1YCRUy3GXS65BBBqofALubQT/
+ODzdTY44nCqD6DyTYGVn7bXRRMMfjwSN8H/N1UUo/3eZaGI6Ek28mywRMnyQ1nICfOoqBJACwTh/
+1kr3J3ponv21CCLtKleK+4lO7VD0ulyHmPUOx9YRt47XPcYEtvwImah0Cn+Lhw3bZQGDxtmrSDX7
+iaIBYvsJv9jLUjjq+MOHgVTbgUijU7bNLpwLMzaty3eHwpaCylDC+WfXOfvq9bUBLMs01gAfa3y6
+4kY3SEJztN86pYAvVW9FUSxnNuSFu6Y/NNYYFXoE+xCPcL4P61E4SC37r6vqwY3nW14vjAjIkAKW
+CrsOnZw8gMGSn8B5v3OtquX0qOh/c8ECsYoZ/xbxXUoy5sMIcUa+AIsljKbN08fdsTugRLv7sfjX
+urqojcrI4tJlEPvKPMjA9hKYf5GHU1U2m+DLgrNBt/oczSOdu+eLTXhbmT/A+8kcASHjo4Xc6iPT
+n1JXCCjhjg/mn/veLcDXIwCxf3dEC2K3yEUH963Fc6OmLV9dQr9vbFt/S09JqKS2cuuRe10i1ALi
+gB9i2Vsj+8WozRBcUAXfUcJmi4HB7qyg+8AI9bqSDLN13z0qBI32E9b8GcG/2CwURaZocvvxbU0l
+ZTDq43hiE/HJJDTqEuR7SVm+xB5tzCH/ltb7/6qByGaymTYDAI9j5/Tr3nl1BDgsh8ZIv7kQEP8C
+1YddL4FyNj/gQAirgrgOLQzy4BsmWUR2v1SleRMOhhg9v+eZfH86r14pxUiVv++aZ6PoRxXK9bBE
+UaoomREgSel1xoz7nDBdveyDP/TuHjV8J501pbRSIHOkE4PfWS3mDdG6poED5HcUAQQTxxEiYfuJ
+MfSF+6e+VLtTIy5VbfWWYkvFZ1XbyRJFzazX1K1ekTaZOzax6lXTgW5VkIn7St6tqBJx9hMEzaWX
+7ARgAiQlObFN7ZEj6BnTLOHTm97xOLTLm8H76UltGUXUgyCK16bmviO/4ES7BOm0g3xXWHII+7rp
+hZLfagu3kEnFRwJ8SZDy671BRFZxwcvXWgHNf/sRgnd7/LSMlphhWgEhYekOlb8jD8A4phXok6Xn
+uH+x1qj7dLesgqQprIlZ8j8C7iHNh4LRwfnuP8EttBwB9SCn4KxNME1e9W3bSvMCATEtVf1Q4nlI
+TWe1XFrxkjy/seewMDBzwm07E4x5BlHzAoDtQkjejUHTSoCrgSrUAjAp3n5KNNo0cjZW2FRWugHg
+UzKDf3xF3j/B9cF+R8b9TuJbAOB/5xA9f/H1sax7eDoBgX5yCHTB53JxH0jfWgEhwqMiEBWCMIAV
+wK1bQiXx+4WfAYGxs2uswTZGYEJiIqMTx74LvzbmO4CHP+J0epYl8d8w7vWbwXxHs99+1RzLH4y7
+bbUNyPZt+4l5UYMB1xjoIRwg2YgfycEAdjQt9Iy7Y8xQH1Niy4nLsIE/lu/xatdkv6pNVMFF/6VB
+afhgeFT/JYsOIbQ7e7x0R3hhE9jCJd6hfLS9ENuIR6EMIv7EVJi1jebuRv+okP31saxc1d3BvE9p
+MemWm+fjoLpCXYcQ7pVhjHT2/SNvq4UyR6UUFEpo8SA77NGdBSbDn22naDjgUO2yW1tmY0+q5Jrt
+Rh3yJGmjqqV0uKF7Ug3i7hygV2npspfkMJpnZ2cfNhT28WKoP44Asfu7kOKA1/MlEiQwf/GkZ3aN
+komg+4z9Nt3JvxOr1lOFPbbIh7PLf5vgArjLsN3nfaO8ez3BLj5a9KbxEDzjSG2C2iGMvgxpasbs
+AWZdl8H5OvbfObaZZr9YLCX9t0fu1jvinEsKo0c5UAEh9083GeQjaYddjJUn+MAQ8ajagO+WqH+l
+l4FcHEh+/7s9P/aopk2Ai7/TWXRXdRwB9Q/eF3W/Z/uVqDo4J1pIY9OLfMo2rlKXGevK8BzetY7e
+nNY7FshKceJ0km1Ih/zK6woEoHQ/vn8HBJh+RoFacUFh2HyO4vvqONZn9cqSSFuzx7bH9mfYbcoX
+dMRwLN9ZFNkIgMpSJLPL8XUc9GIQOiqsAODqrL8jih/bgZtOP2L/DokDGkIvqp8IuoXNWvSCrxlO
+PZK7rXtScSJHM8NZzA4kwlWWnDgKlSEocFCwaXLEJvz+H++/X6/3+6BX17UeQVmZuph/d6/rkAB5
+lfNQyGetM8L2yvXaCF23/IQ9VP9u3qYhbRqHWjp6177/uLnRO5vdvUVjR/8hc5DJvf/AaY/hrWbK
+iwh5s+l8jQxaJrTAaui808tNdiHyTpzJgfUg+yL7If9OrFsDkoa5ZB1vggpfJgJ+I3hQ9Q4FBapa
+jiRJ+0lSHjnImtNmmutPk3SiQi1mXfJJWdO3P8FcHIW/YwhVZreBnu1y7f3fgDHpOv+V6vamZA6N
+RzYptw50RGuX/yCo7k+mSC4EUg+8lWxQEgsjEwiAq9h6+8rxURwBwh/a9vPcPcoLsy37XHARf1fn
+4iXu4qC3eUmlsGfrMJ42CkH/vrpSgMfW+2IfNutdmzh/QE6VEPuc05GWjUttf1vSrTyAg7HL96Uj
+XVxahSPMLZw7O3ufgFCW9X9SI11cWkgk/E++jb6FzdpSUwBcVsboMC0z3wCxzDelD/WtPUUXzFNu
+ON58LQPW1iKTK/Z/dVMuqL8jytbnFuRKjeLykn5IX9ctwhNlQEkks38EsyTvSH93sdyg+3pP9Yw9
+6K913z+OlXHYMtawRsH22QlQRSE3qvte4jMim21AOmjAgBpgW/c4d1Yu3rSLNoCqirlQRrT8COI0
+OZRdIj+K0cDmULgjipj1g23x/VJBMaQcLpbLTxIj/KswpTfe8cpEC76zoqDNCOtvst9fatM6uqFc
++FRgNS0t9bW7WV+BcVYY8SwK7dvmTVSWMkWzQZojDzn3yxStfxAfX7eKg+RGUoq/0uZI6qJpZl3Y
+LqD3rGcR81ubSTspQHx82nI1Anpr7TQqCkrJNZD7VYmjohMKu3T9ZvQP3/nix4PairekUXbtqvld
+ljqmqJJBjoE+OwETrUIcd/+HJahdNj8LX6WO/z0OSBK0Leilqkff7YpPsG9m6BAQeecje6QB5wLi
+QPuOloA7bF8Nu6av79LtgbaKT7b55eia997/kBCxU55xEuoPnTpXcy0kca67a/v/luTd8ULGXoH5
+Yr9K4D32OKaJjG1qXK8KSq0rM1KblhNe1kHkbyU/EF1op6V8XpzC5OJbmLcluD1TGoWuI1EjSgoL
+J1reW4st6FtQVn8KNftiKVO274/m3RPLOjCzrXyvnoKWO4eRL51h1Ze3NvxXfjXL2LmGagqaktLW
+Kl+cQFl5LbH4RVTLtqjn6jiLqE77PSl/u/niFBQ4qImfgIEqyOYEfL8K6wKQIWJtFfYyuIOXjI0M
+r54PvubuCKi4nWLnI7ZmgKTGtKV0MRBOWdZGf06mgvsesVprCnmol6VIE5wLw7G/X8ACfH9AZmhF
+Xq+w3+tTJy93WWmSqrdVA9vvPeL7QWUBELv1vOQJlnJooBdEivtkxRLzJcgkLQq1WeK4/7MjkR0U
+ESL8794hIXY7bbG7UyBWeQffsqoVPYzFGV1nvATkAglnI1M1vg/V10gCkooyfD2GIgIXKVNVUNey
+04elDqYA4GV817H7fIXnXi37Fi5wVpFWH/PEusfIzvzRk975UK7/fiPNn3eM7ueNDmthrEoDG9sA
+94EkYqZ8X+7jAjmg8jQLlHymvAipYmT1wSaM1bSfYMXT6RpI9SKBMU8XbzRj++7xPxpN46Q26zne
+eUhWAFzVLfTLLae1UO4X+w6xajsl1jggDgPrsFakPFY+VRgrbntEjmZPi8CvE1cF6WRa9H81CFOo
+jImKTbwALNo6Lg6yWgEh91PjCnz7pQO3vbdUjRUs/2gfSPvAO0qDaWTDTpFQ/5c4UqxRaQ2D1quB
+81Da4i0yy2reE1I2VSoyqqoC+rNUyCC7M77kHnx0XiH2xFcNE+Q/mVJdwa8GqJY2+YNxIUeFZrP7
+8ZzrrMGuaDSDyYV3h/8tdgqCAMHLyt7L9oYq6hNjh7GB9enY2LhtksUk9eYxUwogNKuRH2ni9nvN
+UPH7u3uAXdNXeHeFSRnIAnkfsUuCIcHSBASJpguLHpv9DZVXNin99T0j+8X1NBAY5FDAXrufcRV3
+Jl5Se5tcs5DXIKi2paNizYdN1lKXCBVBYdN5pWrVJMMpEqX/x/2sKOb2+/t/ql3RDh57TfHG4uos
+E2SvmV3sRqX7YrGsuSptOEktlxM4+0QpUl1Jgn6STR9j8rfvwRD7mW07PcyHak/YRy+Ni1V+Vhjg
+h1KJBIfhELjvaZmL1VvWI43iOrdtQQpJU5Q9BBsJaxxz3/3zZXhuVvgalcFfTen/B9KLyAuYWkSA
+1hIFjixPUt/0SRBZ0zmJ4f61/yTBBWptdNGF9fG1eUHccMxu61vbsfyTtpsQ3jg/whp77jVbMjom
+1pauVFJ8E7jrGGpqoS5rXUHKKIaf+3/nAW9VUcNnO5SY/Vrn5F0tRS/vVvv3BuYQKOENnVnTl/F/
+sTOKfuKvy7ut+7n4v1RzJa2mEOI7eIfSajI0LUWC3t6gPUFRNpEaB+/zOBP5AZaBgcGcIpXADQ1Q
+YZmQu6UvO5QBrFDA+94WH4C5YCUxlD50oL5nkSS3zXT64a5UjNgGpTZSCOgNXtbwWtvfjrsRcb6g
+x1/K1QJcloUu8U4St5nySMONC2YgT82MXOEamuPaZHG/BHwTTwY9hm+KhRCoEXH2pjpWU4vYKivq
+zHVPISEWoECOUg5/wQZUD45RyQp/wAukAh86ecs9EMEsbsmWHkhHtZW/EWhtNuvzbgGfLQrkm21l
+hbPfjlwcQPkxoz4jyrCbmY0S7ktl9N4QqI2+vxCmt6yZ05QXZnN2HN2eFaML+3PxB+BE3ldc4UEA
+YSMTUqwq1d9NRa7AbYwvXruqTG4kvbs/TAa7UOTGnyVAXYBqbhVqiWL7xjqShhCWCZNAmTIEwRrd
+Uq37j+F6hSHdn41qunzpy8GARYthD8blmXk0+2Xa5AvepZZFvA/efgi7ExBogK7BnoIwfKkGne1U
+pk5Q9g6mS7z7s52RTeNtGRFtKilKlcEFScmh3Wr4y2Ux6IELRm+wF4DCexBJzeQBCZgmRAAS3ZhJ
+4DZA8dv/vGfZs4DtZzRmkS8ownioSYngqpkSnMYO+40ygDQT040tDRDiU5ak4PHJuPzGSUUUcb4Q
+Dzj7bfmZP7QHrZZUnv3eAzq8fV/cUm2upT8lSPtAerZzXqF6YbF5l2UBf/ejuhi+Z/fmOBCNMlrT
+hUhi7D+/IXT9vyNp4F0W8U+iaMaOzYpNwtfn10ZWrsL2Akj7idqAXfz2MIXxjQyRyJ499qpPtquz
+oNvgwzvzgwGcUkldgLexXU46nDPFuwTNokITGnJJLTrBOxn5IIE1YK4TZncet562gLHD0wKPx8vb
+cT2qi2KJYjrMwZKwW0m3Lru0P779fJDA+83xUiP1s1d8V8rqcne/QZHgTaB0KOHIVLpQaF2sTcjg
+s5g4mIP0qCENtqybH3+ZUkHmbyvv38IvEF2AgV1XsqoZtLOMhXda9IKcae49v4mtwIsNItOOx8a1
+Yo35b1acpgrFEMRwUHvlwWSJSeSFJLPAkkdPjFk4PBg/vomhfH93rzwSAHkE81DI4y0zwr/e9cC3
+mT74ZT33Fu+jf7rAGjlsCo6amApFIi0OSEhk3g6lC/YxJqAk/Zl3rCoplR5yCHkwDzma/VKdtEZd
+Cv/tMRTcc2qUC4DRMAVmB9fD3aXbM245GmzghYlI1hSreGQPAplvNl1f42++6rcCHyH7duCBYxGH
+VwuroZM9P3ldNuK1crGBChrSs/sh+xGDW/mKQdpWUCfY/+3L3rPDZ4Ezbg9eZiqTCPFJc1tQPhgS
+TWL7f3pPD5tcpWIVoipmi03BpQT1u38n+JeEugguiS4hr3tGwY2fwHJpy62x8yZS8MVWdpsnsMfX
+SYn0dmle7GGbRk2JGB+sWOTvEW0tM6Gku/VtTWaqkVgR9estwkkQ4ju2PcGjpfeCZsst4I32zad7
+59plsXc6nUmmfoBS/Hg/VxA6KU93aTWRQn8iU4VAFSM8C1KFLSj4EUHLivvercCBUHHBfNtaAXhR
+kajLm5bLgzqYQCjhsSEhhdpqmzDXDZK1AypGh1K2YO+xgO5iOhUj+5WoQCFcHOlBUT5mi7araiSz
+jDRRyVS2R62KlZh8obvmTo3fUAF/ut7NNFcwwHH2XjiKRNYIKFCgTeyLM2fKElD9cbR8eBz0qCFX
+kr72pqBtXcJNNeox5vdTEPu4MNZOIkiV8FpJMOataxaSuxOzgDRd21bBvm1WjDT/3rFcDvy9LW19
+u2gc5BPgg4VdgHH9CwiJla9+8ROOhhiO4uKzlai0wzQcy9O6LZYPB5Svvr7xyYm4wYBcfKD2Z4Ko
+N9ZSZYzLIr9cHIUN1eN89b4jTabZ/+noTNOf+5UYS3m78eK2MEL6pVTBrGbZ3pivFQ+lq83pt5Cg
+kEINZ4g+1uzug8BuRtZn+PqwuvWJ2jYqyJ4CNIFbfs33WYLpEPtysU0siuKSNRbJi3E9yQjbH6Ws
+SoH8JSNzOZc0rmKoFrM2KuKSq9ytfMThbaYEE/RnsDPrijY5Hit2A3/7eE5NqPtJErd7ACivQGox
+KnK3COYfjJW7R7C3P23wWqyWJQ2xTbfBr0i4lRBH4SVoZpZzsMXipIrxIVfoJRH72EdEYQJGnIll
+sWrhXZumphD0Fb5JzLfDrLP7B7E2NlpxYrv7h1Ji+0lWXZcA7hfjW0QNsV1EwaXH2OJGb+RlJPze
+qyOuNdvSNm1b1z1ufBDNMEtTlqtKm4rxnrcj2igc8ZIDvx8IezCca0vian6fOvRE2bHMDrq7dedn
+VrGRkiEQaGYEleKLgztKCB5skTKfHk/38m0+lZhIRa0V4qjibUfGDg2X1gjmIT1JfJUncFOaNbTR
+/wKHBwNEVpsooSb/8aiWt4Vir7CBFwIn2LjgYa1EgF172nG+qECwykK3b1BbE+txTufIVrdK/DsA
+sTStARZPzDUEjMgRjJhXMCEQnlBj/U2Keyrk3+b2n8DmQsstC/BILS9t3s7Rx0TB9kdSnbhJtsU9
+jbsH+0V3vgwQThWTaJ4KBIqLJrfp+8Th4hB/+00/riB5u5DAgFx8IkaLI9JWlf8aScwTf6uQhQS0
+MaHgFLF1XQKxOvuMUXfiWvQutT8Q3MNqikg7eEepHozRQe6WJcjxfw/suzh7UpmF0jnHBumWEEE9
+mIG22anjrGbi3vuoXXI+Xaoj49eUgSIxSSH7AfTdyxBWvrR0ER9u8RfTTrctu3b2NeYHXPhu9RAK
+UperyqILlArflHKwUmc87/eOvgUOv0Gqipb5Chq2pfumqKUwInsHgkplmyivgi/Mu3sVan/qZMP7
+9sRskdfR2+nGroIJ1s4y6124rScS8g/IhsdCniDKGIaghR2gnQDyMnqGa/fKszJaqBfTSK7C/IGL
+hVsjkXqzIA7FtGW4kN9qV/70+QjvbRO4TSMf0jawqPF7lmG+lfI5t4pl0667MjjaEkj7Vk1Ni1VX
+Huew99ftdMvYIw0kpctJreAZCvHNZggeMma3gVavmfXirPklcSEh2E6z+/GcA4AfPdkHJXyox/1J
+CMD5FL7ByamDhUeQSLFEpjrWVQSJlQ1HBxNNcsve2W0zZ8ggkdI2wWp7DVDx+4l7gF3TVxE6a7Vo
+JgLuOZYeWRDBnLgNiX9ccLA4fNmxaDr7eK31eRUKnHXfP9OV6o3/sURS4q83w8GA+tSDMIAt6AKD
+wc2orJY2Oy8VNSFo0p2twRppwzmqXFoN4Nfp4mnTqi+qP7HyXx9QuCMkmKgCsU8FkmeiDbO7+yf4
+X4kQoGalYonL3rcP9jGrcjeTD00tP8ENeEAW0o/492n3LS31LonSioFqlu/JLArtrua39+IFhfYj
+OW5N04FpYBTC0RJ0t4Af8N9UWKHyvBGP7m/It1DBx/sO7c3gHPT/SnEhGYCuwQbWC3z4mP/tQXnA
+UC84dDrTsKx0+atI4XT3pCLEM6I50ZZRmC5/GbniBXlJREoIe0GAbkpy4Q+Sgp6N3coAEt3xdR82
+6qaR/zEjoLOAPPSqjgPtlKqwizbEeiGlOrEEIfuljgcfv7BqphFdLatGArF8f3mJkui6ofdZY1R5
++235hz9OBwj9VJ4OLdBhwc4Gza5fRPtA4KzhFE0hIftx/wBGpd6VToDhsciJNxMSPfbmZANdx/az
+cQJF9YWOgWc7v7Bl+zjm4T/3WWqtSCEQEouBRbM0OrQ2SisUn4oI6CPINWpyw5a+18gUeTg3/Zfn
+wDusP8Hx0loB9SLeOkmF0k08IzC+2B4lRXKq0mEh4v1/pkuJ/U1Kh3bk9swQ2asEleKBUETjgR7Y
+DdefSov3dLSBjArx7lHzAjApHgdEwzJbh6zmEKiiQEFF3rgTBDpk/ACW3QOLewD6cqcT8ai2t4Vi
+r9cifr4pezqdkHkSgJLa9hJJRVsMhhUh9WgfhXRti+NKRBbamkL/fhSopcO1+/UE4ucEo7Fqp0EC
+DdMtPLGXUYHApUUWALwlmC7HJLP+tf+aYj7YXGVrij8tCp2WVq8EqC0OWxz0WpNtZXGSu55dw0az
++2LigJEXpUkEd7b78QR/wNbB2eml4+wC3h+li092pd5OjcRQoBKHalWi5sxmXyF0obPiTah/+2/7
+EObDwULNT6v7pwad+/Enu85OgSEmRGIOBR5QMDO6hfsWEg8e6BIUFxqLk3Tgri12pXR5SY63jf25
+UDqRaQiyttGkJO+r+ReAgCkSxFh8315RdA6+Zxkktw7yo3ffCsvYTqV5yboET9+ilWxQq0ojMrc2
+01s5+9527VoBLrfhBkXKLjU+kLEHbaYh9kUov5Cdxl1ZUEavu2USgEoM16iJpnK3CMuvVaHuDlUc
+9PuoqL4j6Nhy4E2dEGQcAYwPLQ4TYftzXQ3TyHvj/5Iyv5HGohlyCI5WgLY2XgAnvs0TSYWxXYyh
+1iASlq6krlBH+3eqDxOm2MCLUwAw4vETy+2jqEj7MAh5iccg3rGskVr2OBCosdZAfK8wZx7WqmBb
+VMtxV8ZZ/7NVBLuV26IsumY2LYz2Z0VWd36+4xRBcFKRutY0f0/1cvt1nwhzagwrvwpxcbHnUrHW
+pjj9RiMvFDFGje5ERaq/wcMwFZLbJU67ux/D2laSRSwyv+husxAQqJ89FZ51IpIjBAX1OO+PEWUT
+DrZiUg4hs4qRPPmR82UwUeN0UhkSMrAAztfXsLMvXtuZQDfNr3gRAlDTtFdX0Z+ZgewABL734oyM
+XbZnTwybVFlQLaYQ4k2KG2G+US3MrWcdMI2+xgRXpYK8BGBQaTVBrUn2QaJSkMWbKBLNnQ5zmXz7
+4Dlvv1LrmR6Um1ylYRkIrT63dRD13vshCu8cNP9+3wefd3ylILcO0VQX9IvDjR/0fHTL+w570kpT
+i5dTjXfnkti3ftsGZsnJo53BJUhz+/viO00mb4u0yNKxbNNH58mlbtqUiq47U5K0yDWM96Od+55+
+i0JfMJJ1e1mdDrqSO09k4koe1lE0/K6ZcgOmQY6UdBakZ4ASXSHyU9hUusuoElJ/fP+VTUGiBCxQ
+wm8jLk2sKmp++4l8URz0LhdHGUfRzR18CMCSbUcQvobC4nw6OPTjKZX2awgELCj4kg/LvqazgBlN
++zrBgNuHs3+M+2ZS9fum013CUCiudsjKpJlECFaZNXS0yqo94FPJg/T1pg16gLdts//1XzZvYGUB
+tFNVMABOup5NQbCPZTi/Vb9WCDAwpWJLwOpz4Nj0UjqZIX91Bho9Snu2NnsIIldQMG+jPIq/Sr9K
+NkX2R441ARGtMgR/SF6tP8H14CTrwpAN7tZP5g7qSXyVKOGjmiCf8stQwRDKNnvk0+NFvjxgLAoj
+ira3ZrIvC6yF5+5wA38hbp9xv6jZsIHVTW9mkRNecarnF3jSth5pANM0LQH/rUdhBPFORA5ys452
+aL+v6iVI+zptgFHi1kiMBDgn4QKhi6yUdUi9V6OlwKRH5/G4uLZlPfaJYvsuoL4MEE4Vk3eWEwTB
+M0muu6g5TUKqv00AWY4liyEhwPlWny1O0iymy0NVtT+NwsZin4wE7uFQqp8VOIHTrjolAQQKN1UG
+S/u7XwGF+6YxOwdjriJE/ShZ9yHSga1w3WKrsp07ehQwKaimxl1vwlJRpBpj1ofoPTr7xqqJrUCv
+X6UTQHdaAYMd23JAjNgHtdFInLalRIFNNej1+/tqTfx7t013lAOTWsgT7ILHUkYILO3SUSBTTYcQ
+2IUS6+1RZmRJX414MVSMkCaxs/XGLcMhtBqxcX6mwCke1yCGgz/kpk/7LF+s0vMUD1GKdLNG4M45
+27305uwsHC46/Uj7wTtbQfxjWIE4S/beZWU9ggGCt5oKPLGx9nXKbrj23t4HPWcetmkXPhdsZdII
+OTBd+cFE0sYaEDIcASHjT+rZv0GRdrP8BMRwh6Z8zX42UG3/qPYPd9qlB+co+HvCR/zMtzZEB9Oe
+8lehHPSoYU8HS41B+wRi2RAoHEhjfot554BE35SAKtbuWgVn1y1NO+e2h2mbH+rNEzp00+GLQoLa
+dBX2IaAEycBGZ9RQoiT82UmV8ZxVBIkEw+CmQZ6+ZkS3wefNOhJG2vMCZ0ZTsoGbbfEhrU6BFKwD
+kh4vblHsrdP9TTmwEUQQdLH4m4li6u5yAMEmfHUfw8yeOkF1U94F9kEx3U27+yfh4KC7ibGlN96D
+DmqCr/5owf6mYeNv0lNHXXQWXhFEapb6HGHf76o6s2o34It45pKz9iXxkq0FhZJB0x4UXZTwUC1j
+gbCx1vYXandb4tZypqiy0izvjLhGONnnD+6+aKoHmznxGWlur01CAwTeF0LHO0L94ZO68jo4qKGs
+qc0uCJgTv/1KAEfTDbxKLKsylIBjXSKxePXC+X+YkjlE4/t39gwhclTLWxqMkt8+NZerpDYiv4mm
++5KqA272EpX7EOZwvt/8URBIrfu2UoGKrwT1u52H4UFgSQieiQ4hs3uA05JtFnbqy+nSuTqovain
+hpDZUJH/Ai/9tx8qgA3jkcmxQSVGMK1fNAKxDsW+Dw9tfKYNCiU/haa67Hftba8y8fv26Nu/E7Rm
+uxb74DtmFW2491oBIElTR2JXZznjW+ZSSiwCVtpTMjYA4jpov9/CC12FoyfhA1S6n/sIi5Y7UD+x
+8RkcAf2UNle4ULQWBDdIByj4n4WVhcCAm8H78ednjnaAFTgQN4fD8YlXF79B+5X1QKbwUN4ilMJm
+t7fir8ka+5btFaDX8ZTp9bj7SxFdE/YwbHf/cXGrt0/AnHw4wayBB2WiDfYfUtM5wAGBwJyFGbSA
+O3JHYnyJkhX2ENt4T2b9XXf2DkfpIfvmsYt8dTgEKBw1MI67Cf1bu/WHXdVV4+akE9+HGDiSI6uh
+9qllowEIGc0pY1pZxPVPm+BrpvfANmt8vxNRkd4yeeJT1XhuyVwc4zBZykBdLqazKfn5128vsPH3
+3qG1fPtmt5K98pgclo08yWrGWd44SMlkLQ5dC/YxQgmfDpgZrNN+DgX8LUgn+pt/VBR02Tl0iiV4
+ZPubGnHhkjI6/ZqOuuYp+4c3c2Ww5Ua0Dvs32h6LeO2sFJkwbwh0Fnet0rfyRWGwgb7B8Bw3Nqfp
+0yyBO+0CkW/ThiuzifGJviUGH6oEIful2r/AviAmIYpdytesArRISTiJvugQnvcgY/d8+8FEsXGH
+hVJf3wrLLZQEg4iufvMYr/3zUHfTLTw7Ghrsiu3TY63kQL9lTwJIIcfuw6Bfi91N3vvTcGU4f92S
+ZlDB+7sO4sM18xTgUT7yhfbCkdqza3Rc4ZJBkGqZTaxPUlOBdluKUhBlsfhfOn+FeEYA7qGhUoID
+uVp5ovytrz2NoI4W3MBGgWxlUT9TPAQOfLjpvpZ8s0bFMS7er3JpHiRGAMD7f7O1lmZsLKZHOtNo
+8d6MurMPqLeSdq41U+v1uvXWtSKr+f0chTGBHtH1lTCBE3N8nu2hpHMpoz6A7/1iaL4LkYelXriH
+4R8PSb83NI2CwmaAsLfwWu6KFrv0Nl3kLANijI0MWm0hITf0PxUKBDezSmv4B0BByx/9pYCN3URe
+pq8pEmSUcy9uD1Fv0V3DbYa4IEOSosjymp3bMMPNQNawjgACj340ru1tMIHsAHnWvlZ5wWX0m8vf
+17dqme6Wi4rIKfu7fFEc9FlyZsxL//v2qqV+9uMu7mwWNNNSpA43FtyKXxtCbeM7eKh8um1mIiVF
+2PIs2kwZz51PqimOTiam8qz5YyStYYP4trLvewNnMIACgW+qXQveOPuSgvb/VyYIH9hLrXmMFlhl
+P7+e/2K3QYvhA+f1xToWcjlmijUplT0Sg/sQXOEVnrWUunIt+69VrG1bTz3LNHPnY7ibsWI4pp2N
+Mr8vEw9FlV6/D03+oZ8byEGsJ+VPTrO1ENJNyE6aCg8vyVyCZazi6TyAArF3VLcjVFwR3AoO8ZJp
+d12yn7fMIe0cAX/33jguD/v107fSZUWhoLrLOnKlynx2i3v5T5msqu+PcUATOEhd1rfTv3pdOumP
+cI73WdN/RICLFV4PdKhHHAHqgqMH464j+wRizSF2UIwvC13xt0aBXVNd0xfgt6aVXOHBphCoR0YA
+wdvYxnd0XOEF5J7AZD++f4XFjH5pHtQCtOCw2Q6VOJxVBN4EFwu638s/sU1EbXL38sEalhVthZJQ
+9IXMLfEQLcGLFEaHklgvAlHsLauAULH1S7dnq+VGEfuJV3JohQfKIPvyBODzJTQkU+h+S5bnLJJB
+0k7jStYoWudj+SqxT2pDdpXzf3LE8wLBSopmtwsCkngKjP/nBmVHV+UE1wDieX9NZ0vTe8MK8fG0
+JR4NSrdiiTgts4KSqKQEpCM+vzETBEWt54e//Cpf/2EtDnxI8q1/1pe/MSagepB5rtzIfiD5Sy1I
+WFibf0FQ0TrmxpIOeZlPZVMGo/UPLV1vQ6KJ/eBBw3gCAx0wMu6moGo7Uk22bxkWO1jRhV0uF6rZ
+OhevA8AA78RbkJTLu5xnsrLsdwOZF1GCEu0qDUhU/FF0SeQLQsBNpnS3dw8TjKhmTX95c5XKD+zF
+YAJySt8T54D9yBH7iYzyHAHGmT9J5a2thqAgTgd68RCkPP2WISF8P8ub3JyJGG024WkCqEB3Vmg0
+sU0mRC377uEAEH/Nc+8Asfu7IB/DKtQCftHodIVqIxFxvtlAMF1eAI9bzf8OR7EXT/zb4MohBLHh
+FcL/wA5ENppbOcvCvzwqyMbkeO5GviNmh6XNSCf43mlHJGRxWwStLFcGnDxy+Sn9K1tBWVH9T0aB
+CLJGOdb6UGtElCQQUoCmyab3+1CPpaCkpAgzGVDiOnXLPRDgQhR5lopIR6aVqrfybRpmjbGZghz0
+f1mtNbqS37CfUua4NVr09RBi/UYAbaZIXSOOV5H2heMt5tmNZ11QNLYKgNhlsQ+fq0Sg8plim5aY
+Ircj7CYc12aQLXG2/TT2Xvu7Tu0c9NeDT0BgRBi9n+biAijH5wHLLad7AsHJfzi7oeb4gmm35bZS
+f3yZUlRtnQ5dI2mqk6dizFMgc3b7s55Nl0mCVefnjHYQ8d7M3149wC2ltDKiglM+Tbv/3SJd5BH8
++rdppX4aDi+BToOSy8x1Mfu2E9aVje+e7OQ7ZrHISOn7o9mcs2pFADE0MzQZO7JKZsQ8poUmhzXT
+A61ImH4Aj9XK9EkIY18C4kl88Zb5I1DTh5mEESHenXiWgVYDi/9Wv168S+a6oB+l9eaXoRZtRirq
+JWqXZ95dRnGfJMoQYq+NFHwh2Zb7fwR0XeRtziH9Gx6FmnlFWdnT8fvA1us7MoHlk0iC5C0YlT1n
+V+BPnkAn4SETZaQei1td2678B5tcr0tpy+lejb9J5wYQIUSwNrVXx2Ml8SHZ7uqDtPklgdq3tttC
+E3iR5sqBq7M63P2kaS8C0THec9+D7qEaCHlXxAMX/0K0HlMNiSJ1EG2ziXOXhQZQAft/qHiAt+Kc
+E/V2gIFajX8QqJZEdEB829mxNo6fOvRdaLHFBN4htbc8m0fHBJEZPAaoat+MMgQ0fy2N4nT9+PZB
+/J8QpYB7VxH7LL4KGdue7GYOUjZSaZ700wAn4A0ykBDgGYrur+bDMKxyRfYOpvUf1nSQQKXD8fy6
+9cE9s+9Q8Wxz5nz7sfkNgWnoXByt2zsL0gj2QxBBHHAx6vZWCsytEPuhVjvqkOJqUjdH2xXnCniW
+xRhxkonYME1A5NY/g/EhfH62qm2cSBOVEI9wJdssUJRbkIY0Tr/JQCdsg+AUtqmLBMCBC6gTdHXh
+VqOifMIhxkCjOBW3CDD08RBUJ92A7YQQbm37H3L3SzgFgEDcukHGiXUCh1tvq7JpAz77DgmKmeMz
+VR+JmCEoL4PiZ9pWtzHFik3pT39tTZRP+DxFqPX1EZFKgdGAIAu+zJ26xrViltb1E1RZyx+ASlcl
+L+PfLcqAcST91hBipXECfDjHdvumBHRSaZa1Ybd9BEgkmYMg2E58++LnEoo5qur6/ff2LcXFPd/q
+tESh3Sf4IcLvNGZSObE2b3bRm7FE92lzLQON9knnmCEQpXuAhxVoB244ENkeGYPAO2VTtrdvK2lH
+2pGWRIFFnFdo4hlpYAJRC8ozglDiFvkIuFcMHr//L4ofU2KJImEh4qWJOPdiImX0+yGoFtu3wa8T
+qG2ATVA/DhCoTlJ0hZ1oF8DbjnY69LfHsQQEiRDatwObj8hlkeQ5S6iS34wTBDoOLXHBdIfhkkHL
+nxDngKvIEfs6vjJykRPsZkmzNtbbZgF7gyeWDTJeOODDahKvzMPirE7nm3/19Z7W8pBApcO1Wbr1
+wD3pFGXx6nPmfPsfi2WAlLY7bGUPUUp0pYDA6GsQGyRWnAhSWXerQEDN1jOYgwInJNk2lH7S5zEC
+BBab4sl/XQvfXFUZ17rxwJEDd2p7+7t87Rz0WUYegw4OJGQ0FfYO71//xlnneaam8unxyt/2ogc3
+X/Fy6kbTX5VLBrumsUGZNCdEVMGs6KiYkATeZzFwfjA5CNg4438Q0t2gbhZQOTzl0w713SSA7S9C
+TTRyL6JrD1lHCBD7ye4KwMkwpf18qBXoRsD7un8pbk8+Mkra6JFuYG6OXXtmT+d2r/9o6U/tUPS6
+IqPe9YzenPwp7wKHP3QXVi1fgO9WWTh5+6UqXb30iqKvGpBzdVLvh3NJ57ZOh4DvoOnalqGSBHQD
+UqvvXNkICjhVHnz7dhqRaWm3UwzknXYq8qWANR5NCInf3s2xNuO/JQGfCOhG7+LYplJn/JmsQiEh
+x/2FBF87io0fcngcAYnr6dkZv2fS4ESgtZbN75j724eMjOJzlX95oa0/4nwIapWiYd6N+YF7LB+N
+wfVtHPT1f90ww9ZFr2Eh6XZBHAE5UZGozFDB+3+M9RWG2JHGtJx0nxB8R0+Af3y6D/tyXBxrEw7N
+0k1IRdbrw8A9JBFQ8fvMsbPphXd6t1JNIkP235Dmf1Lq1ZFKGsAVxqRlfCGdA6xPKiJSdI78MFMg
+MsEVkbjtRHaLfmiz+2K0Nl3jPXyCoxYKefuz011MCdXsfzssd1Sz78EmeWG0w904pDLtd96MBhJV
+e5YYwJ+ziQTucCEKJdWHt6p7L9OW4vYkIJlpjLv9a401anosnSHHLCXf/5IFc35IoNpSX7v3aoV8
+GSLMl8gE+4KQqJtuTbD2tAtio6XnyVBfkXMFddeFU/1VHOyaMYIhfBNdVVdVF4A5mEf7tzC2/Mgy
+R44JHnoCIpC+ofeNl9W4AODZ+4zggOG1jYl8hSRF/AmAEuRkebkcBduBreiuADD7S8mYIShwv1lJ
+ZpemDjCLyMwfvj5RjBIuT+A9apDpIRC0i9r6GNcJwOr8T9CKP+Te9V9EpF2AbLDNpXdAt3xznHs0
+Tr7jiyWYW94FoK4wt1E0wjuTYG5egfyrgYHiZkB/Gn/MTcLnJ4NIMGG7n+Q9YYWORNY067/2SZfn
+E2LkI9uHXdlTsXA5WZD8OKWAXS9643RXoVD0N7qLd7q+Z7o4g9kgeFIE8XPFlQoO/U42gatqKVI4
+BFzh0yG4hW2Am+JrhcZr8ijhU6cW2tFxvsyggzh+RmdgUBHgsBe1ZYyqXaiJhRc4lZsoa2VIEBce
+43QfgaqN4IWSUPSJ6966EK3AgQJGqj1vL4Pt7K0yI6r8yO1xh/ueUPQh9WJtNkQfqtk6oKUW+/LF
+4vPv1aLpc3YiThNJtwuXlx7TVMsUTyEhtNZfxJDyrwtC2V7Ah76uMpUXs9+8xWBQY0pni+M93wl7
+mWX25jJ8PTwiJdiwLeg7KZ5OFxUfa9ZtVMZJ6T8ToBqSFKSfHnAmfC51LfH9ee3p8aVB5LQ0YiS6
+IttGaY4Y/AYtDsBntponT9+0DYdEiuNlBanJ6YPcdnyMf0P9DglVS2hVbuY7LzGgu0icJWaBaTwS
+UlEjJY3jtvZrUu8SEPt5HxomIOJX0npLk3EVONaAwR+qcoE5HcRd+/vd05k510Kq6labXAde7V7e
+yjZv1nslD0XuO4BxiftitOc7xU5N9fumObd4m/qz3RUxFtPnt8DKlai7plz494SCo7iJtTicOYDB
+V8CfoWlZrR5F3BWIx4KT8QRlL/8lQjBEkfl7FzuBl+D9tJ0iWvQOtenxlfYLYV6mpvbEWgO7BPsB
+cRUhIcqlQfnuHIXVgyrGUhm1rntJuI3mkZGeoqTTROZmPKxdOQfA2HwNPCvkE3GNscowipxrrG2A
+i/MCAaVdprPDt/YLjKCNPK91Qb45lrOYu6wgo+DDgW5xnRBiR1JifLaBnmasljQqAo8JSQc/cbFS
+9YnNNHlWvpBburdJrey+kv3n3p/7leIc9KuUkYUOBjDWSaULUv0c8U4uu8CNknbDpaxRrubDQC1c
+cHgOtYPgjT2ox21d6oHjuZG1q3G2gVe2URSsAwCHyOcBLrt1SwR8LHgTBpIMECETJS+rU+aHjUoC
+wZUEf/tqxFpzL1ZGrvF9qV97P1Z0IBJl8eQqsaXxfMYE4+Jq3aZ82+NP56gVSuOHfBD25m4RYgTd
+trOguxi69kGlo45yeZzU33I5iqt5vRhX2uTA58ofMjFvLei3uzJASFI9CwvTgUacVvlJ9lJS3/Tx
+EEFM7OTw9eBw/1Bj4k0zDSO+FCwQpJDlL7oCMTtT2II2slH5K6WJ+/U/AQleEFaNsXQRWQJ8bMSq
+ROe7f45NMBYiCFs4f3x6UCoItJahX9YT5vtqwoAH/2a+uw2mwYsfFW2mwF7j/yDEAnG+ELv7OuI2
+l2ACb1FWdFKAsRZ7u70ZjT1O1/wXqqb74NMaOTSC30oU7yZlSIe6T4dx9ox0XsoZ9uk/70X1OOC/
+O3Pk2mX7ECjhvkGQkueYECGlA4CHvjfIFLgQaKqsg7QyDy9vriJG4lsK6hSMEGgfR+eKO0aNTvEi
+HPT1Ik+o41d2s0UjML4HHiXx5v0iYRBtpYk491eZHAH7IaifNrfih5WVljsC+XgI4+QNE59mo/d0
+EoH/E0ju0dRQMCly3bNG6BV7rOYQhaJAI7oIjBMENA4tccHyXHD2QcufnV2Ae5dPhWuvOSOBArEX
+WZ9hLa+ATV/Ih6Woiyj4eiEhfx6l+xOlAztW5k8lm9/mcaH3FUqVGvXxm49WBP9JhmsIDqZOi4qq
+gapqbfYpnwZ3yy1mHPFzzou4ve9RHJH/4CXNt4Bxn21NuwScn51ZjLZuIBKWpcX1wawmWv9myy1b
+wtLteL6uunyJupaAXLx27bcX8rEQ9b0h8rHvKK6QlDuloV1qwSYi2dLD8yfN9UtK+0kOhQDvO3uu
+4DGn+UJcei3p2LT9GhJ7GD5UxyROQs/hxvkDTpJmEodNtjvTpfv99XEegdXtZxR+3R6iFEHLjfxZ
+rt/Ms76xU+cS0vQk56qBjQgRZuvRZm4l6lEjjnrLqPskAlvis8l8QPYM/Pbqgw6cD2Pq1WdOafkr
+gU+mRNm2xRD7RAORbZIgY6Yx1t5VagLgrWL/ibO2tZubsXFkNLAIOayDwASVIfuS5hy1T7yeFJbw
+AkB7pJZH5mX0+/v77KQJFJKgpZVr0+HI353YDkSsQGbx+x9NSjvm0jaqpArTVdG3rHj2XkCJzGS+
+UIwQaLV1ZG1EtnFt3u5Q9Kh/p3g2t+KvDvXigB4vFPSirVWWArQ66r/fciRNOsYSDQJI+83uc8K0
+Oy44eVlk84PD0aRO+T0jIpSxtovaYFCwZ94wZ794kZk2wb5UbZj0n1MyBH98V7pQ7vsOE6iShgeu
+E7REdDEQfA05XX+m7p5U1Z3eEE02EhVttQquhpEsCiNy00Rnsa+hEIy/xANXIVSFsbfu/O5djpGR
+mU4f9sYmJTghDjHkB2mu2tmOeSdw6T2XGU5SDpilKorcrq9qJUiFppKWm+KVBCH7v0Vl2teA1X7M
+K8nZCALiJsl1ToDd8WoK7cPKjEiWO0J7GMDwWvwjzOnds8sQpTlTnmkwPGoT3xLFuFdnpdkhR14G
+IK3nE54QeS266dYAwDr7RfKgwFr0E6qNEGg0BzBIgf18+JbX7UtI7lCk8Q7CtKEZNnC6AdQrqRDy
+fPV4FsezEA/1QnC4ADFj0z+C1kKUgTUv7TVaP4l5GJ00IeL2VjqOnsRwWS/3LUmmOMEaglBj5uVm
+Tai7pqINv288tp2r9lXsQRPxDR+lqLhP3BDAGhJxH7oSq+P/IFgCcb4QCPsNEqz8YBRnlG90t2nB
+PEK6G38YnxCTXsMSSPuWO0oaOdo0sXxUkqMYlb62Vj++y/JfXdy/1nHvRSGdEU3oFq7alfsQj+Fx
+QS5b504hIU2rgLW/aGNlOBBA/ceDbYEUU7YIKpFpxl5q5sqB4nYPU5ZNRj9HTmFa9PW6o6h1qMzW
+Rd8wvvYeUPGqciJ1IW1EiTiXVyJQ9PshqDBGt1avuKht2ztuPzgQOpZEdGLn9/Jt+f8KjKFk81Aw
+Kh/dXWmyLHvc5hCFomsjjLuMMgQ0IS1x4vKH+JJBy58QUoAgyIf7OtgMmpEK7GYOUjZSwIA9tr8D
+SWG+04aSIahocs10bTsq+VFPwmmRjCklQKXD8cu69cGS6e9l8epz5vH74IvtJV0yXBytyDsL0gj2
+veNbRfUmvQnZv7llJopxLTx+llavlfW7edkcAWVNsBhxkolAME1A9rM/7/GmMvSxL8GvSBPFEI9w
+JbB+sdOnAM4+Tz3ApdJIqF8f6gJIjjYQGemCORUZXb+bOfFb1WWvTQcpBLvZksH7Wn4Ov1juPuJo
+bcahC6ZIFN/1kSibKW2L2nJKUR+DFMgehjYR9UgQolNb/wdryna/S7fxuJDTZT/2jIwNM810lhz0
+E/uoUqqyUmaCirc7IOWOjqj7TtbvH3/xecEaAsOL43DEETj1phHYjoGsgBSHl49a5y9PrbKRm4r7
+S05ZEPpwklSOOcl5f8A7a7jTvwpkWdL/53g9W5CLfyHBU19M8e3t4kGt43JOP6679W3KHw9zWrLL
+UncJpZ2MnHtGdr41i2V8yE+j2L8LgCppgpFcUKPYgd4waYPgeTK6+6iOi9PvXHJi/w6Fcl1TtbMq
+gpkaqisVVLjkobfD61fadSC/DHOkMtVbHwiqiq/b/PGtj/gRWcv8qESsIQio0vuuOX+J+X4U70WV
+E7MZCDAVigSYVzzaAPEQYuAVkoy4xSITv+ZEeWc/jpfWqEhIJl0j7fAchTFSWHT1leKKlX9H68r8
+Eo1BWvQOS62F2b4wDZ+3mJCP+G0hzC1/Ia2Kge+A/S8q6iVRMKMK7rd7UhEIpnTEcAB/iRAxNgDA
+EPtywYF5HnyVdhx27Msta7i/u/VeTeZzV2dp/yJmFA5qD68MgwW59+wiZn0tmVLRIJARt3GW7lp5
+I27mqF1qNxiOlsCvgzcww9UcR7bLLTO2gS+SRfu7OFFQ9J5SBzVgBlYMg3rEYbifqf0YMv/zFq2v
+4F1FkJIugyOeLTk3dLV/U+aSdykBBIzHVUvj+96fAYX7az35bYqmBCLpBOJTf2J8Lg+C9whPpQqB
+6Tg2UA3ttkQXlhbjXQCFxaC+NpIKdjiS4rPC+0BqMiHJQY7YBTgVI1EjKtU+I27gfziJ9GZEaWmj
+vsH18uxu8Xl3hwR0+VctTw/KMBx53+85qk2iALFN+/8KDk0LUihQLdUa1x9dFYj/frl3lTFrbZ7r
+LfmgPSNpKYAL5BTUENeB9B/WTYez0hgfRtscjnL8yikU1j6lP78gpi1S3+dcWjqnZSBZCMOwL9PC
+RxUM5GnGtJFmt7Yfaapq0pu5jWudDmKXCAZ5r0WZ5pKSrm58+8dmdcb9OF2At8iwDtmSxLPCIz9V
+HtY4iawO3sHDT2ckOBColl1iuJw5Z3ZTSlekVFmNaLp519Z4xbsE2aKRMmYZ3vGSI+w/vv0tu5/7
+BMla9BKU2M24mRLWdQhBUvBQfOAu3hE/kv3J2kSHmydCSTGQLZyAXY7YJFJX3lzhX6YQiXKz+4y2
+gZFmtrasqgBc1ecBLul10sV8LAO6SJK2EBATJTROgVdK1WQ/4jfKmFRz8VOUQQG9CryPqKyPLxRt
+teCHXbwAsaWmfHME4xJqa3x82+Mt56g9SuMR/RD2hqwVYnxXHvvxlQ7AgcCPCg48bjmtTrMtT3+v
+BUhqChwmll+NPjGHy68BfGR2+/9fe7GTgYJScTbr63nYzXKhCPI6auTzRykUf63CSzoFl2VMXUmJ
+oAvkaZ5mgGr8QldsFXU1atulAJa6+55+O0J6Rb+XsHkTOPtfKoEDpzXkt1UqNkT7pt2Vcb9Jpt5N
+3xqHHAWWAr50UmnrQm3/7g5EHAElkzRyhWKtCk2sKuR++7vm7Vr0uGtxyitE/IQ96eKbJ4poRYxr
+ES+Ui5cgWe7JYRwBOElTDsWNI0l77hCuRVoRYqg4jXGSSXTLamc22k3SDggxGQpJqHLWujKlKmnB
+V9L2JfH7iV+AytIHbc1IjehsyAo/ktJE61+c6kbggIvzZfSvXbqzrFKxRHk6pUWViZVo7AcTizkO
+rXdtO2mBq+c1YGrXZndyt3t2rKoZewLTLMvI5L52RKjpzTSMwb6QWzVN663svmqQfPHB+4U4T9/1
+CD2MV9Z30neSI5G0pXd0KOGkVLpQ6l2Ah66Kx+otKOF4IRBuej++qMdtU9WB47nk/6pxtoGRXk2/
+UtP2h2iQ7ubho5I1Nu5df0ivPLVGPaXqAnxXiVs1AOKVlQ77ajBQcxeW7XS4R5ASe43BdCAS70Xk
+KrGlpskFCpjBOzfXxcGxUEkPFk/dCNcQ1jw7RCqA5K4yQZkYXr5npejX3fDM0spRRGiJo9T/2Ap4
+0tOnFNauCjGxcfaMBUk+SA0D58G7D8c6jNxLncIsBJ13TmJqGiW3FkFeELyv/PtBVFZ8jYbVNUEn
+8sqdNNXpppt/JcIg3pUKvr+UGgGeqovCD5aW5Oxr6xN1LSH7wl8apH7BW3UWl8YOEKW2ZugvUXbY
+tk+ZLIV/sLFE9fsOeNYPULHpYiyiOaqByk4fLpXe8bDKce5cHEa1UGMfXVJFrzjXBKYocGWulLLQ
+a7B9qKBd7vacFSXxIKYBNTAvSyTMH3zjHPQhSU9/lVuCJre4EJw8gjBvHcQz3y5R8pCSQYCfCEkO
+ygsZE/GF7kTm169VGZaSKWoC8fu7XzZdqqRtOrjk6Gzk/z9bZsqO4hJzT+AaJb7gcqnFYlmMfLGl
+8aCv65WJlc3sB7hNH8stOsE7ZJkaT0rkrtdmaXJNnqo2qoADm9MsSWnkjVZSQInJgrrBrxMNiaZc
++NVU/+R8y5b7oHlP3/WzPYwvUmhyd79BkXrK2XQn4chUuiXqUqw5L4pAYq0o4Xh/EBh6jY2opqWA
+1ZG1lxL2sqSDfCAQ2kbKqvbaaJDuKOGjriCRsV39SK/TkMc9r+oUfP31tOcCsZWVIftqMFDCCuhk
+qT+TGAW3AMEmfPdtgAk4rjLtV6P/oRI7QtfFwVxQSWf/u2IIRRDWjrX5tr8wDTIjsWXL9iOlvWFr
+8MzS7/f/PVNzObh5XWrB3TUZnmrz5aAQQTX7gjiFUO/5eJLAC0D5UAGozUT3e+NvNWMoThU4lOSN
+VPga/4F7pAMgIniF+04kZzzTtCKyQkE7d+bdHrQCnctx/Em+33izP7St6V919CSvOYs9TZFRZpRW
+OwhtqCFianbTUyqKTeL24+Zy/yB5EZZvZKVnL1t7KoBb12xnVclE2LaVEPucA5Hiao7VDjHWU+is
+UJZ8pvG7kgwQ7sLLQoLx+8GBmT/ALAh2gp7xCAMX8X3Ga7ngxopx7i4yUPT1fJ2l4woUV6ClBKAn
++MjfnZIht+rcTfuFsawP25aFiUASBKb7r16RwWp1tKZ30y0+rJuxhTS+C1ufs/yV+vjAIe43X4AC
+X2J/t5e38BxIIGG7cRVbN8fa1l0CXAsuVaItc5cAsXlopUGoRGp8v/dTboyjfHxdgHcIl4Aqylwc
+3iOeT+fW1h5bShXi0VttSODLyo7GxVcOJAjMBLOiJfEQd7HcoPur3vXxvkWzHiM9jpVx9jK2i7fT
+r2g6EkZY1BRnrKOygthOnAYhy40MA1shVDqZUnyY1lXCNNaqSmrXXj2xizldyDLk01DuY6MB6y11
+IAR8sdbxydYzsNySs41ljCF8rx+DVsUEf/tq5mWAj+TGgqzkTrNL+w2SPBB2VFlm/Uimx5zTIO/J
+lb8CY2dT6MsVCHMI5HsgTbHu9imfSNvLCGYCOmvL4kRRwBBJrWH5Os0QBEh/QDQtOG1sICAufflh
+pWG4zEmenNsbS1tRnKhEAODxpjhRLbqlZ5JfY0AkSQY23AN4Sd51u6b6IAKmQSV0zW3/M7rml1dn
+yxNvZvCOQdtHKXU9kG2JKJajBPtxVlV7wW8v1ypmApYVvDRJE1neEPtItIs9eDD2NXNIEw4TMR4z
+ab+2b05k4eqlulLY0gSm+6/aaeKkkA04n9YI6EabsS1A/7uvC5ACAI++dA1Fo1+A71+VZSH7kgxa
+gVGzZLQXQ7h106RWy9ccAX9/f/QSSDAPR3+MFcJXL1m8AatEVOIahb8jgN/mPjnwHPnbRC0yyO/u
+NwRI+/uP+PZUXnoQT0YDknrDfFsM+gCOR9h6vo0QoHuB6wB2q6Au/SG2UjjL0taqX69oIv1PxHDa
+VP+2hUSAunwOYftQXKsiwJ6c5os11g9mRiqDj7OgE8umh5FTXsiHpYzxRLViE47tyqjm++4IqLhI
+QKUji+5aN7yBKnT1BIc7/xNHuFFOrhMWozOsAMChNVJnt/BaLcrLLaVxkmFIS7eX0/yRUn91i9nb
+kiNE67cDniS3pnQn+AD7fzo/UADiB+73wWl4LnffdS1PGr4LtQmzLfvE+AK6eRMSs2KJed5d35Lt
+RazZ1ICUjEbilkTRDmFtTXGW8Bx5IyWqV7NqP5+LeMCNUvZQuJJTBTe/3zZTgO1QR1K6gF2tc6Ub
+nsc8QKCv0V/0LnUtDrrxZPH1jQ+cIdnX6bZM058ObsUWHk+YH7arY7lEneDc/qPW9mTRYrt65/xE
+PjmY7bMfU5BAADMCsDWTwRAOSexnsW9+NsIP62r0xi1qHNhZKSViT6w/bf1d0v/IgwF/nSDi+eiy
+7qSRKkQdRrGJyhexxab7nFW/4r4pY3+iUy2rgACWi2IO3pyreMUCJ77yFzneM0YCsZWDzPu/R2Uj
+T7NRGEB9/81tcRLLVYMBSXnGoiJIMHWOFoy/6GmRE7QBZre6baNiroJTOWYz1rbEtFReZNGM9iMN
+bVIe/a28rFkOqJmzcp5EKuTiW1nNAnn1u5+AUgOSOWtIvzCHAH8QqHoVvzTxs4DIPdrL/ZKGHuTG
+6jHJaJIjmQuzzXJc4Rqn45/yvpLFOBMtedgMdgB/IVf9cZJ/YtpSQpFvB/YgzC0QIf0NIaVqIU5/
+9/sA/a9ApJFPsrZXZ1cprAYQN7zZI8utRXMEQCGtcbHyj+H2QcvAIbOsqj1H+2K+6F6/E7yqf6U2
+U+A2pDlCA9cevgwvQhPmpIdN7lZBkZESACjIrQHLLXUgBHz2sDJOkgohEP8U1R9dVciUC43ABwjA
+37j9LdGQmIhxIX1LbRE9/dFt5u84L6qXUkl8EwSdbWpApkjb91Pn9RVKNW3xEPZzJXF2OCHKIpu0
+BJVJ+/a1gypbVVQHdE0UzKVQljT75lFrwFD0Ckq+ONw0v19I33tIqZn/ZEF8wVD2ug4iMfGOpujv
+gIaajOMC4BguupScr8WlydDxALwzGjEjMtFNtjaOqvw0Lzr7bsJoIbEsVmggjFxwCy+6i6am8Yca
+1rED6+Ew7yEO+9Zb7bJzJebiDRG83//xqB9dqMa7rBDB+bEVEn/BVeMKIAMYP74hLfs64MNYYG5n
+lOt0t+TiPHTHQx8R1R+5WTR2yfttTW9bQu3CYI4ss3cmCEi6ZoFPwJz9xW2Ax1rL0v+7r0o71oEl
+vrSoUUcljBA0MKwO3iGOUkFT+lq4sZBPej+/njp7CFJKHpHIIQ/nE/WNZ3pxW6DHA0TVAO7BQMaO
+TkpEmfKJeV1KsPqDeQEuT3OMldl/KbME8XibZXPxSE07geuRh9amlSdwliG6hW02AsEQIZigQBFE
+Dn/Bobr3WVEGjH/AU5H5lr41GEFwgRlHt8N/7qYP+3ZcHKBFDqgeTUiMrylG4hWfe2Xx+zpmrDiM
+5rdesELiGR+/a3clRaioEeNQtKidTQ+RgR09qPvZlsNiF0SK+2QEwdQC1Yotc35ZihO6UmcJHSuS
+QY4l3iEQijNdvcUhhgRAvelrAlT/ccyCjUoRpT8fppgR4wGO6WOQSAKSijJ8FTJUAtiwU+hni7Df
+gI3BOqXi9/+M3lSoEJ93ddtJE/cQjOQnHGLYaW+6qGqCryHDWd65xFafuhSVmIy7fxJntgm5RPe0
+DVr/GXS1nkD1raisPFYbBcxooq3y+XaeFF9QFus7tvqNmPW6r8hRPrbiibidXOqDTmcRTk/gAC9f
+Rk9IXPgD+yEmMN87SuukI0rtI+XxVElRdDhqZ7Q9VyHH8tz7v4Yr28aUaRq6jWefCHHg+7RF3BPL
+qHJShYnLrVJBjWM3HmHUpyDdS1akbXwQpOgDfvGVibNz70YwFjfi+bE/sVNZHPSbLiPGTcOWme3a
+si8ogwVXUi08RgAf2ZWY+/ux4QdBLm0QCEYg9nsZfBUw6zAhIahtjVsQTk+AUiPagNMIJxx8n8K7
+PT+ShWt7CF0C01kTR7xT04IATqbNyiOotyyMQuOLxboFpufaT4GXSuT2f7ot/PXYtVv5t46ucnHB
+dL5t7k6MyusKBEB/h9bMBFJ+ZYz7ide+vmHeLXr7leAcAXtR22K1eeKzYVLfylxQfLHmLdo/jV7H
+TYDbyH7qhecn4au6EBhWvhWoF7Dn/AD6P6ATIIl+byqWi4pNRYUZHAFnnDRIcY2JT3oIP/ePMxlz
+jCF2ZsLulvt/xSHTUuKGUmOLNULXDw4VH6UW+zS+hrWXVP+Zckh/za85fsV5xdQCpOPKC0Vq3kAw
+t2a/yiUWQf8C5zgQVnNNs4x8NzgkKeXdoOQTi3RoN2u6ySBi0f0rZTEl5vijg5Y72tj/ZFn4sBq0
+iesOE9k4hQFEkSJN6UKHSHrfqXUz9eMCM9HimebXm0j10G6eMtIlto0SRO6AMFIhYv+cAg8K03aJ
+HiFcYFD9SuBmU+ybv7BALXyH+LJiYhC/FMiapSNC1i/qjP2SeOxZ1/E6maWo/w+hOH6A42CDY3gj
+o6WscZwJhWRD3dYw9pGwzBp9+f/Uw6NPpHQg0r3XuEHwNagcwnm9a/mxH1wcxyJQL5nWt9PWfLWD
+ELHhAmrIg2DAyb128bfBkpw/UHx/plLClAM1ennijA9aAaaX6X+VjSNATw4hTXsqscJYbKsQzFOQ
+uDjB+ehx4q23Nfeq/7skP43b6npNqwCPyGsyjvHAW8oS5CRNEJVc+PYPzLR2T8PIllJ5jEQDZ22S
+aEVuov+7r3G+qEVWXaa64NJBD/wq3ndABpzTIma3/dikD1mUSOdGT0Q+GV7KXBynGlEREFJGIemo
+cvuSEQR5f6eD9KaCT3nnEAcODvVtgNcLoAGBinJddG0aR77AToIcAUlZ6aE4kkELb3F2LZKuAsn7
+qJ/0RG1mSQixymXj04FdV1ASn6PoO+aKD6wjVr5ZrXz/Dm779QRWrwQatEbdVAIXRS0+ZgpCOVaz
+RboCogJ5jll8f71LAFrvjZx+s7iFpFr0bpNAqwoE3kh3pYKixU5pUFlnRV3Ddrau0uKSJFZ5V0kt
+qhws1ojCeX10F1Cu1ykU6l02PxiNW97N+woHFdMQntVTOmb/BHaL6re7++74svX7OHr5m8AElab7
+9tNaXtbhM7tGveP8vemmfaduJVTLFYu4PpkGt0Z2oILHecMr5WshVLb7gsuFAiU7A+S0fgn5TCNS
+IDcEhce7lkf4eFkgUDb9ItHqMoF7yDyR5DkOpvvWZrbCpSNb07tIjLGbXCwtAS5P1bjv4jr7c+I2
+4ShxibqFtDnaY8PvI/1LXByjyAjK6K6bVvu6cssQKOG/97pmyfEOwD79fn6vSd67+4/hrlTCFOkh
+usCB2kwYYdHV3lnZjbNNg8ET/6Ujq7nEFSH1iZVqVMAgD7NBT1xQB8DmLUCzyxCqgSppIzQUZ1Bc
+5w/qjK0Lcb/LfPJ5EI0MFxcuP3Gxi7fAryL14oA7FHF/Iaj9RPt8r+uAwFuk2QJ8hXercy3gVd8C
+lnkarXmNxAN3E2OKmV0NidjqIOJqAJ9iPtoI6A+/e5EfNsG+sGpQRfuJ0xldKsh4OoWY26QC7h+x
+woIhwe7FBLshtYHTAkfHBFc2OaH1at/7lfU6EBjz74e43iRqvxcmXk2rUMQIkP8gSMFx6stIck3f
+XvqRt7r3TzrcvkFEW9Zdam9qfvadJgK4OCGvNlIe5F7YtbjE4Yv2KhkfRP3JpZ5+rI2cFWVFpqa0
+h++WlQRJ+9iGWvkL2+0GXr/AC8drx5wqjpubXOA6kZTgZk0xAHmzP+J/yVABm4zfWVI2UjZuJWMC
+j9Y1Gdbe07e5y0X+Ael9NbXbWNpjmwlHroXErl7Kn7ehLj04Zd8uu1ZA0RMsAzA9i/mTSFdxQWv0
+2naUVvv7dBvyBHFYk3iwIbyQ1d6JCDnE1yimOxJ5IiWuC5EXq8KxY2mAKz83ef0iia2o1m2lc0AZ
+WvQUgTpmGcyFpUdmZjBwNqKJpqa8Lzk8XunqH/XttINIfNv9g3QaSUm+35EkpYmV6REl5mzlH9b7
+ui6MtyNSJxznCdbTVk+kvVYHXG3ZWCSbZpXeZre1EOd7Z9tKgJO+pDXXZn+n/bI0UO5rl7ffVFyw
+wxN5u7XuZ5GqKV1/ENEc9H91rQ4T4/tisIu2g8SZJhOQzZZdynyzAyOLF+PbL5cW6khdgIGlOwgq
+kW1d2emP4TNUjqo4UoBPailLZKhLHPTqIlPZ95Ij+wSoV6buHHkH4ovxCEaBIymA0sowHBrfnd6N
++bc5X4ACEiZAxmt0XOHKp+Of0Y2+SUCVun5p+Vo/goySyY4S++oO1kFisxV2rrPHsdmS367gpc10
+xHANVGEU2U2AgSKlLWI6wERSTVhdpN/L0qa3gKuSXg0yjQxaUIkh+/Rq9kWVaAhBYnBq2A9elnzn
+rD/jwHwhPUWAsGJ/zXL7fwR0tzbApyntGz7br81pyzcSw4V3r55fAgKPfmt37YcwUjHFdQhxwX+W
+HPQCWQ8yUjZmQrJvsFDurf2AgaM8TU+ybSwFatRRyU5QXAdhUfmlybPDwd11aMusG0xAYkHj+8w4
+YptuTXsv4OAs3vRJ4z/mjn4fSC+4HL8vrqKwrhmSDrNVEqSndhQ1jpPmkiH1OJwwQnqtdkiWAlxr
+LfTLu9UuUMDZ+4yxgCORt7j7E5KAW3cqbnIqmVwcGpG3T1XbABJezcxJDtPKMAIotM2ulE/msMmx
+1o6JrfuP4a4iyyXpuhC0i9r6MXvnR0hznkXAktfBaqvxEL7EWgmJBHmzkADcHkndlhpHjeAtD1r0
+Ai5BE6U0sUes30pd/baRE3IpdE0Nb2pHRomCZD8UOBA6q8zywYG2P+BTyRwB9SHqbQ237tI6xW1T
+InG0mZgc9InjLc3DFSOWKQjZLsHIZTj7dzCMBpaBE/95eWTzZWnRmpkFkkHflGZ7CCLUAjCKLbLf
+v28kgERWnEkhuwZUHPQ5UZFADgDi+6a69a4y6qQKtLPRnxB8hRGBf6bunkGkna0ht6yrLG01Rb48
+F64KD6qHizurikDxzMp7I6rW+mzkc6e+q1NVe5ECvsH73xwBEPUKtKxPsaWd+xf2PKUTSpd3Hwrb
+HzuntcFePloBEPuJFb6/SS0hIQuL2ly7LTkpzM1BsmaNPUUEQF1BvMXUAglKD8rjWyPgpY4Cm4+f
+zROQPJl5+06BbztEF1i5AJ2Obum1tZY+pZmJlTCgu3TEbkthdodIleTApUjJqD4GpAJ5jKwQQK0j
+wRXctw0APnkNCW6vgS+rBC3bkhgm/an7iuiC5FV1TcNfWTgNoBakgySWYka7tBqysh8U/MiUwiVf
++yGg/YlTqJxfCLU6aBz0ZcoZZkD/OqUqi/0H4WApqIl/7O/qTaRE+Ri/sAT7EE7hFYK6lBChT/vK
+czaWFa0NYS/Lu0KQm+D1zKYhvzBs5P+CmZXxv2elWHudTBEAi8DhWZiJW1aKOPvgO4cSL16OkfaJ
+Tc1ipYyOnAM747VNT3rfy7+mpaxAs/ug4oBK01L7BKYBI1DB++kgThnCB24xUTLyOtiCn3G/oAew
+T6qDJ9nY/8tIwGpT69ttTaYEXPjkVMuHDrc21RXaDsu+1/zYRXFfSKyNQWa0pToGdnD5mkefZL6N
+BKMsV4ylPIKqt6ps2EHLUUhERlIIMxkp1lwcoPlRbRBdgA58f3X7UCica9UvowuRAsE6/cv2EJZC
+JcmWmUjjIZWKt/KKO2a+Ek7fHPR/962hEJKCOdpxH+mSrgJ2+0Cf9LcfTSwZseqAbKT7Dy2MzfZB
+XSOelMp32AKWD+CrUoXyBmKbEk4iXQ8x1RzXZiAtpWVe7b9H++l57RwBMq02R48Q1wwOguLv5ize
+9GEta3qbwcnxmLuhKPhUhLeqtrM4fBJSVG3/DgjfL5PEPRBJU+MTyftNeE20Vgjz8i8jX94FzMGu
+Ody7SPtl2TIOU4I08oyLjezSOSeruAFQsEojLzy1+xD/08YVHnFizJkoeJzXVyEyjFs6KXguqwvd
+u0vnwzVEtiUiA6s7gD+J+8b2v9MS3qFIwFCxCU8BLrsmXgIwOO6mjZh1Bf3kh3ZXOoMhs0Fjv8JF
+kWMDXTBj6V7HltzmYqUpZxJnHcID9e4Os5HnBx7t/LLXbgcUOYEDEovW4tOVdAVrCLcjRPBadWcC
+H7FSvAA9e4UT/zNa9H913ku4fPulsFL+3BPTcjkGtN4cxTPKC127+ydwAKh88aUPMlIEcSLiSVld
+I1EjhJL7EGix3AngOyy3u/so+D92OBCNceR/DruzZ/m5WmKaADzGTxmHpClL5r/okcgTvL8fUwN2
+sOS3e1sgzTiN6HdXRXGNsYuwwa86rLGAO2Al9K9PurM2gcjaczqNDLO6D3E8llKYu8NJo8CATeMx
+fxBXl7OofNNEh2ZGHxkDAtPVmNU/cbG39Ymg23ltvrAs403rLey+9owt6TH7leJaAdKUkYU4BjCc
+WaULtydQ8bEurW2+vnY3Uqw7Ql7HYi0o+P0OtYPgFT2ooCBd1YFvUFv/qnG2gb/CVaowLwCH1S30
+Lrt10gR8VyATBvboECFzJWNmgZFvX3YCsQTFDvtqMBzfnEd7cT3OhURtP8F0JAYUReQqsaX9fMaV
+Fh9q3XxIYONP56gVSvdtfBCSMKwViThAVvumlfJdrOJrBbqJQOWcYoCuw9ld7+JA+3Py6k5lAf+W
+viHDNr/BmBpeSKmW/1FBSMEl9roOIrxZ5hr9qWNKMsUkYoqynQp8IphpqEBGucDe+4XncrZSqyNn
+h1IgJRXnhVel9AnSIf2+dnQRBiXxF3ZWt+fKSVfjLjon4SWoEHNSEnu34Jd3Kq7SkWMz/G/v944V
++Q72gmaKlhoyOwNP+w6FXzvtLFWqqoObKK/fL8wIjhWSpt3yRvu/6JFqE9Hk6S6/IzQpmxJApnym
+9sQvkUcPThSMkg+zhBcI/kkzI5lKGQeMpB+z+0DirNpdp95AEpmd9gTyfkSRgTbr1X+d3qZuvyMH
+1i4QnIol7TCCXQe6mZ7yt6wPFW3ciTXycQKYENkfdXROTbY/wFPBHAE3ISbgw03inI714moq84P0
+oqNVZlDiOtyutcKftzQKmFsCTvtoh3PCHxoTuHlOUWAC29HqBvk9gkGUZnsIItQCh4refkE0eNuZ
+NsFb31ZJ9J8tMgR/fFeYAuL7mAr1rrmErhO0nHQxELg3EV1/SVZy96edLRBNNrCSbTVFvjwXrroP
+cqpS6LGcoRCM2AzEWyFUQLG37vzuTzl7kXe+wfsPZQGmu7h+I+axpZ37F42GUjIjl3fmE1fgyqe1
+wV4+WgEQ+/HgjY0OnYnxijSPPOMgyoap80upqqS+RQQZXUG8leQCame2iw+SI+CljgIC/QtXjJA8
+Vnz7tIsjv1H8XBwtCYEDq1NqFWuV2L61J+N5roI+OSJAKJCbSsH2Fmi7tfsUOhPLyvdo8nlEFezL
+rojixgFlKiJKkTwCfF4uh8zi0XF8376t7mKSa6EQIew/CEAAtgk5lq6vrPxEMGW2A7EoxE37pomS
+qi/aLZhIlgLmp94BSd4JuAAwOvuQvkhUFIPx18naZm9R/SUCB8jhkx8hIQ4BJfYfZsOOYq94ZxIw
+TUV7qPGmbbZpF2nS/NHIFL8UOVKemV3W4q8yzRotUVoBf/ctrWL/iU0pkMXvsXHyrjmjPjabTiIT
+SPvWPFK9wNLsWRStJ9Yso92cJF27+7nhT6iF+59hm0bWiRj9NiLzAtrBUz7Lv971KU+WO4Aqjfsh
+hWZdqPt0pTSqLIfcyklRjRR8IcN243TuGh8/sQhtUPT1BIn9pE/Bs7r1sYA7bwCmIYVmRJlhs7Ai
+4r9rDW5H+zpWSxPuDrc2t66wkNmNDK+YSnF7sbN83tyQGuLbTYKbDhCoqrdA8a/TSrG3+i/2D8tx
+GYwG/688BIll2OyRumZp6br2ZykV9v1Tuyn7leIcAXuUaagOcu7nzMpnCCdlnRIu3p8VjQ6MelJd
+ACcHICnLu6/D1gOR2reo3sTh9g+61SFNgJa+4ztKjofWRYUXHAFnpZGZapLe3lZSP1mxIGjGjCYW
+3+3C6ySzkH9l7AJ5y5CrY49BQU066djuUKcPvuk+fsniqhNl3nloCEHsBIoGQUlOoUSs3Of7YrE0
+ZoBEDt5ibeqkOEi7DuCAseDAc7cnnNT5bs4+kJaDJ9lJ7R2cmV00wOs3dGGBjeyMKv1t//QU/Cki
+adeb7jhzbbt3oTrO5LNA62ozaRoI6QlimMQOSvXXqkKelBbREir6C7o3NwEeO1GNASyMIbA/inQk
+diV8d/qqpS2tmKtdlEpsDBF/QBCfllJR0zPCYx4nUKOkUy3oRgLA+3WYuBAn4WoPFrF5mP3BPrji
+H68Oyt77MOH2IiAlLQ4hH1MpA4Ou0Ud6BlxWaZsPwT0R8aZX6BS+u/ugjUa3leSnymUmseGkVJ2+
+f8o2QKqm+047D54eXWcvULC3KWZT1uac0hPeEDOD9Dh16ajHrkFp4LNJBNNw06ZHqIpGAOL18UQj
+1vpQfDFhT+SN9qh/t4CL5LB18jceHPT1Dy0695Jn+wSo2RC5ZUeawFKmUoBEI1GAq9a5WulnSd6v
++dZ75Ic/4vI9Vu7iyy3/EwSgZBW+f4UE8cCA39RQeikqro4EjJxVlYkEw7x89/+NEgi3wa/NOh9G
+SvMlZzSjPqqbsUCFrMCAHWBCSaZ3Zi7e4Kvfqqpq7T+0+wta9Pv7+ynj4x/KS/ugFTKlRSNn2f26
+V8E7Jl5Oy8ZaATj7fOS+Vw6mu3m0alwNr5Nb2xG3g7Sm+9ISgacR4r+tktcvjQg+dkcYflZNiQT6
+4SGM76dmXeozZm/qVkDpwFQKIIu0l8kT/05N4lt4EZd3JDROTfZeEDStD232N1YvAFW4NmMYTTuk
+/YOt2a7dGbr7te8B8cbYD1Ei+9X/khMu/Xw5ABZ4XpQ1HqtkgNIHYrsHeyLkF/27U0BEel3GoGha
+ASWB2XKsy+qvKhS2ZKwdmrtAqJwiiw9FZ2fFUPrWD2nXyhEVjZ0m0dz7PcI0rhOUw4v/Pd9CsJu0
+9abJEL4wK8j/33KDeVtn1oY03n2W/ICDh1FGfq45s/ugwepKhgJ/fAv9nWrFdHqL0yoZJYqFdS15
+FORB3aUuELOKnl4qIzbvdrjqH4Om+7OK5O7kYcAhrhKtM4ACsf2CpUFSXGViI9feTRqBC+RmvsH7
+bVABDiJTqGg9QT9xrqhXilOLArGZE+jsLQrfALHxx1Jn9Qhr8ZHMU2U43nyLX9ZC2FiRPX/3o2Go
+vt8LSpGrXTBgAhKA7qgX5EHrMpWgDp+zfwS3X2VI+94p6r7mCC14+wTiHPTmUepi/Qaxr/cIgghc
+Wv2xILu0cb+QugtPt4PEF8vg/y2vrER6Vr4VqNleXZRqZmB7IYKj/zS/Z7c2ttMpqtRQwEEkVoGg
+0aDxcW1/Cxz0JfZPGoW/tS8PF78AR9ZhpIFTPrfl97WD1zjo0nxf74c0CAGMu9VVUMF8DvGJmSf4
+VDSzqu6lf/GvA0WW17gc9PsQE+zDkUrIsPvKfPJa9BNSj/SOdfLXW4y9BhNdRVuhVQbDomnu5404
+p3Xq3xYbW8DjTeA6fO56Zinv5mvtyNrzD+AZE08uVMJWS/gzKy9T9ON6LjxSm44Smg9lNHiLZsRj
++6hIUmeZlAAORjf2jxxiZz8tPHrBsbPSSIVb6CC0qIz7tcr8PiCkgovTkehIVNdRZIzkgnNq9qbH
+dMP7rjwXW0XtF+kTvpfMpT3i++xVRrpeQGZNhYkOu0Tf2NF1uEJgiNd3SL2WxqWKktY9FHxiqLN3
+OxIkke7i98B/jq7EYBf/MQFmTw/ijIxdZ6rkDMFX6TpWlSH71gOkRY1LJCFbey0ygO+xzHW3D08o
+HIVKjN6vO4FeEQ3vwGJ/XQ+B7lC42l67PaSuhccSi0QCMMkTRzFP198AsQ5At0H1rQ3xF4JTZTj5
+fKMDTVOCSmz2pnWj66i+gq8aO3tbSj8fdI1WTnZZyuuMlUAOn9YhBLd+ZYz73tfqvuaju6L7BG0c
+9P3t6mL9HrGv91JBt1wcfG0gu1ZxvzjDyoCB6gusa+dc+Ks4IRhWcRWo2V7n7WpmYHshgqOdNL9n
+tyUSA4qA1FCxIyRWgWvRoPGNwfELHPRQ9k8Fhb+2tDTWyKQp+4mMURwBCu9NtRzXOOjSyZbvhzQI
+AYy7yFVQwXw48Ymh5vhUaaWq7qV58a8DWcE4uBz09WJ5t99Qbf3mfPulsE24x1vIjBOCozidfO0t
+f0QPW6LIQJ95whdoLHp2U0fefPD6m6bfJXQ62qf9osB1pZkFRRmaI64YzGRH3rbvIW78JXv4R7f7
+iYna27Yq7SPvwoIw8oVTjkBOFzoXs46Ym1DEpJDtYS30tiyuKopCSh/jT1KmfxOVcaQhdLj2I2p4
+XQ5kRGvfRUmocucOSBMEUoKiBGwC7pcLE0+A/RU5+4l88lAB/xI99vPpaBurcPDeEhzYEyUHTl0p
+yPQq6O2eJFkSfPcc9A5ZLX+Vrp73bfEQ9uaxAN44f21BVYelCiD75IYXyJ7sZggO+7RTtj+0oVQc
+9H+X3kn1vp49gVK2dx8/bfu0HPT7f0CHw4FOsxfq4IBpYAJk7IuyQZviuqO7Hj1z5ULG1Xo5U6i7
+YsNe4r7vbfW2EaOysW8aMGoI4rPGDZaAaVqSf0eol7N0oHxoNLRqjnY69IHHhwTFiRARXVNphuTv
+fnrTww6VtZx7xYll2Lx8D5C+h12BTtP8dMBNlnFthZIcAUf3LfGm5+A7JTbapBZsJZSi3j7Dmx/1
+nQhBQnclQkcQN5ZohQ3KA/t0BMHUJduiUz5+VFbp2D0LM5exSgD6pUlGTVPot4bp3Qx5hc568gJL
+jOqX91fftKVxwX+0Frr0Lk9j13kApBEyfBUyVAI0sK08byDqtJ47dxVe+4l8UVD0E0DN514OclkS
+P+Kjs5YutOMtCl2tWQl5XZID68RdNtZW3i6/t9bfAXYh31gG8a/h0j/xeRWQc+61pJLe6EsOnH9k
+y5u8wk3XZTZRZ5FgAiF/+xI1aSDeHphtAFxrowGdrdVfUOLN+zjAaiuCsPV5f7NnXWZfyi+q2hK4
+7o2Qokue8TrCXaj/VHnmwYCXLwJjZyOtXWkNtBbKIWKcPwLxIXfu+38ESdpdtL0ulkfz8PImodPs
+EEQCEi4OTWeZlyqkzSH9jWECRrOJlcFqcOgRf4WFoj+NWdHmUkCSr3EC8funC2m2altHxfshJ3A9
+QdeS3kimEOZEt+LWaNnB29LzAniKiz4jrjW/0sPAW7IsZUUhOhIPo+7ngI208f1aAfWC3jr8hcuc
+eEEwvldyJfHu/QZhEOJWIfFJux7nQYKLbxUhEMeqBJXiO4NEeAhvv6T/4Gat93RWOzgTfO5R8wIw
+KR4HXcOrV4dA5hCFMUAjngi6EwQ68sublgfmRKsAXEVr//GFZreFYq+wIi8CXMhJ2v8t1oBNRZGf
+peqLKOERISHMlwj7jLMpRFFPcICz31lxwvcVZ0dhxXzIq4yZvsQhpp5QY1ZNY7Iq5L4fYrO4VMaO
+U5TV1r26i9TFltMvZeIjeE63vAAVKYzx/1IGULhsKgR4AMHe9T1KYSm6Ib9FKhVr9abuUmKJui1d
+35LK81ZGEyJ1xvIwVYqrBPa5HIWkyGd5YuSKpSHZ14uGFo6i+26VHoy72fS2HlEf+/vR2FBh1DFQ
+GWFGX/vRmFTRLo6Q+76F/HyxUMCsZ1XkgFo5hRA4jZY7yAB/x2KuTlrdKY2LChHiMHIZXs2c67aR
+p4L8m7sEqHELC4LTrXF+9dGiZUdOOraD0emgLVJBRE4c699l05nK7Jv2A6D/y8Yc9H9LLVnGfPuH
+T9hYqNZFMZAvf4zZMBexvq67qLBdgTs1mrL7UtsJpfHLrypGwD3MtyW4kq2jQKTflA/WKoLuHPmR
+UlMyW1Cx8RNh+/VFRNMAXKugLvGFh11Tta88QR+BtisVQbgsobfkHsiKdcvkRYZqCgdqH1IpRaVo
+S3ktJ3DaVLh2hefqfwioSPuSeyGJ3n5lAkj1u20ZCDDIhwS4vobaAA4QQOAVPcZIlSKMPTKvng8V
+q5ez9fF8QEQjgfBaN7xdKnRilbGKlX9HkOfLEthBUAEhIk9A2b4wQm23/eb9+KL3Lo06aOSCq/2A
+EoEoHAYpzN6lZ03TSiRSpnTE+AANmH9+CwDiEPtywcp8YXzFdlpJoowtx7i/u6h7TWZ4HViuR2eZ
+bnk9D6/mUY2IvDoC3//q44KkQXrKjW0OyTN5AS4I1ZBIg05Nf/GcPIwwjLIc9H/1SbNxvxamicvA
+aVylYmkfz6NlBAhY2aDEHibUWJ+9PsY0vdbNhkWurida2K5pD3z1jd8eQGTXxzzs9qM7Q0e/P0FX
+9Kr97R/7+3TzhTUxuSeZBMz7uPdXBF/g1Z3Sb2Z74KqDVhrvKrbhKzH7Id5N5Jdkl4neYrPaUjJi
+roP0WpM67hlJ6kTrKgNNNgr2hfWFTpf5gTznPV83ZLxufIwZZgR03s3pUmdNhxwWIwIeckTsg5fW
++/8KzLNnUlxl5yzK06pPjf4fArk0H1HYqAtMjx4Vjbv1e4H8lLaTCy91tVYhp3b5qo3Bo2EcAQCM
+DzJSNrel+V0qyHilDhBRUPR5Ya1/E0v7N19d2mUolkCMeTqZT6O1swPfthoq22rfIJrJpYDav4pL
+jPbo5cgTY66HCNrTH54ueaCH1lMAKJZ81w7ti6gG+y+OzIn55hjvSPWJ4Ea3MBURxXxXPFjvkBDN
+tHG+xuaV9xOSMJyh3422l9aoOKPJriNjbQiYoNF8IkHjiz6VDkfSLf8SjUEc9CEiLaho9jAN4FJ2
+kI/47/HMow4hU8A7ZYD9FW/UAmSiygrutwP2P66moHu3TykZWlV8gi0Q+6HB50g1fJV2HHaijC0N
+y5K79cAIvwlPZ5HXIh8YDpILrwzXy87tCmdl5S2ZUtEOhV2Acf2HXd6VpX7xMjjTGI4AQLP7hTDD
+aVrBhXVTdRN8+7Mz1gg4D68QTVtbjbcAH9u695ZGoHlb/1GRoy7JEj5+yYMkbQjpBLHhIQolLOZT
+sFK/aePiknp+SGogu7GpdtqxX9ne0c0cB/+0QcefoLic012QdN9b9Pk3vuIBefJXdkgRim9ueIXt
+NDnSYyW0hcNhB/8TF+b5crO25Id8tvFr2osxiwjn+j7YEPtSl2Oac4MibSxWMVBBFuS6uo1n1Qvv
+4tn7y7TDTZHaqIkOEQKC1e2AFspW72xQ2kQptk1NC5wTV6MtZBwBIcwIrWL/iZywXpsC+mryWxbe
+PIACwXUTjPucA0R9U8qkvterhEHURt9En0/e+1zhwKghqF8XoYp1EQ7LatNsyP+8AWZSQR+4Dgjf
+yCPatIl1o3PxEMHoVwKxxwS6+/sn4S9UyxEhCEYekl7cyb/EKpt5Iah2Fb4QhRFTHu8o7jqe/SGW
+s3yhr8LCRY13M2WfILucP76oqAisf3wO6/tQse7jwHuvH7c1Gg9yGatQR6XZ1w6mwA2BXmrgs8bL
+T+4Jxo7t6aie+8h+BPG6pFr0yUlPzBoQB3T1lbE7/xNHuO12WxOHUwqAAP2hIMojCPBQrflZLY1x
+vmFISKWCHnYvtzh1i6DbVyOyZsMvUDA/LP9J3qR3Tw96PxVzZRmlQVf4W9lUSe55pWqNum15pr62
+FLD1yXeZ+xYEIVbWbQOtx0EsU0aSSZJfrzX7d422tbVByx5IfHnZqoHs7zW3ccHxwRz0m8tn17eA
+6wMzL+K/4BLm5MsImVv9GK96CJ7/FRMESpAt/ajyWXfatC+jgR1OjY0PoPTTcuABOvsJ9kQE+6Ah
+sid/XaN8dbqmPkmFmd6QgoDeeXdBO1Mq6MjbO5PjsECJ9fSBLyAIBnwfAE7IowFhLdszm8B/fP09
+jDUFX4DTKr6g52tVZjuBZ4By7dH4bqUTdQjxfE7BgSVCi9OGNhHxlTI/H7Y+VZclGAAns9/Iyy3X
+vlchR56L+9baw0W+UvbCY0neQkdQ4mIh8SGNuS9quCM5g3ZbQa/EtyDwLMlNPu/yOEX2sbP7heBq
+KoTXOjqwIuuSBA5PrKosR9xJv4ZB76SrozP553t7VbFtarDsggoOqIpdrYnfLQfg5NosFAFWCDAZ
+m+JXdrcLe01uLKYQVxJABF9VQW+qaSIZVr/Z2SV8OkCxR96xgYNxlh5wm2ITjKaZCEig5yoEiQRb
+4A3/+TkO6dnA+VCxmV1HL2kT5hn9UopyfqSBsFtf2Wv9aKQC7qqr/fcQba8T9budxHB+pkjDmceg
++3be9XkVDOd1Iz8DlT+NE5zX5P3q2QklOBDZZvu6wDxvAODZzceWNjuRFTUQ22bXrZY7tT+x+1Ra
+9BAQf5+CPjCzdfssFebnMiNnQE4Kx+IapEmxSTMcAVcQxnqNv/FTSRC0i3vlctx7s6Z15EpWPWrG
+ZVddI7wE81AJFiOjSb8wokSOAACHJFeMy3oeefvAUxIeMHvh1AKC0SJkt4DBUvsh+0CDUsHqVrBI
+aTE0doFby933aCOHVzTAWRqfhUhObRJWbm2F8gd20tj7VVs/RO6FH7eDdA44Dahqswqh9ZsDEV1C
+ikZRsvi2P/X15j3IHnitIkjiACjILfS4rWsu75bN+8uWwzsHL6aJf/T8O0Qq7ZdnEhTzJcK3q7G3
+t8CZBPIFOt5SQV1cWuMjUFZmUqKbrl86/w4KHAEh61P8/4z7RANE/tYYvPEoQnGlZUhwrwtPLfu5
+4QA4OHlfsZfBN7d8Sa+eIJbXHYSy3y6SOLOA3Nb7DbGsV2xx9UjGZl31+yERRG+bxK4grlKaH0RS
+wdbHaB+ASi8CoioIMiNXC22AgVbWkPVtRrkNUPTsrTAwAEcOnrcjKvAc8T0zklaLMDCvhXWWrC7g
+oAEIx5khf7q7dUTfOXYvFaYQ2YcEBB+yisg12E42VpIPX5j0eFNfBH+MYa0V4qiWbUdzDqju1k/m
+Sc2OfJUn4d5j68Dyy1CHBwNEHlD65msT8aiXt4Vrh7eybZwGEMz2CuVXIZ6FIrfuYZwq/Xu3d9Tv
+sSktM/lReEEeD7EVwgjJjEnv+6gEOaUEBf3qp0ElDdMtCrGXUeIV9sudu/ELgCcJB4aLWulFuz7K
+n11FBxda9CVNd7EyBOd8aLcj7ARLyUvLZp7Ww9ul+4WxgJEXPjqFd9L78QR0T4CW7Mr1ug6fXwL3
+y9iLjDnSQF6LwS1Z1YXxaCKmTfYE1xd8hVtTg0T3QQsQvC117Kf3yktqsBrQVyqjq/vZ2Gj14xBS
+2uTbuSsRYvs3n8M8ZKQid3qgS7QCQf++l0uSlzHWP+KtRJ3vRXyoEWa2TTYjgFGr2iW+Pfcty0mm
+7kdCm8H7zKFJplzh9oKOsUt8Fn47B3ixvrjtjJb8T22N9pB8u17ANke8KVyjHY5gdQe9nEbBAicW
+rHOOulZCKbZSjGVAnN6VloBYL1DgEk+y/PYIqLBdlJFnUK5rIGhmlRD7TQMXwfahbX80EqNVpJvi
+wnVSQbfwWjojWcqzRIHaJMObtPXMTw+3XBx8Mbgtvj+SqKBti8oAsQb/q+wtM98AsbpAT0FiTz1F
+5MwtxYyj8S0DCEK/byvkf1ktXvW+gqVEU9rkcqQf0ZJt7uJzLcIKBKAhC9amBLefJbr73jzqvuZP
+uzH7BLQc9HhRkWJ5usDW99aCgfAcfLGQLSA/vzg6UkYXeCS3oQ51HPSopkALrADgplkIZ1WqYLAP
+jjQQRIBWRiVQZmMoHCwqP60z+wp8a8AIiaDEcEEALiMTXYCBr0ak5pw4CgQQKHBQQpP6YFHqtMgg
+2cvJJ+HfCXXKrfUOu0mwCD9HZZ1pE5SRsV33MBMO1t8+iyU98TpATvt/BHRSNsD+VILOIlGKEf7u
+whWz71+g+53yoOBQ9P+HjSEZrORWTsIDjPgSy9FLfOIUL/F/dbz8cOklyPSJ563uUakzeIdRwVG6
+Wabc/eL5eaZPMIH8ioBu2jnhgpKC42rdygJ+N3lJ4sPq8RcutEo6T4ADKpRmKppN00Tx9Q63gJgS
+sYM4+5yOkXb2M0KmJF3esuQAMHl/eYm+6BCh98tCVHn7hzuqP8BiCJZUE/EtLNucG2H5HGGLEQcW
+1yKjGoW+DwHWmmbb7VeDm2ODeRFhrZ8/vl5kA13Hv7NqAkX73Y62gYrkimX7EOZwP1SOalMGEKac
+A8PArmgmZbgQQNJoZR8+gndvF6pGX1dFzSXxIXeZD1N2O6w/wU7SHAH1gqM6l6jLszkjML7YciV8
+0qqddRDiyokTSToiUPT7IagkaUTmqgQElhol+YLnnthq1+BKrffywIGMCvGhUdQCMCkfB09pqxXa
+rOYQqDFASrjeYTIEOqYtvpbRh/iSQcufEEQZeGa3hWuvKSXikil7QJ3xeYqAPXv2EklFvgzlFSH1
+aB+gdB8anqpWyjuqQhOfFKilw7W6ug3ijenvZfHqc+Y4+7QzUO17geC3OH8AvO+YjpCWPX10a/6w
+t79cUGuKPy0KXpbmr8WorX+uHPRuk21lcZK7DTBTRmqzP+/x+zJ6Zmbisfu6g3/ATeCz/U6BLhxr
+HyGn+1tRENFNVaVqe/mSrLHYSwzSSx9QJ67XURpEebOssaAWN0mAKyegIUEw+zXLhdojkbBQpssT
+EfX7dbrSXHFO/8Gods2h/NzrZGeopd0DcqTrMjQPLF0vCIXJ9Y2AbxG7yeaWAFwJLQHLu9Up7+J/
+fHzg5zYX5spmb5J/BGsxNYFE0npSfxBRHPTL695hQCBJf19N0gJcn6CuUec+kLRtr7q7rfuPcK5U
+yyXpf7rA6F19ER/+i9YbzLCAXr8th104EJzTgmfKGawv1YKOliHdljsiP8At9xwBApAjCqU2gbbo
+Zjtm8Foa6lLespFQtH/GIvs307cgZY+ZYsZeQJcIT3zKjg+Wi5e/yFSM28mlGRbkXw/LagzlyBMJ
+9tLW2m2lFyJO3sT4tYK4/IWl6iGLYnn7L3oOifniAu98N4lt24sqpDmVfK4M5e/xEM20cb7GfMX3
+jFvmnKHfcTDuCKh5fCalgmTuHIXsXVh09ZXiPgSmR9LnWRKNQWX0IQ8tQMeuZ2rgT3aMj+HvQS6k
+V+q/grZWgBIIsRx5II67pNu3L785hRM9PFqwSfumsz8VE5d19kEE+fV8Au4kBP/L02JSyzicMxRN
+U/0vJQvtEvJEgG3UykXwpyaNn4JZ24rHB3dNA50CUI9+BxeUEbGB7AIEeJvBOKZdSvcnc2ieSXx6
+glI8VxH73jhRHAGMZ6/nlX//IZachctlHHcTMUHZJDpFRLBPDvKdQgEFaL6vAUh0YqbJetNKFAss
+0dV7/SElUaZLEGKodgXWhaF1J/naJFkx6inK7O2r4Vro+/Uh7jaqIhm/GTmniswCVP/k47qNSqe1
+74fN+5AfNvgM6CGJOI0fF157Pr9qZBgvUBJdRYoITZav/xf5LWQc9H8iLYtiSYmvKjkAACeNdNiq
+3rKAAlbjCoz7RAOlPEvMjeDlFEEiAxSJnNpd3vvE4cCJmBPW66HiDwMOjmrTbOSe7AGZUlQfE0lN
+ijlmFtOYfy6fcfY4dLpqIxltt+t5rexA//GoH6Wd/8pFGe6/YSzvefuJjoC3e8gRoEhbDL+kxj++
+mQjX5q86aBJpgWyDAU2BmLOAXbFNeTqvKgSJgw20Qp5NOS4tx7GLW1MqgUq/kddmd9K3h2Y0/Wp7
+g49jSaTk5Jm3Yrug23nijZA9Sbdhu69nyHaxaCz7bd71efYKr7oPPwOVcZJzr45GH77NY2W4EBl2
++8vAO5SNsS2+NBR8+2LgAVIwrzc0wMOsbFtiuk/CGY1n4pHtqmlyP7FkX+YljCOfmPUAwUhLUt+i
+a1BJ0y7pwCMX1eRt+4l57VoBMhhzzBy62VjBBrSbjyyt9OYtJrACwS31jImMfoFq7u/xahPtw+ZN
+usG6/7NBEjv8eA66ppala7vxLU3fjXTJmGDf5Z5xv7idheC1xVzhJYd6cQ5dX5K6O66V/xl8OkJN
+JUT3I3sQMXO4Uztuo7jIZEXKZV03rDHWCN+dcmEl7l4QuBNeMKrT0Rp4TTNG6D5igk1JmNjiqtug
+N01eegCbXHf/lMvn4C9nKnYlO7DoGaqyibvMpf8AwPutkMCk0/MUXp8KzPGuQSyfTd4EnMAlfNuO
+Hsr7/1M3viM0IE3xmJu8JXzLKcxW1ARfDDgkfQi0UFReIv9dakJd7f147YtpOPcHLRiDrkFp/VJh
+3Y/4ITIU29JSkWmzgLaw5AI/wfXt4ALuunee3A4FzMtNSoFcWnx+WbuHP1vLzXuBXWlzv78O91PG
+qK5BQjCzoKNc4V8PLh5/sw1SMKX90btIXUEwJ1BI9OYIWbiVQCFWUpWme5uDMswKt2YIHjSHpcyV
+KOEDEEWFemkCwaCoCqB0j+EF228WZL5qpk4TIMGB/D/BT5kLyeRvd3Jd9YmFaDjFAFxjAnwQx7E1
+dP07l3ELhfZQAYlL3n8hLcHWJaywkv0vAmQL6atmUilEvr4h3YeBlnK5ClY4gucQ++4fGqbS8QRc
+ULq8Li3btT0IqF5dU4oqi8j/QR4UDmpBs5Mzm/DL9AIiyz/rNZIja19Q4snxfLt2XHBUK6UDTk1J
+uK+KkMHLsloBEHkT2DY7Y65F+4lI0Rz0nh8/iyj1D8+em06bXBeM7flNnl2s4oJo8suLjbzSvyer
+uAECEiJBQjwCefH/eBKkBPpa4gv7TjSBu36px6lreNHPCQVVh8iL0aw1d1jbAkCo9VcZY0Lg9Keh
+prBxwNGftSXx28Ifsy1Pf9pdZirjgACmyYkBtlHkyCNmsEsnHIssiy0+6gC0+53CtTjE+BW6/7FL
+yfHAfnjgbaUOibv7XOH2QZDvo38hljtHvwKcXo1RSyPPucbjflsR8RBb6FpVOqYhMICwZeQmswQJ
+R+H2D/y+f0TkQKqm+5Y7D24vL/gvUKtPKh+B1uKvSwreELIc9H8Po6hokmcX4LOQxdP4jhB8qJ9q
+AMH1DqWXt/BQfCnXT+Q/Pah/t4DK5LA1dDo1HPSo9y3ZupJn+5Wo2RAoHEdpObemRKxbypaAXkS5
+HAW1197Kgdar5Jlx4tFbVu4fzC3/CmWgZBW+poUE8X6AgVo/wiBqybUS++o41kH1TxWMQk3DEjpq
+QRcRpdl0XHD238wUx6VGt0Tgs8sOVlr0NxBAb6yb4EBov2dVH+SBAE4/CRPxibTkyi+rnwj/hc1a
+AXhEpMm+W4npEdY9Io8zRll5u7M7C9OzpgqVEPr4UGgl5OvGSb0Syb+rs/f7oL7XtclUjplOOH93
+r+uQm3mV8wKaNd6y69je9RHnKj61KlsuI2ZlFq5Br2VZrYX5C50qI0r7OJwgItvq9a09tator81e
+xnWtSabuUVN5pd+N4NXd4F4G5EYsRY7pgt79iDCDSd/vdGg5qO1bBUip1cou5GpyLLXjyqWdNbLC
+B9olVk2DCPE4ugtvtu7YPBKe64dRzVJZaAtoOkDWe5CbUOZ3y1FhLbOBmj7VNGpCsHLqart/EJVx
+kqZ0kBVnRm3nDvKtx1nX/VfCUg5InWWlD7wEYBR2/LaMRIB7LNr7iXxkWvQuH/jFJ4IEvd6Kvc2Q
+HJHmJQlOXQeKP2VzlULdUpUsXPgy8UfxeoJTlsp5lR82a1Auh9dPt1tjkUokTX8QZBz0jPcIOBNJ
++/VFt7bvxB9iE8uocgjeSGZEh05GHka1Ao89V9fLqGalycycA/3m9pLZJYz7aLH3jHzZbYuBADDi
+fBOO7U+oBvuSew67+Z0C7zioiSTbi3uWUmJIs8KCsdb9bCxUy3EZEwYTyrCDuwTZvGoTZpFPRWpK
+cm93bb7jFCJwU5FL1qx/8XZ1+x4nZd0Keagf5wZF/QhSlq/xEOJGKNQlMUaNmU8p/RfgrDAVQq4l
+OA6o9BmRUT17LP+/6G7iiaZijT1qngQZXSNrcOrH9445yVKsjSzWDhDWA8pSeEorAjBR4/JSabHo
+8je952qc3CxZdzDZhWtNAxGbUNO0OnftJJmBMQB5tz/ieZYc9JtZI/+zNhqKIuPis3z/BBAn4QJr
+1k7R/e1DaKldh5I1VQbkJDbTCBX/3fc338Ard1CCO6KofHxtZm8lftjtyNooxQI9Frd395VSdk5m
+7iYp0YygVtB2myp7W0JpNCn9ZgxV8QQJwHf2MsenXUWNl0R8ExYqZT/knv+gt2dFMCCNf/WJAZc7
+OzzDZINCq5X7IShwcfculKbSCPucezYS5OcVzJr/3sd4m21iDskhagwXabgPqpVePQ9N1Hn3vaG0
+Nl5ee/kgvzC2fPviRO1XAx9NIi+bwv04s9uqV9qsuD3o9xTbqqOygV7VVsOe7ZFcWosvUy0KRlAf
+xwRy+/ux4S/3WYchpYADsV0IfLMqQR8aR2nIVIyamaVGt+cyNgOBXFp8JIy7vnHYYs16U4EAj5YT
+trRTVYKbTvE6syOotyyMv1nelRPefHwI24FdPqTST/AcoyL/6b47RIdbsRXidJJ+7l//ysIyxTpJ
+JLN/BKWfZXz7iUW+V2EIyqL7leAcAapkGWIOBrG22djfNNq3zXTEcBUP/CXDTRnW6hFoYuf64avM
+Rxgkvj1XoG1dlNa2xKQyqnGWgdgLyPwfAwDTyC0B/+m6SwTxsed/BqVFEmg9nKRljO67jTWZMqQR
++4mMUVABE8+iY1PkRa8i+zeShhDCD4yxyXx/2Zw8bcVIBCwlY2ctPKEVu3NSgBLtQcqrgZPk7+NR
+KnRd223S6TBUfZUHHSVYq6F3k+N8X43ira8fLorjT7JdCC4mmYGSVmFQ1oCziho49l3Bg/Y4Sbq8
+kX8CDj0knNQ9IpgiRpFOBp7W8inPLEkAfuZ7lEHbeGldWop/8fsRHj45LaHxbZuxx+kBXt5jVZvu
+pnzx4IuBJV5p6w1QhSG42moJKbLKWeJXCzHfWXmoH11iRUt5zLRpufNuaTAjrU+AFZ/gsyEm1j8l
+8RBolvuYlXRd5LQbM1u96fWcEyuWs69EAh9zSedn2MO2jvv1IU5hm2iciRhfaUpsJSTgLT6hvq03
+wF0fKZNaEfvMLZ0gEOLTNJtf2QQG+/socBXfnW26UqzSPXhGjI0yxAIgIah4P1cQzSlPHu8n7oUT
+8SFmpf3CpTNB5r7ZM8Uk/y3Kcb6FhV2szMkOdftQ06t1jutEqgi2dmlmRusC+pw6Ew6mtJHnXjTg
+UsbLyu6guA7t3vVy+/YRBHwW1Vr0OIJTf+cQN3T1lQuL/zJHuFFO5BNW3lXbAMCMNVIjt1wcT8pZ
+LV9xkmF8SLOCHjUvtyF1i9kZkiPo/cNpACg/LAo4ib9K0eRdPxWMlRmlQVepkkBUnR5852o3dQPx
+pvbE5e+6yXdy+38EIVZdbV0YiUFsAntTSPZfnCL7oL4wtbX3c5mXeaZAcoHsAHXgusEuc1r0Yjcm
+Pz1bXnyJDm2ARwmjR7fmaBZrCK96CP/NaBz0UFM07roErZ1ATYqiBJmZQY6ZS02AQId8++A7VoFS
+garzUHiUStFdRnZbqBj7ryDzB6RtC6sVW8sT6m1yldNwUHbAcUldba7HVvSVE8ewobr7iST0hfs4
+vFJk2pCpLGiovAQqX2Sdq/v4Hrr2Rf0lZhL1+xNVVyxC0YCR6HP4Kps1Vo3dCO8SQPE14qzdpsgK
+tN9AXcNdr7bnsmQNJWNRI8Q5iczA0tao+50wTSJQsZwmkrRe7ueBwZwE9d7xxOFLYHWjLon/EJwD
+NsFqJOCMd3Otq78CEILGYb0Y1ScQcLHqJXf8Ldf5sIFTlCKVm9sceZ9zrXg9vozybU3cjZzqFHwE
+qAGZO+LKE+b7W9OA20e0Zt5e++BVRpuxkEu3tV36HIUj1y2zgU052E6+4vt+HPTMglOow7+X6AtS
+N6OP4W0i/5/76U/Ai2U9scnZZfRWlDbNuFC0xf+jfK14TeQ0b2z2f/dTXvWkI0UikXtdWNRQC6zu
+qEC/3/uVqFem8FD5Z5TCZlKLwa95GvvBUerqxvGUo/W4+wTk9jLWPBnBFdgsUEU4Nx778eL5KQ0w
+6nV4hYx5eZ+kLx7kXkmY9rb8vw4hQFZidME7KtuURDU8kRO0ZYVdaSD79QTis2WjwcM334NbA8pz
+I11RPCVx4EBEq1QTIAg7kPHk7Eha/1n61CUSIyR2UrTF5IrGfMvWH2U4kQMEeu/gCPUVZw97fCGS
+DFgAzajHsfudBCGwXbTMi+SSkEhzf6YEfbjfdrGDJ9lJ0Tul7rM2waBhaPxGGyeFEFQp+/z/qNIj
+DXgC7nb/X0CzJotKYq5nOWPxl9l89aWAkOb8nDSKH7/TNYBN7SpaC4Wm+1Lah6sAfzT1ko9QoBY/
+Leh6tB92rIyor7ZnZouLhLemOv8p77ZR05eQsT0WnZ0Tdmux1jfCVP3xljZv825jbyOt56xxrwk6
+8v6D0igLJGi3aAgZYWz5db3ePpM0RLGog5AJpCiSur1A5+JtKBxotVBCsedNwbPuMgQQXOElH+XP
+0F/cvcwX7s33Tmwl2ykt6Kvt0bNpHsCXRbWQFUWRyIzsAYq394cKDlJntk1almL1QLEEIfuvtoDi
+vnggDncLo35Gg7Fh91JBTVwchUHLLY2BgUVtaWW0YjhdtU5yd1shEDrSD+fiU6yNwfGdHAGoIi2o
+eage1jCKwb9CmW5FmR9ydaZtnLsuukALHAH7f0CKarfAZpUEX0SR+TCLb2AX/59mrfd0wOeME/Hu
+7dQCsClm3U1pU+fovsFToezupMLDh01i3s3bjG6bXMgCR0c60vzRtDPDAO4EqE0w0vBQazu13j4j
+TXubmb7BeUdaAaghheo/jaZAVoGWdoC/e/FJLTj7eXb5yaFIxVwcun5JytX8jU/ms2q2Yz4e4pJW
+VnKRFq2qTG6YvXSjQwQRHMgT4AI6XcNxmHqluwTpn0fXSdMCjsDBnJX1tBlCHOaqy96ztu2LUr5b
+5nzKuMCs+p+gfSBgOFquMS/mxRJ9PZWyCM4ci6Bzs68kt9LLLMYEQcu7Ejp0/8cWMfat+UN5ro2C
+VwG2mbQBN/unW/Z4tR1hrGlpf9qeZfuqEDqt9SnZCQktmNuKXV1mO2+OQl2OsCFI+68BLB445nHA
+dHpZJUhXwiKlyukNpYBdrhRnlDy5gaKJqOe0bgsUam1l+yFc+K5U69GmoaP7swOAH5Kz9nNj/+cJ
+pc4TLv5tD/6jOPo8n6xRM/6ppOX0cbnuENTex+SNWhgdy1oQR5yzP7H7tDOsxkmoH6ViiQ67pd/2
+Quy+t+Bc5ZjWiEQuUjm/yhUlTvuMwWfoyAQ/IsEWgqUii/BQOiQurd3nDjjKAyNNkWeEcffL7fLL
+kt93h7ehDqO0rLXxN1bKmBOztkaHv3VqAkio3rSAUnsfXfvxpTlKErdvF+SXwoqdUqyapBH/Wb7o
+0i9HjXh23PZBsW1dqKGx4RqaMG3yjb4EfAotSL8MsQAhEM0RcZJ/SwiAL9aqRl5N8FqgGlGfIbM2
+pjimgvtQ00R3pNsIPBmbwQc1kAchEixuydNm7ksQlb+Kd7SAFmACAZ+jCuQAsWEQviN2n1JhyzUc
+ATeJGOC+9oUHObeUCB5yvxMecbZPdzPtbwcfAPoHi/SQLSJhBPEvijK1voYQEP9uyNJEYzx+TlDi
+BMWm+1sMHCMyhmSjo152ZNoVX3TgciU4YCqxUvE4E5X3TmqnfEhgzFMt9RUjD4rxIb9z0qLuSaju
+UmLKFIyNZ6WTQunwljqCHvNVuKtdnfea5w3OSwVYM2Uth7MIyvGv+Uhb6BzdtHiSPjFeeVMSf3SZ
+RJa3QH/7SvsQE1ehrXi61n8s1bulzNuHHT6muNy/xzb1coO1Maj79bfasBcjZ4EzLDb6i7G8Cqpx
+2NcEN11K7ARsUDElqh5dFk+zrkqUqhlmPupvXZaot9mqBBD7TXiAwJKQyH+iXefoRgDifPF8iWqG
+EG64pJFgrdLUpwXkvtyUVRby17OUV469WdzwE7JNa2j6oXM7s/zRJvm+m1uHhTgOPhz0pkveHv98
++00DXYgFIqSulkSUuFri7KVfUk/7ufjmYg777NgGhzcIfJCv/ICWv5eLJTi/rRrYv98IAq4D0mzU
+UClSntKBOzBEusajIQpQATh16ajHkkpqdrOhg1zhqxBI2Hg0AOK19eS1kdqlzVMocDnC67Z/54CL
+rl/jdIUgWvT1zKPNur8w+2ViOiFcWkiawFKmUqwXUrGAObdcUFO1/+mcO9Z7Xzab4ibNE8fy0+FT
+QmcRZD2+f6DFOH7DI/NQejGwN7VlfJx4BIkEpDGm9/+NEgiB5pxXOrGAWGCDSoAt5iqbsZgQrcA7
+FKxWPR4vg1F+rauqgaqwfk0QdLHhmxAE+xGxmzAmpnUfw/0+OiOCo62jvmefN027+8ThVRD1SZbW
+N4kY8WoLr704y31kIWdvDVO21nS6XtOLapb6UGG1Amaopaxq4N545pKz9iU4FS0aYr8jU1AUL6ru
+UOkJO3v95/Z9DlRbitbSpjozngfvjGFGEGjnZ+6S3FIHm1nxv8iVrztjCwStF0IGfyXKj/6BVyDm
+eQX16QmoGe9BSV20UHjTZuwii1Pn50oqv2xe1d5B+X9IkqtEzPvN9gwhct//FRpzkt/WSt944yjo
+M8tHprOuCxT2A5X7EFzhP1RhlBBFrfu2t7d+swSo3v2P+PeEugieiQ6mszOAVpJtFnYX/K3S1OfC
+mlOsvS4YX8daHz8FtwJf1/9PIwcdaS/79W1OumqDOF2AlIcfZhdKc2BQooctc4yuLagRt0cHZ+Vd
+VNft8vGSgqzAt8JJ1rzcxpBXEl15WbMqRl/2iiwlR/vee4BSEmYI+3yl64DmWxcXg3yFd7HLUx+B
+ZRXBSPiDzcaQSLGz8TrWMwSJldngNBPK7g6tLO5NafkeTeO/arpmGWa3jv17210q9ng6oJjZYwLu
+H7H996bmrxP1iSHEcEL3Lo18Dpb7a/G33/VSLHxXRBnSd2pnNLRN2XSx4aQPum4ZXayBtuejQNiH
+XbdPIl0VgmHTR12ApJG1OxK+xjTvRbpITZfRqqR6w5Du+uGLkjV37l1/SKU8fsc91uoCjKZ5rzUC
+4pcTOPucKQgIIXjg/Ey31D4IAF8mfA9tgN04kf+UFwXGyRI7QpDFwVxQYQ8WCN0I1xClPCVRtpPz
+AuPtKnRdrMCUE3m9umj618VVaxjCCOSqcb6h/9ifcgRc4WVvERU4RHgVdwsBBP+kM3n3+4kgAWv7
+3eTxfBDxgf8k8Oh6jazLXg7uZQ9mtOpJFLFeqBCM1toqt5QXGujWgpFSoCG7qrsI9bMSpRMs21r0
+JR3ZOUD/2MA62J6+DGUDIQS69N8qe9gaUQvtllCBUsJaFxPsl83ngE0N0dJRIBpTwRCmV+CAYzu/
+tUlfansxIv+QN6qz6sa6mZj9gBbkAmPjZ+cIgD/vvo2mLfuF4kY182UPUeN0UmqWWG7fvXU07FO2
+VjY584qYTV9Erftc4aV2fzjgXu/cr4kYsWrr5AIkwd6yy75Pnl3DEmNpH1YL+lr5dwgt00bvbWuV
+Bvv7ueE9D50RIbOsXluOaHm/xCoARUeoJOpbEKApT12RPJEVIbqjhdy/QQ0/koU6eFPnAieWMjDs
+UzKC75Z5zbcjqLcs/XdLrZUKGpitOVJdkY7k9g73Lf+o2LWwKkaeT1hgZeKAH2LZv0FhCgRApiSz
+DgTKn1B8+4kRvlvMCC2i+5XgHPSHUZFiugZO1sKzQU9cUHwSIC2HcY1efIpE2+/EF7q0/62cNIF6
+tL4VqDptXesAJ3FiMiBIn5FF+WOKpUWFGRz0D5xXSL723ul+XTdUjzMZxvEhtzDC7k15jMW6R3Al
+mBVyPP/8vRPGFR+vIvsXvughHg//q0t8OCycObXFeSdUUMPr6Qtv2h5R2gheDgDsbnyOVCbZ/jlz
+CjUCv/BaoOtxCNPAwYdO/wStSEBN36KVmRJU/GZZXWnDyvuFwWlmYMFi+xeZ+3/Ff0e3dlT3ehfa
+U+kf54vK8aUafL+2HN2WtL4yvHp5VvR8dMv7jI6wmR1PNYE9F1IhVhc0QGIIHmazULQBsEYLzEVR
+ceruJeUJnaghc2/SUpRvmZQ7aUPyX+RTsV1kIIVdNo16h7dhDsgc9HzxtRXYVedOSkRCPuUDfJ1z
+7dGMriKktLOmdE8XVC55qDBSf3y4lcqX7JXYUHJWQXMINrASCAfeRy1dI648GWFh1KQ7uuu9CZnz
+AumxVyV3h4syGu2uSocwlZsmWp0pjt4BILboL+MU5qRZRIN8LC3nOvYwr8KKi1FvP+JA7ezv8Xw6
+Zqx5Gn+dsw9S+lrxwUnen76k60CwXcp3AytXf3Wj//X2tpHATzreXPhVIv+28U2AXUqzoXSJIl1n
+eyccIvTXyrqMg9kgtaWVf3ibBP9JzE6A1qpCnwimBE7hjkfxhYc2m20mqBN38o/hBchnEWQ/vswG
+Cn9+Uyk/wQiZ4JnkgjSqU6iJhVfLxVDEYwJFIdkeSfISRJdxbYWNUAE4iTofrMyepVXfh12IkWoT
+pL4Lgbb8EetQh6jCXUHIHaqfu/tXqjc6oKUg+3QEyb8C1Z+tc7iCbYwusyMfFoKfwssloyEQ/TuO
+UIM6lEHG2Ng0mXH2MsyCjd8RrT/Bf23mdQGOrQkpmWX2bTJ8FTKKAtjSU+i2sGY+7b7ia9aYVBNJ
+3mCrHr11svAZyzOiAMZhyqZ88e26qGpBryHD/4vo2jCfum4Y6wYtDpZntgm5rfe03AjnvqYTU0ng
++3+F9/sogup0ThCwHqw8bng2mhEOfBC3NgO2AWkqRAJ/3OquXBxiD76LtcDJEtbJfIW+DNOau537
+ParWB9iLpIFnGGwlsLerMIvK4sqMd/kI7RwBujWtymL/ux9SosUVA83/y7Ic9EnjLeM4efuze11M
+BDXs8X6LV4W5Aaa9LAXim8TXwwpeSK/re6tSoz00vpu3Ak4hdx5GNLEKkPYt9RGLZxeqkz9Uy+10
+/Y0jgIcIYQ63tOoySYUSTUgTTVXDwVdhW+9I+4lVgF2qPRFXfL8MYK4TcZLSRDxt0g7nHztlvsHJ
+cAIHxklIsV1IOq8plYmVd+CRCosfDi2g4vlklkTnSiuRE2Z37reeqjb9RipQjzTrBz++dkT13sl1
+OOavEw2Jf8RwY/fLjXyQuPugpk/f9UQs8XfWaNJ3vmcvek9AdCfh9lS6UBldrO0vA9xArVzheA61
+bno/Pc2mXWmkkbUaEr/GNO9Ff0i8DV2q9jlokO5H4QiSNZHuXRZI1tPAQD2v6lB8phC+cgKWlQQh
++2rEUFPaHFkh8SBzkgjvXyZ8YW2A3TiR/5QXGhMGEjtj18XB8FChDxa73QiQELOOQlJpTfODb+39
+0bOsbRgtlfsXIA7MgndrT/XxDvLW7+46+zhkoMAcAZ5OFRDcrBUwukF78fgGy+33Tu5u9vF/dbwO
+MiYzESVMhPdnFpWlutk9n6hls/GSSe8xmsK8goFRkSoqRNYZrPZrusWdaCHi9jA6IO7EcEsvgqNJ
+efHBOyMlPgMqDPYh9Tg8Zxq1I7aQh1dzvN/XOEBKpagTT9whwcpmvn4ObXMijLVFAj++EAj7DeCA
+/GAUZ+0pdE3kwYjZMeqLBY0V6unB2cTe6a8RpS37KOHqOCH7eEkC3HIh3cGLluSHoyBaAQIWQRNd
+gOY+lN97OVxQBVuBLdM0m8GgxU77+05w9oLLtCFSRqvIEcN5vzAq7/0h2CQ/9hDupRmrauY1efa2
+WMgTDY1Oi7DBTc117k+P+LBUy7aFXax/pjh1+1AnqyJfe6UfCFZmQv1G01DEpRfXDqZfkU1eeHG+
+jEgEl9eShrOh33Hrctb18UigXWdR8ByFvFIqdPWVsTu1Mke40U6uWYfeCtubwMsiUkEI7lDp+Vkt
+53GkYRfqv5erH6yOT05aeSCO3o1GTS9bbc26jbZaOQ0QOno/FXNlV6VBV6mSd1RJHnnnrDf3X/Eh
+vjxGJInFd5b7DgTyRIDiDPzvvci1EUmeWWiZaDp3nCp+AAL6fgd30Z+qgezvNURxwfFtWvSbyw/X
+UjaxMEGxVVCP6XnbROdzTan7dnl0wK6HRk+m+xigxswtWRfRdhquvMuwj8AT9IPStt9pKgA4Dv96
+QMA10Pg+CIM5c7vHDvHnotggNyE4+fyq5LNplLK2w+8e7W8rFftI3vy7rWKvKV2Mhc2DASVTN4fc
+ujqvPA+qlEGebX8QDaJqlL+ANVnAkuZ+urUODapdqBO7NBBtOwuk/bq0XnVFeeXvvmoQLfvNisNH
+VwJKZG90CICHvbun8MHbnCZqLF3GWvmtvUCFtACHfqxzjN6+crD9v3MAGa+JlbGAKvNQerHesutb
+u/Xai3eWi+XgfzWL13kQ4ju2FbQtUvcPqv+teo2N2wnA1toATkLbRXmYXU1dtoeNviGgKcpdKYdp
+kqa1o4VG2CM8JNaF6VzhwEEWEvvnrcCBUHFfSNlaAbCUkdjLAu5JBM2YoCf4IIV/qEcZg21J9b8j
+sCpGnrfSL2VtNh9iaI0j+wRiQCFcUN5B0QpmRLaraiSzoaBRyVQw461HlX9IjC1hTr7CHAEOgi2F
+2fYjtD+/DnyKRNEA+ge6eLWtnGlTEZERs6gtj/gsVJDIEFKAZquugDm3+hxr2o1TsvueSDqKs953
+dnD3Aowj/+eAtxFvZ1O/ivuJfFFlATLF5zpY3ou9tC7gAlykU/Qu3serAMBISaaJTidwIoS3/LFN
+zEivOf1217Ja9PshpodbAOLME4z7TTlNxTXEhQTkwZYQmOf2Fg6MqHScFq0y46PxSKbyLaa331ui
+NN2iXnK/aDRWy1MiCHy5uZt23wJ0x22CGD4mpnsVuLRKhewTwVEKasJANQ/FVSXArNuuf4nxwR4+
+2lU2SovqondLE3UItfu1wItC5h/kl7BZMpAQA0bV7b47Pu2AwyqaexjUZasIOapSUm3WE80aLdEc
+ASBZCC03XomzMJAA74c/dA0wLeiAALSVBDj7PQxatgu913pOXe03ml09fPEQyr9cWklm/8quII6B
+gt9hTt8oX7sTzKiqXaPLrzyQ4P+dHPQ6f96cOQBf+y39sTZe81CflDJkoOojbb7q26d6T3tQj6Sg
+E455EshTOa52sxDF0/jkVP+ffwiAQsiHDsu/DPrkCuRHWdu+QWaKXaj9J+Hp2+OfdHFbBIt3Ogal
+04JmCP2R9lRZlMlERl2B6IBeRLkcoPmU/UfWaqam8XX7UI+zQMik3jJGUME6WZAHIeAsJZ2Wme5H
+ppXCXdFtO0e+wIyCWvQhWelhEJJBH4Fxdt72rgJ2++rA9FLipYUZserKtpIhBGiHoPLBgfzKroqA
+L2ouEW46UoCQ+/UEVq8EGrTD3VRQrkUtsk4KQsLgs0XM76ICfI735n+9KXUMP41bXFominEtPl6W
+wK+DqC1/aBz0UFOrAo2+iZ5dw9zW+zdfRpMUwXlLU7X/SPucM6Wc/IdpPtcGufEy0fv7BQ19/+PE
+AveOahqQPoygEbcfCEHIhXzcwn/fL5X7S/83myU7/EIp4GKLeH+iCDOqkLWZx1a6iw0rAmbVZTOn
+ltbrv2c7F+Is3vv9TrYaanM7Gq68zUsydS1H+5ni6MC00695TuqS6Gd+f/UyAW6/yAqUB4LYHcnb
+jBIL8lKAZwdFlcKCEuzvSBA0Zv8E6Xl6XXGu1cg+zU8obN1A/tZzvQ9SyjnZvTdjrF5VuNjW1x80
+86envYwPAwxmUd3KvoPIe4X/Dj4c9CHMyiIyfPuc0wjOBWWaBZp30MhQU7uUFWuGTl5NduSvPyXJ
+BPW0goIY9iy3BAmPcBVLuo3MRIDcnPuFsaz6Wi9/Sd0fpfX7IXq3NQCxanUNTaerCAgwtUt0bfly
+P8De4BwB9SEsEay3TrPLYl/b/WBl9Oyjq5YAR8yetyMqXByMv3vqmdYwMK/qD+JqsH7qAYvDZiF/
+Fk6jPSMjlGZ7i2/UAjCKUwpKvzW/noBF2IKONfR4LT4Ef4xhrRXiqMFtdcIgqNIIT+ZJPct8lcTh
+i2MPwHTLUG0QpTYSFW01Ra7oF64KD0fSUmZtTQYQuo1z5vYhnkBmt+5hnCrfW7ci2uQTsHF2txdE
+M5RBaQBHNC30Ybt2YQR5TrcOmKUqimius3ElSDoOku6blpUEIftqDFC116RjsMwrbSCK6u7RtZbv
+OJEqsV3xfAoEupZq3ThIYLpP5/UVI91dyxClOVOraZG2ahNn0sWMVw+lzTr7LZ8zDflxC39AD5b2
+ikYtfPsYFwoOLbXZZPxTFezMe4g5uvQlHm8jDbA1+6bGbfvqsLP1T4KowLSNdWIPunTrskqTbozq
+u1na75m1lFP5gTvhKOamQPXT9KD8pl4/C2RtEiV8kcRKpaO7DU2AC1FpJTzTZo6+qPUOikpRD8J6
+RKYQ7RwBug+tuBlZtSF6XTlQsW06NlHnMnhOsaWQyt77XHD2IpDvLQ6msT5S/jXrzsDevZAe+XbD
+Ue7jzizrMD9tDtccARBJ9Z93i2X2LAhlJijh5A+QkqZNRg2l+0B2gLmqwft/E6q3YvvRs4AwpKtA
+6ZftcSV8ps2qgnSKgbHklqO0HAH7f2L9gLfAs8v1wYA2JZJJEIUfUnlZpQOWwb7IDe9H+zeqDxPu
+pqVqXfYpDqD26ETjShX8ZqV8iUAO+W2AaVr2f0eFqqVifK97Spa3KpEVVC5xaC5yLqWwBIllaOyR
+umY2LYz2ZxFxW1nn3p/7BMGD9HvRkYXLchKcdU0jtyccfLFJLZ9xknaM2lL92lxahfnsCAtnXSoA
+sXEffDUcAVcQhWpxkjghs0ZyWxnD02p2ZSxnP60++zJ8zX5SiVexcEEAyyNZs6zkUzRHh9jAfkgv
+/96ZXKbMvaNt5LvHHMidnwI6s6wVbr6SiTf7E81bhiG11ZN3qjIEMPk0s977KOGb9UiJtL5q8Xy7
+y+I0RYJIKYH8o7gEeDm79XwP7tQUFm6wcMqV4jNdu/8Nnk9bIGEqTRmvwFMO9l1dSgG4pt/T9/5y
+AVeiHvuH0brY3whiC1W+b/ulYSUqv7GBU7+C5g66ED8eGkKfFOQyxyZSR76CT3kuy/wYapJZxkCl
+tm8dNNMsifvBH8KBrOol10tcUKPqgYvoNpvi+w9OjKZccEL35uaXmH/ACinu4rPLiS37/fi/D8sl
+raYQ7vnA5Wv3M9xIoc/whheZiKiu82Wvj2ACaTktCzvSW6oPHhgAQlp5wLot4geBUZ9xW8vReLfD
+v5w9JYyJu2o7CqqUJFJ/OO0c9A73CA7GWfv1OV0LAlxy3f8WQMJNrZ2v6w/m1jUrv7rmY0i3akWX
+swahnDxKfr8VrgJI+9uqDxN5N20IgVBc4nwTju2jYgb7ktrMid5+FBRFYokkGYHCyHiVfJIM2lC1
+EIUkFVv/aAp5/8o8ledlx6KuE2Y0LYz2I78L1oxrUXwi3+OLPgQOR5Dp/xLYQVoBDkktYtm+gkIk
+T3Y4j/jADszeDiGtsQsPXarvZnHBfKFQAahiYorCm+IN9wiXkUZsY+n7x6o6oDqve/vyxZjzAtsk
+UzOrD23/y1JnPBa5wff/FKN/IeI+t86YzL2lXuSHWmIqjS1VkF/B1gT1rabZHPRQHXtlvr6JoNpd
+Rj2lPwKdu3xttndRL3j7u07tHPRHGERbB6T1ZMntv3e6HMvMMN+uofo9SnbrvTp61NlZY/SoXjsV
+luS/jDg3JHllseEC44c/uk0Dkneq9GUT6lXu9/u7JAGF+xAxE2WWgZ9AJooGcDDUtcAzRV6KZAtr
+SyW2sMy1fF8LKsIvlG+USjaRtwtftqo/9sYE210j7JUrJXolqoq3Y2evUA/VyhKZQj7KmZIVdcr/
+DiF2U7K+lqgPwoU0Fgh2vq6JoPsTX0YJfL+MHjtTB5KCanYIDkkC7ALuSdwhVPCYhfNG64TYfL28
+V7x2vyDHZnn7wOdNO1fIcBS3L3Uph7XbH9a2vu7edRwBAlkjuLesrqpnbnd7ThzekVKjPuqb4Dgy
+dfv1doG2UCgfp8LxhZZNCHyz/CPui293L98gY0tdRtIs0+P82AzlyBOn9tNNKh+vGSJ8CCdwRVS4
+EldErCFPqO77ktN/u+nmAgJ8BBNPGbcqFYcESK7o5QKQEIVWP5LGSASCMo3mnKHfFTBHUqi4SDel
+Su3wWoW8XePy9ZXispVJR5C7/DCNQWUBIXWtOtn2Zw1tt3mM0+GlnS4VaKz2gqsfrF9TsRx5IMy7
+PUa3L1sDhROktlr2ysWFtD8VE7VLjUEEU/V8Au4kBP+O0wnnjjjWKiPT2x5pai5nThR5kg+v6C5z
+8MVy37mlT6pS0cuhEdZxTigcIoLvH2Jdw3Fuy23ApQT1MKynUP9mWbu+I9I855+lDpgAvCVISSAF
+f62M35a1+412WmuRYyB5qI1BryFo16MwTLDgSRiVdUi7F/S2q+1f+/t0G0bX8YT9XXPYrrzjBG11
+ebf/+HYft7yqbkVlNoGX4bl4pqiJP2nbUWnWtvkVis0WE1mtIfuMsQp4H4pES+7YVq4mBNfxi+eA
+/Ds875cqsSiGLxC7NwFKKlaSe6y7fLHhhziVEwEjHo6rIrHTDXAsc6jFsBJN9ft0TazrkniVxnUW
+ogK4IceWOIPKtXvKcRJcZaxOJeQfUrfBr+6MZRAo4QJrUavQmzrl7/Qc/zgpDiarJ3iUcFSxsVLL
+pq88l0SawmYR5Loz/SGgVju2jcGt91AB70lKWbOAQmZnblHRXFDekQgtfndQwRcEWfv7XHDI30kk
+ELMZ04ezLXzWPN8LUzUv9iLmLx6laiDk00uMagz8yJ7VW3JdsMGzGSJ8rY/4RVT/tthd6n98Dln7
+UI+roY57peZdwue3gIEqLIfFupIMA5s4EDoWcVsTfAT3E1vmnKEPP46xCPXxfDelSu3wHIW8gSry
+9ZWxO//GR7jyTsgTh94zGZvBhTq+Z2ltUrU4j3AWqMxPDiGt4jsCgP3qKtQC7TCj6JlN0ypttxB0
+xHAA9Xz7tFAA4gfudcFpCy6g3/ejT6NXQWtevy31ewhNXU6RCcL/FKN/IcCBXxwE1mS17scgjqtx
+pLiVF121tARgAppvI8rMvmeisyDF71zgoFmOVXJ8+8GyNapplCpxls2zH1QTjul37vHLhfIHGBAw
+KyV6Autw5wTgGl43c9Fh4bCjC4meIQo6/2IBRJGCXS0sKZh6cpRo9rH9ZgbRTTg9T6OtZQ3kGaqr
+FOOS314WgeiwqPF5tErWq+Y1b11H2mSFt8vZ0jpAd02ruMUA/Vvr7eSfEOcVtocjgTsP50Fdmtgl
+OQ5JIaK2qhqcnwhhkGscAfUhMl2eILdRvzunRPrTyIX7xgS+jQ5J3k1B1icci5abV/JSw9qXpaa1
+EwSzQaLF5CXS/CMTXYBeV177iXxkHAHXUpZ3UEumvboQTIli1q5c2SoxRRmknCBSu/uxcIpiyfv0
+6rruJrd8Fq9VgMD2WQgCfL8t6c2+gkYigO2asRze2Ajp6CzvbdtluPv7h/jIS5CfIVLbKVdt3LW/
+DKoCOCHYeo2/EEhdNhbIjknLkgwWrjJpamaLKuKzQHlIrShwRVn/q6i3gEnJOOv7UE6roXhzyh8I
+goFBqhkwUI+lOgoOpofbgV4kP/bGSJVZjPbmr5dnP6uW1qh8fGJNnu1cWoUxgYd0YgSWi7UTR7jy
+TsgywC0K2wDijOvKMAjwUE9TWS2ljb5hOqySgqv9NBJNsRxLeuveFUa3tr9+OsakxFo5DgRiMY0V
+xpVXpUFX+JKgD/9meedqP3V4eRC+thQz+8V3H/sWBNG3rG29EJ29Bz0kCb3LaE5oB1dNtrDFAEd+
+B8PtJLFT7MV1RHHB8cFaAQL8Z9dSgGexZqriv+ASTpFJCJkWlXs8zESTSLPk2YPV9GLZUAlvPnbB
+W9MNLab77zqMy961N3S6Oz0xjC8gwBMBJVY1gsh4APG6EwO6YsbjNVVx/Z1Sw5UE7dVlFKuhJEVJ
+N7uheCXo1Y6CGjvWb1A8OrrMogEsXqYDcYp0/QZl8ZHEh6Ut5396XV7I4SozfA7GtCXbZLMNijN1
+fk9/IdGD9F4PLdc6/J26X0+qm1xW22mUo1W44u6l/4ne+1xwkkGQ794OIcE7MAN81nOYN9mUuTUz
+BH0T2Fje3P7Cu776ZdceYS3XgYHRlKOkrFebUhR5EEDu26BWOzTWrfuP4eJ/qDp2wwDB+7sOMEaG
+YFAk0ejRYhUjbT+N2SbTUqpQJxfNxg5Iwci3RQ1ttxAEXPj2QS4kSedq6uRtkMK/CipbnnHgdty+
+QWaHt6h5/eHpY0ck8o0VBIt3QAaljiCqCKpgW/dZUXlEgERTM4Be1lwcp0TtESFSgKY4usz7UCel
+2dsvLTwZUME6dV4HIcAsJTiWiu5LIZXCXXRtO5lxEozfUPQOWa38EL4i7pRxdumSrgJ8+6jg9Lfi
+rw1oseppkdimD1MK2Y1BXUo1Erc11ALgD5+qUoXySPWblk5hsw/g1VrX0pAtXeaUPkJt+7t57RwB
+Mln4xydhFbnxr+LvXMetAWG7JnsCwcl/fIlOKPhUabflZrM4fKtNVG3/OKXfq56EPYnMU3X/fPuc
+Kk1fjfw3AublPIXDjW2vdkiFfgvNJfHLgBA0LUFWvxm3QgALfJHklbNNmofry/Jb/P1P/BFsE+IB
+Jwi7MqvVxxMX2SF+VW3dGSEVW+sqkWerY7Zz2HGoVNZ/fGrAsw/7V5LCpgtU/xXKjFff9IJNLJSq
+FDtegMM9DrsStqWo+w4Ryp4AJ5yg2KKwTghSH68EqLsOKPiC5HXpnudJEK/rgEX2neAG6vytHvpf
+QHOkEM55mFzc0TylWRekJTIzJLHIEXkQvugo9okQibz/m9zWu26xrG9gAjHBLXN5jbtAeLeW6MQq
+sHmDIZlNN/tktw01v/1o6Z3tvhS4EDqHD3Tii/0/4FPBHPT1IUDagE/us3NA4jaHLwIBMVPoqgKx
+f3JdD3vuHHyNsL6Zi4cwC3MG4jsyunkGZPNladGaSAU9Z9JvgHsIItRQMIot14oXb78wpMH2WW26
+AeCtC5V/8R67Px+owW01//FX0tbe5nQxEHwNX11/Du6eQaSdrRC3NlY9e0lFvjwXLAoPqu63TqtN
+ThCMkgwD5H+6QMJP7kXKA2/rOSIDbUGO6hAIRlY9L08q23YInqDYHPRvypHJFfa7U9pSjQ+PKcMT
+y3l4O4s5W6v73nzyZfSeoaop5cnb8MCQllCHJov0Wd7HLpvAU0D/iaHTt3FO753knlFXcsqCscbM
+s993V4czhaamZk1AiczeTYLk7dZh/IvEnlXjvcUNJyJT/TFWZeY80rdltPGm7vIt8V0jWzHIoLUO
+S+TcsBGMBQ+tfIheADgPAnTZwFlLxpWjy+eQDiOXRwCNeZrGw/tTgotmwPkO9cA2UeQxH28DZjwe
+OY5KCHQRdy2WCNEOYbBTvsFcHIWR2y3TF1FyQjWXOXtddzkOhWJxwx5OsxMg+/YKaULX0j+7rCF+
+6Kzv4vEWmImu1xCeVCBj96b7EkSxjYeFs19ULsxTlPhJ8LWt89l17aO6Fwxx0TnX/lS6pTCSpT3v
+uKYWPGaw6ERmIsFH5iHLrgx3d8bs9LHWQW2MOLffioHlRUAQN7WDIfulKr92PUcWplfrCDJpm4fM
+67cwT4ccoLa6rU07TXt6gADBYg6lQYFcWkV+/whxPY1Ax4dNiwJOHhOy7Mro3wCxONtdZ/XprnzY
+gi1lE6N8o3hNLxfSbPY461NhqKQjnNbWq1uZccF0kn7xh/zejgqVoA5tUn8Es59lfEnHq9yg+7Dp
+9Yw96K8enr4qBL72Mq88GTn22SxQTqY3lvvx4uYimx/ZqOrBNhpgkvcQaNJJ6eAaNkaqarkcGTDL
+LR81yIHkIz+K0cDmbsln4EgNm21I0sojMaQcLh66T19pA0SWpTfpzN5EQfZRbSyYaeLa32q0DdNo
+uh5ccPdp91Oj9UmJSRGBcVYY8ZH/UVurU1SWug5EI9NdKGPM66N1Ezj7/db2wfdEoRgXfDWl0F0t
+cggtT7pEi05XxFrqlsCSPjF4jHLif2SYpVZP6n/7KvsQxrGtmJliHKAkNY9N7nwVUtf5F3zxYQIm
+l1q5sIk39bTCtjSUGVNR54sdM3VW9tulUIos8YJ+26DxFxMwI3dNDUQ8Nndeex0qt7tJSXhKCWQE
+P/Yhf7ulZxpcHMofAD3Rs4Da9hbG8f+tHAElkxlyhWLe9Xq3KoPTUnWsXS3oUn1eOI7NlcoOWepF
+kWPFYx1teizJ2U2Hty37j3ALa/sWnIBI7jXmOI6/6GzI/+ABh9aCdjIgXWeuGYZ69TdInI3knSEt
+Ut+LXBxA1QB7/7PDtma3Bi5EKYASv5hCbrr7u15qUir2q1dIvzC/Qp4/vh/nOcGvhWjBgBpXJfSl
+Usy3NlP2sA7ZrsSveUFxA0qlOLvLTzoS+SXWFoHjNJEKZmkeUo6qgLZGe1DEY8vb5OSZRPWJoDp5
+wL45W+NNSbtEOzt+s04F+23y9iz/Du0t9eb7laS/xpwpRuK+F8hlSBAX0vuMEtY7PbGtzTQUnfti
+4PRNEq8NNLSA4R1+Sfv9lk37Mq+eGi8qb2muQVk/4yKSI3V5ZXxXKf95vwwQIRNlDXZdY09kJXHi
+OrOKSy4gLdDp0fD1R/PFjrHUJZYjMP2LvALI5i6MSbN2JfFs5QTmAOLn9T1K9ynuIb/mbqV89Ug9
+F5uWBAR/+78MHFlK7dbJSckkTKZovbvFS3fGD09HSLXyLQ63l42i1aAkeXmuRsh+lTWZ3vEfZx9p
+8LPfMBmNARo+VFn7R9eqx9zH2IB+dWuzISGsMyXa+DIvu3lJknKUv+1uvxaZ4R10oi8IZlJ0RWJd
+2z94/VKhukJa9KiJQHHb6OrXZ4IgsNeTq6ilGbGVpvuvVb9t2DNjSZ9dLXOAALFISU67vughng/r
+Y4Lx+8EzGYOxg4Om+7/XHMP6s2qgXs7MTgzXx6/tdlGhp9qO3p2IyaxdVo3WPxS4zCH0ObCaqxRZ
+MA/TTq1ZSYUfswjLsU9U4hP/tyORcmB6+/s0OcUQ+0RV2KuuR7R/yBKtVUZl4IzjCIJTKByFtv+7
+s4FNXpFOP+D7CxwBf1nezay+QXGkPYXNA023APpy19O0yuhBALEOzecjQOlqRULMU8X/+aajerfW
+gk1s9jiCT171pIJOIpF7Xf3UArE0HkB3v0GOjGVASW1SDgRSeIM4DserQKD7ES1iOI3os3WCP44E
+5I0Tr9OAwfY3LFBOEGge+/Ft+YBxsaOS2QLx+80k9IHA0svetIslIOvWi2AC0ynePkSwkQeRC7Fq
+QbfxE15u+/WVX9YE3sGACd+DGV4tc7Y8aTyfsw7xArwC8Y7fnX+9KQBaZT2vX6WMa81QARRNaKqM
+BLt8zdYjMQSZclRZqp5dw9yz+2vBak5apcnpd7H7FpUhXl0ScjcVyzFuFCaa4v903C0a1na3Yf89
+OASXYd6qQHTmNPy8FU9Tk3Y9P2fZ9FaelLH7+3Qb72X7eMGoMxjt8XWtEBf7Szdm7wctopYlvxRj
+B3boZ3u24VjIDn8mvu+S/w0sXW1bS7d8c1487z+SYbiFTSOa4zx7IPX7AdpzMy9vaQkN7/NQeIEp
+ZrcabWYEdAXY3lIjTYccoQ8lEqqBopuuEs0TLrha9H91UzUKfPuvKVLwgp+NvurpOY5Qoy1YqJ/g
+EieyrTGKn0BdZZb5hT3fCCLqt3JTisgCSbWmpYDSyF9okK65VFA2MK3oU5qBkSp20ynwHBqRUk9V
+LAAfa5UG+/ux4a7fjP0QCDYWqrdTuK85Z7FNHg1b98uaSLdqjluO/JCuDOUsCppqqwheba/bInwt
+xHC1VLgeYrdqzEg4dftQKO6XjlVN5reH/Z+ACAPI2gTxpIZeg46mzSQVWxOdlTXGruac0g++q7bW
+N3lIJqVKtp6A5MbsynSiEEg6h01/f+LuVGNLoxBdrLaXpYyMnEXDwBXgegJIu9mKaMyYyhYjeIHw
+bNhZaa6H5zADex8jFwAnN6ATeYkxKQn8kW1SniwXHPRnnGrJP2q7fLfDvnV7fBAVtkqlIYnZ0vtJ
+xabmt7TOxca2yM5Tl1LRDh5et3HJ8Fp53yWZqNbbjSmLq05q1hVQjFctowdbIzBvQjuxtjbiFeB+
+SMjL6XYxIUh0+/v1RC3McxN1rfHxfPKjzF0jjXjV6iDLoZHcHrBJow8tefDlm0lUJXRoILDCm/9q
+Od8Ep8zup8Wop2fAdziVq0YDUMBN2CRiu0icULborh4ZEu07k3hJ/L4mCGXg3Xz3H2lifHf/vCPq
+MowK8cqAVmYiijuyTQNS+/GFtIBdc2aCirSbXFv/UV7eyupvgbZu3+ZmSttQfxANpW54ldiHBPsh
+h+E9QXPtEP2j+7FSt8GzBKjKf1xwVIRH3gqJuKazOaziV8B6cixZrR4rS7T+hV6TYa6l3WoIv0so
+yS19RELwVKbs3dPJ7EBeraD2swDBCsvWgpGCZ5IQBOnWy+Iqkfovb4t7aStzMxVMmvkqbNKE0jsq
+rvNFxvYn5PkwK3Knb4spkfN7Lj2OhLPm</textarea>
+</div>
+</div>
+<div class="n-cmt" id="comment-box" data-tid=A_PL_0_2388322013 data-count=265 data-uid=493707309></div>
+</div>
+</div>
+</div>
+<div class="g-sd4">
+<div class="g-wrap7">
+<div id="j-music-ad" class="m-sidead f-hide" data-has-music-ad="0">
+<div class="j-flag f-hide"></div>
+<div class="f-hide j-flag">
+<ins class="adsbydm" inner-prod="adbid" inner-width="200" inner-height="220" inner-src="https://iad.g.163.com/wa/ad?site=netease&affiliate=music&cat=detail&type=logo200x220&location=1" check-src="https://iad.g.163.com/wa/ad_check?site=netease&affiliate=music&cat=detail&type=logo200x220&location=1"></ins>
+</div>
+</div>
+<h3 class="u-hd3">
+<span class="f-fl">喜欢这个歌单的人</span>
+</h3>
+<ul class="m-piclist f-cb">
+<li>
+<a href="/user/home?id=254125830" class="f-tdn" title="谦阳"
+><img src="http://p1.music.126.net/5c8zWtHytSFJ0F2_EGDkOA==/3395291912749269.jpg?param=40y40">
+</a></li>
+<li>
+<a href="/user/home?id=467624701" class="f-tdn" title="模具设计大侠"
+><img src="http://p1.music.126.net/lam32dGmY5IP5_T08mXnbw==/19124905254029658.jpg?param=40y40">
+</a></li>
+<li>
+<a href="/user/home?id=358787410" class="f-tdn" title="Phil_Zou"
+><img src="http://p1.music.126.net/icH7bexs04uCxvaLBTTTxA==/109951163467114721.jpg?param=40y40">
+</a></li>
+<li>
+<a href="/user/home?id=445627211" class="f-tdn" title="熾燎"
+><img src="http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg?param=40y40">
+</a></li>
+<li>
+<a href="/user/home?id=297957691" class="f-tdn" title="wowossss"
+><img src="http://p1.music.126.net/PV_q5sWAnUpgHBQKAL_jTQ==/1395280268306493.jpg?param=40y40">
+</a></li>
+<li>
+<a href="/user/home?id=554679676" class="f-tdn" title="萝莉小懮"
+><img src="http://p1.music.126.net/NGBZ8JKG3tdvwN7wB7z-Sw==/109951163028640428.jpg?param=40y40">
+</a></li>
+<li>
+<a href="/user/home?id=386465326" class="f-tdn" title="iloveeverybody123"
+><img src="http://p1.music.126.net/gqaq_gUJHke0H3Nh4G3XMg==/18629025511094682.jpg?param=40y40">
+</a></li>
+<li>
+<a href="/user/home?id=107183805" class="f-tdn" title="阿西取名到吐血"
+><img src="http://p1.music.126.net/KgS6EsZV-eSDzs6LUbQ58Q==/109951162957175102.jpg?param=40y40">
+</a></li>
+</ul>
+<h3 class="u-hd3">
+<span class="f-fl">相关推荐</span>
+</h3>
+<ul class="m-rctlist f-cb">
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=632021463" title="『粤语』好听到爆的粤语歌单."
+data-res-id="632021463"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|0||playlist-playlist-recommend|2388322013"
+><img src="http://p2.music.126.net/QHD2Uy2y9ktndbK1UKgdgg==/18611433325258133.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=632021463" title="『粤语』好听到爆的粤语歌单."
+data-res-id="632021463"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|0||playlist-playlist-recommend|2388322013"
+>『粤语』好听到爆的粤语歌单.</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=331606070" title="薛之谦的柒">薛之谦的柒</a>
+</div>
+</li>
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=2197936899" title="点起一支烟，听一首粤语歌"
+data-res-id="2197936899"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|1||playlist-playlist-recommend|2388322013"
+><img src="http://p2.music.126.net/lZSsBdcR9xc4YK82MfYjYQ==/18637821604685232.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=2197936899" title="点起一支烟，听一首粤语歌"
+data-res-id="2197936899"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|1||playlist-playlist-recommend|2388322013"
+>点起一支烟，听一首粤语歌</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=437728739" title="丑萌的猫">丑萌的猫</a>
+<sup class="u-icn u-icn-84 "></sup>
+</div>
+</li>
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=2003872598" title="粤语 | 那些令人彻骨生寒的绝笔情歌"
+data-res-id="2003872598"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|2||playlist-playlist-recommend|2388322013"
+><img src="http://p2.music.126.net/COqgQuOgmrbsZQ0XPSX1sw==/109951163081632473.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=2003872598" title="粤语 | 那些令人彻骨生寒的绝笔情歌"
+data-res-id="2003872598"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|2||playlist-playlist-recommend|2388322013"
+>粤语 | 那些令人彻骨生寒的绝笔情歌</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=78476866" title="野崎安生">野崎安生</a>
+<sup class="u-icn u-icn-84 "></sup>
+</div>
+</li>
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=605199421" title="「粤语」我想哭 你可不可以暂时别要睡"
+data-res-id="605199421"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|3||playlist-playlist-recommend|2388322013"
+><img src="http://p2.music.126.net/YCFXi7t9MbA5a4Zq8lNC7A==/19085322835488256.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=605199421" title="「粤语」我想哭 你可不可以暂时别要睡"
+data-res-id="605199421"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|3||playlist-playlist-recommend|2388322013"
+>「粤语」我想哭 你可不可以暂时别要睡</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=375540586" title="宠着长岛冰茶吗">宠着长岛冰茶吗</a>
+<sup class="u-icn u-icn-84 "></sup>
+</div>
+</li>
+<li>
+<div class="cver u-cover u-cover-3">
+<a href="/playlist?id=111221399" title="那些好听到发疯的粤语歌"
+data-res-id="111221399"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|4||playlist-playlist-recommend|2388322013"
+><img src="http://p2.music.126.net/_MQPs_M-xvWtDQa_v1SvQw==/3382097768268687.jpg?param=50y50">
+</a>
+</div>
+<div class="info">
+<p class="f-thide">
+<a class="sname f-fs1 s-fc0" href="/playlist?id=111221399" title="那些好听到发疯的粤语歌"
+data-res-id="111221399"
+data-res-type="13"
+data-res-action="log"
+data-res-data="recommendclick|4||playlist-playlist-recommend|2388322013"
+>那些好听到发疯的粤语歌</a>
+</p>
+<p><span class="by s-fc4">by</span><a class="nm nm f-thide s-fc3" href="/user/home?id=66706671" title="天寒地凍路遠馬亡又何妨">天寒地凍路遠馬亡...</a>
+</div>
+</li>
+</ul>
+<div class="m-multi" >
+<h3 class="u-hd3">
+<span class="f-fl">网易云音乐多端下载</span>
+</h3>
+<ul class="bg f-cb">
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"iPhone","source":"detail"}' href="https://itunes.apple.com/cn/app/id590338362" class="ios" hidefocus="true" target="_blank">iPhone</a></li>
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"pc","source":"detail"}' href="https://music.163.com/api/pc/download/latest" class="pc" hidefocus="true" target="_blank">PC</a></li>
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"android","source":"detail"}' href="https://music.163.com/api/android/download/latest2" class="aos" hidefocus="true" target="_blank">Android</a></li>
+</ul>
+<p class="s-fc4">同步歌单，随时畅听320k好音乐</p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-ft ">
+<div class="m-ft">
+<div class="wrap f-cb">
+<div class="copy">
+<p class="link">
+<a href="//music.163.com/about" target="_blank" class="item s-fc4">关于网易</a><span class="line">|</span>
+<a href="//help.mail.163.com/service.html" target="_blank" class="item s-fc4">客户服务</a><span class="line">|</span>
+<a href="//music.163.com/html/web2/service.html" target="_blank" class="item s-fc4">服务条款</a><span class="line">|</span>
+<a href="//sitemap.163.com/" target="_blank" class="item s-fc4">网站导航</a><span class="line">|</span>
+<a id="g_feedback" href="#" class="s-fc4" onclick="nm.x.feedback();return false;" hidefocus="true">意见反馈</a>
+</p>
+<p class="right s-fc3">
+<span class="sep span">网易公司版权所有©1997-2018</span><span class="span">杭州乐读科技有限公司运营：</span><a href="http://p1.music.126.net/MkOOdJqWZdBx05Ias2W3UA==/109951163298654917.png" target="_blank" class="alink s-fc3">浙网文[2018]3506-263号</a>
+</p>
+<p class="contact s-fc3">
+<span class="sep span">违法和不良信息举报电话：0571-89853516</span>
+<span class="span">举报邮箱：</span><a class="alink" href="mailto:cloudmusicservice@163.com">cloudmusicservice@163.com</a>
+</p>
+</div>
+<ul class="enter f-fr">
+<li class="unit">
+<a class="logo logonew logo-musician f-tid" href="//music.163.com/recruit" target="_blank"></a>
+<span class="tt tt-musician"></span>
+</li>
+<li class="unit">
+<a class="logo logonew logo-topic f-tid" href="//music.163.com/topic/recruit" target="_blank"></a>
+<span class="tt tt-topic"></span>
+</li>
+<li class="unit">
+<a class="logo logonew logo-midea f-tid" href="//music.163.com/topic/selfmedia" target="_blank"></a>
+<span class="tt tt-midea"></span>
+</li>
+<li class="unit">
+<a class="logo logonew logo-reward f-tid" href="//music.163.com/web/reward" target="_blank"></a>
+<span class="tt tt-reward"></span>
+</li>
+<li class="unit">
+<a class="logo logonew logo-cash f-tid" href="//music.163.com/uservideo#/plan" target="_blank"></a>
+<span class="tt tt-cash"></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a title="回到顶部" class="m-back" href="#" id="g_backtop" hidefocus="true" style="display:none;">回到顶部</a>
+<div id="template-box" style="display:none;"> <textarea name="ntp" id="m-wgt-selector" style="display:none;"><div class="u-slt f-pr"><span class="curr f-thide"></span><i class="btn"></i><ul></ul></div>
+</textarea>
+<textarea name="jst" id="m-wgt-selector-list" style="display:none;">{list data as x}<li class="f-thide"><a href="#" data-value="${x.v}" title="${x.t}">${x.t}</a></li>{/list}
+</textarea>
+<textarea name="ntp" id="m-wgt-create" style="display:none;"><div class="lyct m-crgd f-cb f-tc">
+<p>歌单名：<input type="text" class="u-txt j-flag"></p>
+<div class="u-err f-vhide j-flag"><i class="u-icn u-icn-25"></i>错误提示</div>
+<p class="tip s-fc4">可通过“收藏”将音乐添加到新歌单中</p>
+<div class="btn">
+<a href="javascript:;" class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true"><i>新 建</i></a>
+<a href="javascript:;" class="u-btn2 u-btn2-1 u-btn2-w2 j-flag" hidefocus="true"><i>取 消</i></a>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-wgt-comment" style="display:none;"><div class="u-title u-title-1">
+<h3><span class="f-ff2">评论</span></h3><span class="sub s-fc3">共<span class="j-flag">0</span>条评论</span>
+</div>
+<div class="m-cmmt">
+<div class="iptarea">
+<div class="head"><img src="http://s4.music.126.net/style/web2/img/default/default_avatar.jpg?param=50y50"></div>
+<div class="j-flag"></div>
+</div>
+<div class="cmmts j-flag"></div>
+<div class="j-flag"></div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-wgt-comment2" style="display:none;"><div class="m-dynamic">
+<div class="dbox dbox-cmt">
+<span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span>
+<div class="m-cmmt m-cmmt-s">
+<div class="iptarea j-flag">
+</div>
+<div class="cmmts">
+<div class="j-flag"></div>
+<div class="dmore dmore-cmt f-cb">
+<div class="dhas s-fc3">后面还有<span class="j-flag">0</span>条评论，<a data-type="viewmore" class="s-fc3 f-ff1" href="javascript:void(0)">查看更多&gt;</a></div>
+<a data-type="cc" class="dtoggle" href="javascript:void(0)">收起<i data-type="cc" class="u-icn u-icn-61"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-wgt-comment3" style="display:none;"><div class="dcmt">
+<p><span class="f-fw1">评论</span> (<span class="j-flag"></span>)</p>
+<div class="m-cmmt m-cmmt-s">
+<div class="iptarea j-flag">
+</div>
+<div class="cmmts j-flag">
+</div>
+<div class="j-flag">
+</div>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-comment-item" style="display:none;"> {list beg..end as y}
+{var x=xlist[y]}
+{if !!x}
+<div id="${x.commentId|seed}" class="itm" data-id="${x.commentId}">
+<div class="head">
+<a href="/user/home?id=${x.user.userId}"><img src="${x.user.avatarUrl}?param=50y50"></a>
+</div>
+<div class="cntwrap">
+<div class="">
+<div class="cnt f-brk">
+<a href="/user/home?id=${x.user.userId}" class="s-fc7">${escape(x.user.nickname)}</a>
+${getAuthIcon(x.user)}
+{if x.user.vipRights}
+{if x.user.vipRights.associator && x.user.vipRights.associator.rights}
+<img src="//p1.music.126.net/0iFYdNRbeKXnmhgIHFYVNg==/109951163309832497.png"
+class="brand-tag brand-vip" />
+{elseif x.user.vipRights.musicPackage && x.user.vipRights.musicPackage.rights}
+<img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png"
+class="brand-tag brand-package" />
+{/if}
+{/if}
+{if !!x.beRepliedUser}
+&nbsp;回复&nbsp;<a href="/user/home?id=${x.beRepliedUser.userId}" class="s-fc7">${escape(x.beRepliedUser.nickname)}</a>
+${getAuthIcon(x.beRepliedUser)}
+{if x.beRepliedUser.vipRights}
+{if x.beRepliedUser.vipRights.associator && x.beRepliedUser.vipRights.associator.rights}
+<img src="//p1.music.126.net/0iFYdNRbeKXnmhgIHFYVNg==/109951163309832497.png"
+class="brand-tag brand-vip" />
+{elseif x.beRepliedUser.vipRights.musicPackage && x.beRepliedUser.vipRights.musicPackage.rights}
+<img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png"
+class="brand-tag brand-package" />
+{/if}
+{/if}
+{/if}
+：${getRichText(escape(x.content),'s-fc7')}
+{if !!x.expressionUrl}
+<div class="u-expression"><img src="${x.expressionUrl}?param=70y70"></img></div>
+{/if}
+</div>
+</div>
+{if x.beReplied&&x.beReplied.length}
+{var replied = x.beReplied[0]}
+<div class="que f-brk f-pr s-fc3">
+<span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span>
+{if (replied && replied.status!=-5) && (replied.content || replied.expressionUrl)}
+<a class="s-fc7" href="/user/home?id=${replied.user.userId}">${replied.user.nickname}${getAuthIcon(replied.user)}</a>
+{if replied.user.vipRights}
+{if replied.user.vipRights.associator && replied.user.vipRights.associator.rights}
+<img src="//p1.music.126.net/0iFYdNRbeKXnmhgIHFYVNg==/109951163309832497.png"
+class="brand-tag brand-vip" />
+{elseif replied.user.vipRights.musicPackage && replied.user.vipRights.musicPackage.rights}
+<img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png"
+class="brand-tag brand-package" />
+{/if}
+{/if}
+：${getRichText(escape(replied.content),'s-fc7')}
+{if !!replied.expressionUrl}
+<div class="u-expression"><img src="${replied.expressionUrl}?param=70y70"></img></div>
+{/if}
+{else}
+该评论已删除
+{/if}
+</div>
+{/if}
+<div class="rp">
+<div class="time s-fc4">${timeformat(x.time)}</div>
+{if x.topCommentId}<span class="top">音乐人置顶</span>{/if}
+{if canTop()&&GUser&&GUser.userId&&(GUser.userId==x.user.userId)}
+<span class="dlt">{if x.topCommentId}<a href="javascript:void(0)" class="s-fc3" data-id="${x.commentId}" data-tid="${x.topCommentId}" data-type="canceltop">解除置顶</a>{else}<a href="javascript:void(0)" class="s-fc3" data-id="${x.commentId}" data-type="gotop">置顶评论</a>{/if}<span class="sep">|</span></span>
+{/if}
+{if GUser&&GUser.userId&&(GUser.userId==x.user.userId||GUser.userId==resUserId)}
+<span class="dlt"><a href="javascript:void(0)" class="s-fc3" data-id="${x.commentId}" {if x.topCommentId}data-tid="${x.topCommentId}" {/if}data-type="delete">删除</a><span class="sep">|</span></span>
+{/if}
+{if GAllowRejectComment}
+{if hot||!x.isRemoveHotComment}
+<span class="dlt"><a href="javascript:void(0)" class="s-fc3" data-id="${x.commentId}" data-type="reject">移除精彩评论</a><span class="sep">|</span></span>
+{else}
+<span class="s-fc3">已移除精彩评论</span><span class="sep">|</span>
+{/if}
+{/if}
+{if !x.topCommentId}<a data-id="${x.commentId}" data-type="{if !x.liked}like{else}unlike{/if}" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-{if x.liked}13{else}12{/if}"></i>{if x.likedCount} (${getPlayCount(x.likedCount)}){/if}</a>
+<span class="sep">|</span>{/if}
+<a href="javascript:void(0)" class="s-fc3" data-id="${x.commentId}" data-type="reply">回复</a>
+</div>
+</div>
+</div>
+{/if}
+{/list}
+</textarea>
+<textarea name="jst" id="m-wgt-comment-item-2" style="display:none;"> {list beg..end as y}
+{var x=xlist[y]}
+<div class="itm" data-id="${x.commentId}">
+<div class="head">
+<a href="/user/home?id=${x.user.userId}"><img src="${x.user.avatarUrl}?param=50y50"></a>
+</div>
+<div class="cntwrap">
+<div class="cnt2 f-brk">
+<a href="/user/home?id=${x.user.userId}" class="s-fc7">${escape(x.user.nickname)}</a>
+${getAuthIcon(x.user)}
+{if x.user.vipRights}
+{if x.user.vipRights.associator && x.user.vipRights.associator.rights}
+<img src="//p1.music.126.net/0iFYdNRbeKXnmhgIHFYVNg==/109951163309832497.png"
+class="brand-tag brand-vip" />
+{elseif x.user.vipRights.musicPackage && x.user.vipRights.musicPackage.rights}
+<img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png"
+class="brand-tag brand-package" />
+{/if}
+{/if}
+{if !!x.beRepliedUser}
+&nbsp;回复&nbsp;<a href="/user/home?id=${x.beRepliedUser.userId}" class="s-fc7">${escape(x.beRepliedUser.nickname)}</a>
+${getAuthIcon(x.beRepliedUser)}
+{if x.beRepliedUser.vipRights}
+{if x.beRepliedUser.vipRights.associator && x.beRepliedUser.vipRights.associator.rights}
+<img src="//p1.music.126.net/0iFYdNRbeKXnmhgIHFYVNg==/109951163309832497.png"
+class="brand-tag brand-vip" />
+{elseif x.beRepliedUser.vipRights.musicPackage && x.beRepliedUser.vipRights.musicPackage.rights}
+<img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png"
+class="brand-tag brand-package" />
+{/if}
+{/if}
+{/if}
+：${getRichText(escape(x.content),'s-fc7')}
+{if !!x.expressionUrl}
+<div class="u-expression"><img src="${x.expressionUrl}?param=70y70"></img></div>
+{/if}
+</div>
+{if x.beReplied&&x.beReplied.length}
+{var replied = x.beReplied[0]}
+<div class="que f-brk f-pr s-fc3">
+<span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span>
+{if replied&&replied.content}
+<a class="s-fc7" href="/user/home?id=${replied.user.userId}">${replied.user.nickname}${getAuthIcon(replied.user)}</a>
+{if replied.user.vipRights}
+{if replied.user.vipRights.associator && replied.user.vipRights.associator.rights}
+<img src="//p1.music.126.net/0iFYdNRbeKXnmhgIHFYVNg==/109951163309832497.png"
+class="brand-tag brand-vip" />
+{elseif replied.user.vipRights.musicPackage && replied.user.vipRights.musicPackage.rights}
+<img src="//p1.music.126.net/G2KYG9JjrGGP5grSaXOZaw==/109951163309837705.png"
+class="brand-tag brand-package" />
+{/if}
+{/if}
+：${getRichText(escape(replied.content),'s-fc7')}
+{else}
+该评论已删除
+{/if}
+</div>
+{/if}
+<div class="rp">
+<div class="time s-fc4">${timeformat(x.time)}</div>
+{if GUser&&GUser.userId&&(GUser.userId==x.user.userId||GUser.userId==resUserId)}
+<span class="dlt">
+<a href="javascript:void(0)" class="s-fc3" data-id="${x.commentId}" data-type="delete">删除</a><span class="sep">|</span>
+</span>
+{/if}
+<a data-id="${x.commentId}" data-type="{if !x.liked}like{else}unlike{/if}" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-{if x.liked}13{else}12{/if}"></i>{if x.likedCount} (${getPlayCount(x.likedCount)}){/if}</a>
+<span class="sep">|</span>
+<a href="javascript:void(0)" class="s-fc3" data-id="${x.commentId}" data-type="reply">回复</a>
+</div>
+</div>
+</div>
+{/list}
+</textarea>
+<textarea name="jst" id="m-wgt-input-1" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr">
+<textarea class="u-txt area j-flag" data-type="" placeholder="${placeholder}"><&#47;textarea>
+</div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a href="javascript:void(0)" class="btn u-btn u-btn-1 j-flag">评论</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+<div class="corr u-arr"><em class="arrline">◆</em><span class="arrclr">◆</span></div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-input-2" style="display:none;"> <div class="rept m-quk m-quk-1 f-pr">
+<div class="iner">
+<div class="corr u-arr u-arr-1"><em class="arrline">◆</em><span class="arrclr">◆</span></div>
+<div class="m-cmmtipt m-cmmtipt-1 f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr j-wrap">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}"><&#47;textarea>
+</div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a href="javascript:void(0)" class="btn u-btn u-btn-1 j-flag">回复</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-input-3" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}"><&#47;textarea>
+</div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a class="btn u-btn u-btn-1 j-flag" href="javascript:void(0)">回复</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-input-4" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap f-pr">
+<textarea class="u-txt area j-flag"><&#47;textarea>
+</div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag" style="display:none;"></i>
+<a class="f-fr u-btn u-btn-1 j-flag" href="javascript:void(0)">发送</a><span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-input-5" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}"><&#47;textarea>
+</div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a class="btn u-btn u-btn-1 j-flag" href="javascript:void(0)">评论</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-input-6" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}"><&#47;textarea>
+</div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a class="btn u-btn u-btn-1 j-flag" href="javascript:void(0)">发送</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-wgt-subscribe" style="display:none;"><div class="lyct lyct-1 m-favgd f-cb">
+<div class="tit j-flag"><i class="u-icn u-icn-33"></i>新歌单</div>
+<div class="j-flag">
+<div class="u-load s-fc4"><i class="icn"></i> 加载中...</div>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-subscribe-item" style="display:none;"><ul>
+{list beg..end as y}
+{var x=xlist[y]}
+<li data-id="${x.id}" class="xtag {if x.trackCount+size>10000}dis{/if}">
+<div class="item f-cb">
+<div class="left">
+<a href="javascript:void(0)" class="avatar" target="_blank">
+<img alt="" src="${x.coverImgUrl}?param=40y40">
+{if x.highQuality}<i class="u-jp u-icn2 u-icn2-jp5"></i>{/if}
+</a>
+</div>
+<p class="name f-thide"><a class="s-fc0" href="javascript:void(0)" target="_blank">${escape(cutStr(x.name,40))}</a></p>
+<p class="s-fc3">${x.trackCount}首</p>
+{if x.trackCount+size>10000}<p class="limit">歌单已满</p>{/if}
+</div>
+</li>
+{/list}
+</ul>
+</textarea>
+<textarea name="ntp" id="m-wgt-forward" style="display:none;"><div class="lyct lyct-1 f-cb">
+<div class="m-lyshare">
+<div class="u-txtwrap f-pr">
+<label style="display: block;" class="j-flag">说点什么</label>
+<textarea class="u-txt area j-flag" text = ><&#47;textarea>
+</div>
+<div class="oper f-cb j-flag">
+<div class="face f-fl f-pr">
+<i class="u-icn u-icn-36 f-fl j-flag"></i>
+<i class="u-icn u-icn-41 j-flag"></i>
+</div>
+<span class="zs f-fr s-fc3 j-flag">140</span>
+</div>
+<div class="btnwrap">
+<a class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true" href="#"><i>转发</i></a>
+<a class="u-btn2 u-btn2-1 u-btn2-w2 j-flag" hidefocus="true" href="#"><i>取消</i></a>
+</div>
+<div class="j-flag u-err"><i class="u-icn u-icn-25"></i><span></span></div>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-import-ok" style="display:none;"><div class="lyct f-cb f-tc">
+<p class="f-fs3 f-ff2"><i class="u-icn u-icn-76"></i>&nbsp;&nbsp;歌曲同步完成</p>
+<div class="lybtn">
+<a href="javascript:;" class="u-btn2 u-btn2-2 j-flag" hidefocus="true"><i>查看我的音乐</i></a>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-atlist" style="display:none;"> <div class="u-atlist">
+{if suggests.length == 0}
+<p>轻敲空格完成输入</p>
+{else}
+<p>选择最近@的人或直接输入</p>
+{/if}
+<div class="lst">
+{list suggests as suggest}
+<a href="javascript:;" data-index=${suggest_index} class="f-thide j-sgt">${suggest.nickname}</a>
+{/list}
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-receiverInput" style="display:none;"> <div class="ct f-pr">
+<div class="u-txtwrap f-pr">
+<div class="u-txt txtwrap j-flag">
+{if receiver}
+<div class="blk s-fc3 j-receiver">${receiver.nickname}<a href="#" class="cls" title="删除">&times;</a></div>
+{/if}
+<span class="holder-parent j-flag" style="float:left">
+<input type="text" class="txt j-flag" />
+<label class="holder j-flag">选择或输入好友昵称</label>
+</span>
+</div>
+</div>
+<ul class="full j-flag" style="_height:182px;display:none">
+{list users as user}
+<li class="j-item" data-userId=${user.userId} data-username=${user.nickname} data-index=${user_index}><a href="#"><img src=${user.avatarUrl}>${user.nickname}</a></li>
+{/list}
+</ul>
+<div class="j-flag" style="position:absolute;left: -1000px;width:auto;"></div>
+</div>
+</textarea>
+<textarea name="jst" id="m-wgt-receiverList" style="display:none;"> {list users as user}
+<li class="j-item" data-userId=${user.userId} data-username=${user.nickname} data-index=${user_index}><a href="#"><img src=${user.avatarUrl}>${user.nickname}</a></li>
+{/list}
+</textarea>
+<textarea name="ntp" id="m-wgt-sharewin" style="display:none;"><div class="lyct lyct-1 f-cb">
+<div class="m-lyshare">
+<ul class="m-tabs1 j-flag">
+<li><a href="#"><em>分享给大家</em></a></li>
+<li><a href="#"><em>私信分享</em></a></li>
+</ul>
+<div class="u-err j-flag" style="display:none">最多选择10位好友</div>
+<div class="j-flag"></div>
+<div class="j-slogan"></div>
+<div class="u-txtwrap f-pr">
+<textarea class="u-txt area j-flag" placeholder="说点什么吧" data-action="txt"><&#47;textarea>
+<div class="info f-pr j-flag" data-action="search"></div>
+</div>
+<div class="oper f-cb">
+<div class="face f-fl f-pr">
+<i class="u-icn u-icn-36 f-fl j-flag" data-action="emot"></i>
+<i class="u-icn u-icn-41 f-fl j-flag" data-action="at"></i>
+<i class="u-icn u-icn-97 j-flag f-pr" data-action="upload" data-default></i>
+</div>
+<span class="f-fr s-fc4 j-flag">140/140</span>
+</div>
+<div class="f-cb j-flag"></div>
+<div class="f-cb">
+<div class="btnwrap f-fl">
+<a class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true" href="javascript:;" data-action="share"><i>分享</i></a>
+<a class="u-btn2 u-btn2-1 u-btn2-w2 j-flag" hidefocus="true" href="javascript:;" data-action="close"><i>取消</i></a>
+</div>
+<div class="f-cb j-flag f-fr">
+<div class="share f-fr">
+<span class="f-fl s-fc3">同时分享到：</span>
+<ul class="u-logo u-logo-s f-cb">
+<li><a class="u-slg u-slg-sn j-t" data-action="sns" data-type="2" hidefocus="true" href="//music.163.com/api/sns/authorize?snsType=2&clientType=web2&callbackType=Binding&forcelogin=true" title="新浪微博"></a></li>
+<li><a class="u-slg u-slg-db j-t" data-action="sns" data-type="3" hidefocus="true" href="//music.163.com/api/sns/authorize?snsType=3&clientType=web2&callbackType=Binding&forcelogin=true" title="豆瓣网"></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="u-err j-flag"><i class="u-icn u-icn-25"></i><span></span></div>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-search-suggest" style="display:none;">{macro listArtists(artists)}
+{list artists as art}
+${art.name|mark}&nbsp;
+{/list}
+{/macro}
+<div class="m-schlist">
+<p class="note s-fc3"><a class="s-fc3 xtag" href="/search/#/?s=${keyword}&type=1002">搜“${keyword|cutStr}” 相关用户</a> &gt;</p>
+<div class="rap">
+{list result.order as index}
+{var lst=result[index]}
+{if !!lst&&!!lst.length}
+<div class="itm f-cb">
+{if index=="songs"}
+<h3 class="hd"><i class="icn u-icn u-icn-26"></i><em class="f-fl">单曲</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as song}
+<li><a class="s-fc0 f-thide xtag" href="/song?id=${song.id}">${song.name|mark}-${listArtists(song.artists)}</a></li>
+{/list}
+</ul>
+{elseif index=="artists"}
+<h3 class="hd"><i class="icn u-icn u-icn-27"></i><em class="f-fl">歌手</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as artist}
+<li><a class="s-fc0 f-thide xtag" href="/artist?id=${artist.id}">${artist.name|mark}</a></li>
+{/list}
+</ul>
+{elseif index=="albums"}
+<h3 class="hd"><i class="icn u-icn u-icn-28"></i><em class="f-fl">专辑</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as album}
+<li><a class="s-fc0 f-thide xtag" href="/album?id=${album.id}">${album.name|mark}{if album.artist}-${album.artist.name|mark}{/if}</a></li>
+{/list}
+</ul>
+{elseif index=="playlists"}
+<h3 class="hd"><i class="icn u-icn u-icn-29"></i><em class="f-fl">歌单</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as playlist}
+<li><a class="s-fc0 f-thide xtag" href="/playlist?id=${playlist.id}">${playlist.name|mark}</a></li>
+{/list}
+</ul>
+{elseif index=="mvs"}
+<h3 class="hd"><i class="icn u-icn u-icn-96"></i><em class="f-fl">视频</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as mv}
+<li><a class="s-fc0 f-thide xtag" href="/mv?id=${mv.id}">MV:${mv.name|mark}{if mv.artistName}-${mv.artistName|mark}{/if}</a></li>
+{/list}
+</ul>
+{/if}
+</div>
+{/if}
+{/list}
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-xwgt-share-infobar" style="display:none;"><i class="highlight"></i><div class="text f-fl f-fs1"><p class="f-thide">${info|escape}</p></div>
+{if canChange}<i class="f-fr icn u-icn2 u-icn2-arr"></i>{/if}
+</textarea>
+<textarea name="jst" id="m-xwgt-share-videobar" style="display:none;"><div class="text">
+<div class="cvr f-fl f-pr" style="background-image:url(${picUrl}?imageView&thumbnail=107x60),url(${picUrl}?imageView&thumbnail=107y60&blur=30x15)">
+</div>
+<h3 class="f-thide f-fs1">${title}</h3>
+<i class="f-fr icn u-icn2 u-icn2-arr"></i>
+</div>
+</textarea>
+<textarea name="ntp" id="m-xwgt-share-upload" style="display:none;"> <div class="f-pr choose f-cb">
+<ul class="pics f-pr f-cb j-flag"><li class="f-pr add j-flag u-icn2 u-icn2-addimg" title="添加新图片"></li></ul>
+<div class="f-pa tip s-fc6 j-flag"></div>
+</div>
+</textarea>
+<textarea name="jst" id="m-xwgt-share-upload-preview" style="display:none;"> <li class="pic f-pr{if fail} z-fail{/if}">
+{if !fail}
+<i class="f-img icn"></i>
+{else}
+<div class="mask f-blk f-pa"></div><div class="f-blk f-pa error">${fail}</div>
+{/if}
+<span class="del f-pa u-icn2 u-icn2-delimg" title="删除"></span>
+</li>
+</textarea>
+<textarea name="jst" id="m-xwgt-share-upload-preview-img" style="display:none;">{if !fail}
+<img class="f-img" src="${url}?imageView&thumbnail=80y80" draggable=false>
+{else}
+<div class="mask f-blk f-pa"></div><div class="f-blk f-pa error">${fail}</div>
+{/if}
+</textarea>
+<textarea name="ntp" id="ntp-alert" style="display:none;"><div class="lyct f-cb f-tc">
+<p class="f-fs1">
+<i class="u-icn u-icn-89 j-flag"></i>
+<span class="f-fw1">&nbsp;&nbsp;&nbsp;<span class="j-flag"></span></span>
+</p>
+<p class="mesg j-flag">&nbsp;</p>
+<div class="lybtn">
+<a href="javascript:;" class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true"><i>知道了</i></a>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-layer-commwin" style="display:none;"><div class="lyct f-tc">
+<p class="j-t"><i class="u-icn u-icn-90"></i></p>
+<p class="j-t msg1"></p>
+</div>
+<div class="j-t lsbtn f-tc">
+<a href="javascript:;" class="u-btn2 u-btn2-2 u-btn2-w2" hidefocus="true"><i>上传节目</i></a>
+</div>
+</textarea>
+<textarea name="ntp" id="m-layer-delwin" style="display:none;"><div class="lyct lyct-1 f-cb">
+<div class="n-log2 n-log2-4">
+<p class="js-tip u-tip-2"></p>
+<div class="lybtn f-tc">
+<a href="javascript:;" class="u-btn2 u-btn2-2" hidefocus="true" data-action="ok"><i>删除</i></a>
+<a href="javascript:;" class="u-btn2 u-btn2-1" hidefocus="true" data-action="cancel"><i>取消</i></a>
+</div>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-layer-commwin-btn" style="display:none;">{list buttons as item}
+<a hidefocus="true" class="u-btn2 ${item.klass} {if item.style}${item.style}{else}u-btn2-w2{/if}" href="#" {if !!item.action}data-action="${item.action}"{/if}><i>${item.text}</i></a>
+{/list}
+</textarea>
+<textarea name="ntp" id="m-layer-outershare" style="display:none;"><div class="lyct lyct-1">
+<ul class="n-outshr f-cb">
+<li>
+<a href="#" data-action="wxfrd" class="logo wxfrd"></a>
+<a href="#" data-action="wxfrd" class="wd">微信</a>
+</li>
+<!--
+<li>
+<a href="#" data-action="wxevt" class="logo wxevt"></a>
+<a href="#" data-action="wxevt" class="wd">微信朋友圈</a>
+</li>
+-->
+<li>
+<a href="#" data-action="yxfrd" class="logo yxfrd"></a>
+<a href="#" data-action="yxfrd" class="wd">易信</a>
+</li>
+<!--
+<li>
+<a href="#" data-action="yxevt" class="logo yxevt"></a>
+<a href="#" data-action="yxevt" class="wd">易信朋友圈</a>
+</li>
+-->
+<li>
+<a href="#" data-action="qzone" class="logo qzone"></a>
+<a href="#" data-action="qzone" class="wd">QQ空间</a>
+</li>
+<li>
+<a href="#" data-action="lofte" class="logo lofte"></a>
+<a href="#" data-action="lofte" class="wd">LOFTER</a>
+</li>
+</ul>
+</div>
+</textarea>
+<textarea name="ntp" id="m-layer-tip" style="display:none;"><div class="lyct f-cb f-tc">
+<div class="f-fs1 j-flag">message</div>
+<div class="lybtn">
+<a hidefocus="true" class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" href="javascript:;"><i>知道了</i></a>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-outshare-layer" style="display:none;"><div class="lyct lyct-1 f-cb">
+<ul class="m-shareto f-cb j-flag">
+<li class="fst" data-action="sn" data-type="2">
+<a href="#" class="logo logo-sn"></a>
+<a href="#" class="wd s-fc3">新浪微博</a>
+</li>
+<li data-action="tx" data-type="6" style="display:none;">
+<a href="#" class="logo logo-tc"></a>
+<a href="#" class="wd s-fc3">腾讯微博</a>
+</li>
+<li data-action="db" data-type="3">
+<a href="#" class="logo logo-db"></a>
+<a href="#" class="wd s-fc3">豆瓣</a>
+</li>
+</ul>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-sharesingle-layer" style="display:none;"><div class="lyct lyct-1 f-cb">
+<div class="m-lyshare">
+<div class="u-txtwrap f-pr">
+<textarea data-action="txt" class="u-txt area j-flag"><&#47;textarea>
+</div>
+<div class="oper f-cb">
+<div class="face f-fl f-pr j-flag">
+<i data-action="emt" class="u-icn u-icn-36 f-fl"></i>
+</div>
+<span class="zs f-fr s-fc3 j-flag">140</span>
+</div>
+<div class="btnwrap">
+<a data-action="ok" class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true" href="#"><i>分享</i></a>
+<a data-action="cc" class="u-btn2 u-btn2-1 u-btn2-w2" hidefocus="true" href="#"><i>取消</i></a>
+</div>
+<div class="u-err f-hide j-flag"><i class="u-icn u-icn-25"></i></div>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-popup-info" style="display:none;"><div class="lyct f-tc">
+<div class="f-cb m-tipinfo">
+<i class="u-icn2 u-icn2-11 f-fl"></i>
+<div class="f-fr f-pr f-fs1 tip">${tip}</div>
+</div>
+</div>
+<div class="lsbtn f-tc">
+<a data-action="ok" href="javascript:void(0)" class="u-btn2 u-btn2-2 u-btn2-2-h {if oktext.length<=2}u-btn2-w2{/if}" hidefocus="true"><i>${oktext}</i></a>
+<a data-action="cc" href="javascript:void(0)" hidefocus="true" class="u-btn2 u-btn2-1 u-btn2-1-h {if cctext.length<=2}u-btn2-w2{/if}"><i>${cctext}</i></a>
+</div>
+</textarea>
+<textarea name="jst" id="m-popup-song-buy" style="display:none;"><div class="lyct m-songpay f-tc">
+<div class="f-cb m-tipinfo">
+<i class="u-icn2 u-icn2-11 f-fl"></i>
+<div class="f-fr f-pr f-fs1 tip">${tip}</div>
+</div>
+<div class="f-pr f-tc">
+<a data-action="ok" href="javascript:void(0)" class="u-btn2 u-btn2-2 {if oktext.length<=2}u-btn2-w2{/if}" hidefocus="true"><i>${oktext}</i></a>
+{if showSongText}<a data-action="song" class="song s-fc4" href="javascript:void(0)">${songTxt}</a>{/if}
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="m-popup-alert" style="display:none;"><div class="lyct f-tc">
+<p><i class="${icon}"></i></p>
+<p class="msg1"><span class="f-fs1 s-fc1">${tip}</span></p>
+</div>
+<div class="lsbtn f-tc">
+{if typeof(oktext) != 'undefined'}<a data-action="ok" href="javascript:void(0)" class="u-btn2 u-btn2-2 u-btn2-2-h {if oktext.length<=2}u-btn2-w2{/if}" hidefocus="true"><i>${oktext}</i></a>{/if}
+{if typeof(cctext) != 'undefined'}<a data-action="cc" href="javascript:void(0)" class="u-btn2 u-btn2-1 u-btn2-1-h {if cctext.length<=2}u-btn2-w2{/if}" hidefocus="true"><i>${cctext}</i></a>{/if}
+</div>
+</textarea>
+<textarea name="txt" id="m-donate-tip" style="display:none;"><p>该资源为公益歌曲<p>
+<p>捐赠任意金额（2~4999元）即可无限畅听下载</p>
+</textarea>
+<textarea name="ntp" id="m-simple-share-layer" style="display:none;"> <div class="lyct lyct-1">
+<ul class="n-outshr f-cb">
+<li data-type="xlwb">
+<a href="javascript:;" class="logo xlwb"></a>
+<a href="javascript:;" class="wd">新浪微博</a>
+</li>
+<li data-type="wx">
+<a href="javascript:;" class="logo wxfrd"></a>
+<a href="javascript:;" class="wd">微信</a>
+</li>
+<li data-type="yx">
+<a href="javascript:;" class="logo yxfrd"></a>
+<a href="javascript:;" class="wd">易信好友</a>
+</li>
+<li data-type="qzone">
+<a href="javascript:;" class="logo qzone"></a>
+<a href="javascript:;" class="wd">QQ空间</a>
+</li>
+<li data-type="lofter" style="display:none;">
+<a href="javascript:;" class="logo lofte"></a>
+<a href="javascript:;" class="wd">LOFTER</a>
+</li>
+<li data-type="db" style="display:none;">
+<a href="javascript:;" class="logo db"></a>
+<a href="javascript:;" class="wd">豆瓣</a>
+</li>
+</ul>
+</div>
+</textarea>
+<textarea name="txt" id="m-report-point" style="display:none;"><div class="zcnt">
+<div class="lyct f-cb f-tc">
+<p class="f-fs2">悬赏1积分让大家来帮你补歌词，是否继续？</p>
+<p style="padding-top: 10px;">若30天内歌词未补充，积分将退还给您</p>
+<div class="lybtn">
+<a href="javascript:;" data-action="ok" class="u-btn2 u-btn2-2 u-btn2-w2" hidefocus="true"><i>继续求</i></a>
+<a href="javascript:;" data-action="cc" class="u-btn2 u-btn2-1 u-btn2-w2" hidefocus="true"><i>取消</i></a>
+</div>
+</div>
+</div>
+</textarea>
+<textarea name="txt" id="txt-mobilestatus" style="display:none;"><div class="box f-cb">
+<div data-action="invalid" class="item z-first f-fl">
+<div class="icon"></div>
+<p>原手机号已停用</p>
+<p class="s-fc3">(使用其他方式验证)</p>
+</div>
+<div data-action="valid" class="item f-fr">
+<div class="icon"></div>
+<p>原手机号仍能使用</p>
+<p class="s-fc3">(使用手机验证码验证)</p>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-question" style="display:none;"><div class="m-question">
+<div>请填写以下安全问题的答案</div>
+<div class="qa j-flag f-cb">
+<label class="f-fl">问题：</label>
+</div>
+<div class="qa f-cb">
+<label class="f-fl">回答：</label>
+<input type="text" class="u-txt txt f-fl j-flag">
+</div>
+<div class="u-err f-hide j-flag"><i class="u-icn u-icn-25"></i>帐号或密码错误</div>
+<div class="btnwrap">
+<a data-action="back" class="u-btn2 u-btn2-1 u-btn2-w2" hidefocus="true" href="javascript:void(0)"><i>上一步</i></a>
+<a data-action="next" class="u-btn2 u-btn2-2 u-btn2-w2" hidefocus="true" href="javascript:void(0)"><i>下一步</i></a>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="g-select" style="display:none;"><div class="u-slt f-ib">
+<span class="curr f-thide">－请选择－</span>
+<i class="btn"></i>
+<ul class="f-hide">
+</ul>
+</div>
+</textarea>
+<textarea name="ntp" id="ntp-linuxlinks" style="display:none;"><div class="lyct lyct-1">
+<div class="dc f-cb">
+<ul class="links">
+<li class="link f-cb">
+<a href="" class="right" target="_blank" hidefocus="true" title="Linux版下载">deepin15（64位）</a>
+<a href="" class="right" target="_blank" hidefocus="true" title="Linux版下载">ubuntu16.04（64位）</a>
+</li>
+</ul>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="ntp-pcRedirect" style="display:none;"><div class="lyct lyct-1">
+<div class="pcdld f-cb">
+<img src="../../../style/web2/img/down/uwpWindown.png" alt="网易云音乐-UWP版">
+<p class="txt">您的系统为Windows 10，推荐下载UWP版</p>
+<div class="choose">
+<a class="u-btn2 u-btn2-2" data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"pc","source":"downloadapp"}' href="https://www.microsoft.com/store/apps/9nblggh6g0jf" onclick="g_stat('uwp',true,event);_gaq.push(['_trackEvent','download','uwp','download']);" hidefocus="true" title="UWP版下载" target="_blank"><i>下载UWP版本</i></a>
+<a class="link" data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"pc","source":"downloadapp"}' href="https://music.163.com/api/pc/download/latest" onclick="g_stat('pc',true,event);_gaq.push(['_trackEvent','download','pc','download']);" hidefocus="true" title="PC版下载" target="_blank"><i>继续下载PC版本</i></a>
+</div>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="g-select-item" style="display:none;">{list options as o}
+<li class="f-thide" data-index="${o_index}"><a href="javascript:;">${o|filter}</a></li>
+{/list}
+</textarea>
+<textarea name="ntp" id="m-download-layer" style="display:none;"><h3 class="f-tc">使用云音乐客户端</h3>
+<h4 class="f-tc s-fc3">即可无限下载高品质音乐</h4>
+<div class="f-cb wrap">
+<div class="left">
+<div data-action="download" data-src="https://music.163.com/api/osx/download/latest" class="btn btn-mac"><i></i>Mac版<span class="ver j-flag">V1.9.1</span></div>
+<div data-action="download" data-src="https://music.163.com/api/pc/download/latest" class="btn f-hide"><i></i>PC版<span class="ver j-flag">V1.9.1</span></div>
+<div data-action="orpheus" class="btn btn-installed j-flag">已安装PC版</div>
+</div>
+<div class="right">
+<div class="qtcode"></div>
+<div class="s-fc3 f-tc">扫描下载手机版</div>
+</div>
+</div>
+</textarea>
+<textarea name="ntp" id="m-programtips-layer" style="display:none;"><div class="f-tc wrap ">
+<p class="f-fs1 s-fc1 wrap-p">该资源为付费内容，扫描下方二维码，使用最新的安卓或iPhone版本购买后即可畅享</p>
+<div class="f-tc wrap-d">
+<span class="qtcode j-flag"></span>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="com-artists-title" style="display:none;">{var title=""}
+{if artists && artists.length}
+{list artists as x}
+{if x}
+{var title = title + x.name}
+{if x_index < x_length - 1}
+{var title = title + " / "}
+{/if}
+{/if}
+{/list}
+{/if}
+${escape(title)}
+</textarea>
+<textarea name="jst" id="com-mv-artists" style="display:none;">{if artists && artists.length}
+<span class="${boxClazz}" title="${comJST('com-artists-title', artists)}">
+{list artists as x}
+{if !!x}
+{if !!x.id}
+<a href="/artist?id=${x.id}" class="${clazz}">${mark(escape(x.name))}</a>
+{else}
+<span class="${clazz}">${mark(escape(x.name))}</span>
+{/if}
+{if x_index < x_length - 1}&nbsp;/&nbsp;{/if}
+{/if}
+{/list}
+</span>
+{/if}
+</textarea>
+<textarea name="jst" id="com-album-artists" style="display:none;">${comJST('com-mv-artists', artists, clazz, mark, boxClazz)}
+</textarea>
+<textarea name="jst" id="com-user-type" style="display:none;">{if x.userType==4}${before}<sup class="${clazz2} u-icn2 u-icn2-music2 ${clazz}"></sup>${after}{elseif x.authStatus==1}${before}<sup class="u-icn u-icn-1 ${clazz}"></sup>${after}{elseif (x.expertTags && x.expertTags.length>0) || !isEmptyObject(x.experts)}${before}<sup class="u-icn u-icn-84 ${clazz}"></sup>${after}{/if}
+</textarea>
+<textarea name="ntp" id="ntp-portrait" style="display:none;"><div class="m-emts z-show">
+<div class="j-flag emtwrap f-cb"></div>
+<div class="page">
+<a href="#" hidefocus="true" class="j-flag u-btn u-btn-prv"></a><em class="j-flag s-fc3">1/2</em><a href="#" hidefocus="true" class="j-flag u-btn u-btn-nxt"></a>
+</div>
+</div>
+</textarea>
+<textarea name="jst" id="jst-portrait" style="display:none;">{list plist as item}
+<span title="${item.key}" class="emtitm"><img data-text="${item.key}" data-url="${item.key|purl}" class="f-alpha" src="${item.key|purl}"></span>
+{/list}
+</textarea>
+<textarea name="ntp" id="m-wgt-song-box" style="display:none;"><div class="j-flag"></div>
+<div class="j-flag"></div>
+</textarea>
+<textarea name="jst" id="m-wgt-song-list" style="display:none;"><table class="m-table {if type=='rank'}m-table-rank{/if}">
+<thead>
+<tr>
+<th class="first {if type=='rank'}wrk{else}w1{/if}"><div class="wp">&nbsp;</div></th>
+<th><div class="wp af0"></div></th>
+<th class="w2"><div class="wp af1"></div></th>
+<th class="w3"><div class="wp af2"></div></th>
+<th class="w4"><div class="wp af3"></div></th>
+</tr>
+</thead>
+<tbody>
+{list beg..end as y}
+{var x=xlist[y]}
+<tr id="${x.id|seed}" class="{if y%2==0}even{/if} {if disable(x)}js-dis{/if}">
+<td class="left">
+<div class="hd {if type=='rank'}rank{/if}">
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<span class="num">${y+1}</span>
+{if type=='rank'}
+<div class="rk rk-1">
+{if x.lastRank>=0}
+{if y-x.lastRank>0}
+<span class="ico u-icn u-icn-74 s-fc10">${y-x.lastRank}</span>
+{elseif y-x.lastRank==0}
+<span class="ico u-icn u-icn-72 s-fc4">0</span>
+{else}
+<span class="ico u-icn u-icn-73 s-fc9">${x.lastRank-y}</span>
+{/if}
+{else}
+<span class="u-icn u-icn-75"></span>
+{/if}
+</div>
+{/if}
+</div>
+</td>
+<td class="">
+<div class="f-cb">
+<div class="tt">
+<div class="ttc">
+<span class="txt">
+{var alia=songAlia(x)}
+<a href="/song?id=${x.id}"><b title="${x.name|escape}{if alia} - (${alia|escape}){/if}">${soil(x.name)}</b></a>{if alia}<span title="${alia|escape}" class="s-fc8"> - (${soil(alia)})</span>{/if}
+{if x.mvid>0}
+<span data-res-id="${x.id}" data-res-action="mv" title="播放mv" class="mv">MV</span>
+{/if}
+</span>
+</div>
+</div>
+</div>
+</td>
+<td class=" s-fc3">
+<span class="u-dur {if canDel}candel{/if}">${dur2time(x.duration/1000)}{if x.ftype==2}<i title="歌曲来自第三方网站" class="migu u-icn2 u-icn2-14"></i>{/if}</span>
+<div class="opt hshow">
+<a class="u-icn u-icn-81 icn-add" href="javascript:;" title="添加到播放列表" hidefocus="true"
+data-res-type="18"
+data-res-id="${x.id}"
+data-res-action="addto"
+{if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if}></a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="fav" class="icn icn-fav" title="收藏"></span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="share" data-res-name="${x.name}" data-res-author="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}" {if x.album}data-res-pic="${x.album.picUrl}"{/if} class="icn icn-share" title="分享">分享</span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="download" class="icn icn-dl" title="下载"></span>
+{if canDel}
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="delete" class="icn icn-del" title="删除">删除</span>
+{/if}
+</div>
+</td>
+<td class="">
+<div class="text" title="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}">
+${getArtistName(x.artists, '', '', false, false, true)}
+</div>
+</td>
+{if type=='dayRcmd'}
+<td class="hascls">
+<div class="f-pr">
+<div class="text">{if x.album}<a href="/album?id=${x.album.id}" title="${x.album.name}">${x.album.name}</a>{/if}</div>
+<a href="javascript:;" data-res-action="dislike" data-res-id="${x.id}" data-res-alg="${x.alg}" class="cls u-icn u-icn-80 f-tid icn-dislike" title="不感兴趣">不感兴趣</a>
+</div>
+</td>
+{else}
+<td class="">
+<div class="text">
+{if x.album}
+<a href="/album?id=${x.album.id}" title="${x.album.name|escape}">${soil(x.album.name)}</a>
+{/if}
+</div>
+</td>
+{/if}
+</tr>
+{/list}
+</tbody>
+</table>
+</textarea>
+<textarea name="jst" id="m-wgt-album-list" style="display:none;"><table class="m-table {if type=='rank'}m-table-rank{/if}">
+<thead>
+<tr>
+<th class="first {if type=='rank'}wrk{else}w1{/if}"><div class="wp">&nbsp;</div></th>
+<th><div class="wp">歌曲标题</div></th>
+<th class="w2-1"><div class="wp">时长</div></th>
+<th class="w4"><div class="wp">歌手</div></th>
+</tr>
+</thead>
+<tbody>
+{list beg..end as y}
+{var x=xlist[y]}
+<tr id="${x.id|seed}" class="{if y%2==0}even{/if} {if disable(x)}js-dis{/if}">
+<td class="left">
+<div class="hd {if type=='rank'}rank{/if}">
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<span class="num">${y+1}</span>
+{if type=='rank'}
+<div class="rk rk-1">
+{if x.lastRank>=0}
+{if y-x.lastRank>0}
+<span class="ico u-icn u-icn-74 s-fc10">${y-x.lastRank}</span>
+{elseif y-x.lastRank==0}
+<span class="ico u-icn u-icn-72 s-fc4">0</span>
+{else}
+<span class="ico u-icn u-icn-73 s-fc9">${x.lastRank-y}</span>
+{/if}
+{else}
+<span class="u-icn u-icn-75"></span>
+{/if}
+</div>
+{/if}
+</div>
+</td>
+<td class="">
+<div class="f-cb">
+<div class="tt">
+<div class="ttc">
+<span class="txt">
+{var alia=songAlia(x)}
+<a href="/song?id=${x.id}"><b title="${x.name|escape}{if alia} - (${alia|escape}){/if}">${soil(x.name)}</b></a>{if alia}<span title="${alia|escape}" class="s-fc8"> - (${soil(alia)})</span>{/if}
+{if x.mvid>0}
+<span data-res-id="${x.id}" data-res-action="mv" title="播放mv" class="mv">MV</span>
+{/if}
+</span>
+</div>
+</div>
+</div>
+</td>
+<td class=" s-fc3">
+<span class="u-dur {if canDel}candel{/if}">${dur2time(x.duration/1000)}{if x.ftype==2}<i title="歌曲来自第三方网站" class="migu u-icn2 u-icn2-14"></i>{/if}</span>
+<div class="opt hshow">
+<a class="u-icn u-icn-81 icn-add" href="javascript:;" title="添加到播放列表" hidefocus="true"
+data-res-type="18"
+data-res-id="${x.id}"
+data-res-action="addto"
+{if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if}></a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="fav" class="icn icn-fav" title="收藏"></span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="share" data-res-name="${x.name}" data-res-author="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}" {if x.album}data-res-pic="${x.album.picUrl}"{/if} class="icn icn-share" title="分享">分享</span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="download" class="icn icn-dl" title="下载"></span>
+{if canDel}
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="delete" class="icn icn-del" title="删除">删除</span>
+{/if}
+</div>
+</td>
+<td class="">
+<div class="text" title="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}">
+${getArtistName(x.artists, '', '/', false, true, true)}
+</div>
+</td>
+</tr>
+{/list}
+</tbody>
+</table>
+</textarea>
+<textarea name="jst" id="m-wgt-song-top50-list" style="display:none;"><table class="m-table m-table-1 m-table-4">
+<tbody>
+{list beg..end as y}
+{var x=xlist[y]}
+<tr id="${x.id|seed}" class="{if y%2==0}even{/if} {if disable(x)}js-dis{/if}">
+<td class="w1">
+<div class="hd">
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<span class="num">${y+1}</span>
+</div>
+</td>
+<td class="">
+<div class="f-cb">
+<div class="tt">
+<div class="ttc">
+<span class="txt">
+{var alia=songAlia(x)}
+<a href="/song?id=${x.id}"><b title="${x.name|escape}{if alia} - (${alia|escape}){/if}">${soil(x.name)}</b></a>{if alia}<span title="${alia|escape}" class="s-fc8"> - (${soil(alia)})</span>{/if}
+{if x.mvid>0}
+<span data-res-id="${x.id}" data-res-action="mv" title="播放mv" class="mv">MV</span>
+{/if}
+</span>
+</div>
+</div>
+</div>
+</td>
+<td class="w2-1 s-fc3">
+<span class="u-dur {if canDel}candel{/if}">${dur2time(x.duration/1000)}{if x.ftype==2}<i title="歌曲来自第三方网站" class="migu u-icn2 u-icn2-14"></i>{/if}</span>
+<div class="opt hshow">
+<a class="u-icn u-icn-81 icn-add" href="javascript:;" title="添加到播放列表" hidefocus="true"
+data-res-type="18"
+data-res-id="${x.id}"
+data-res-action="addto"
+{if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if}></a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="fav" class="icn icn-fav" title="收藏"></span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="share" data-res-name="${x.name}" data-res-author="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}" {if x.album}data-res-pic="${x.album.picUrl}"{/if} class="icn icn-share" title="分享">分享</span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="download" class="icn icn-dl" title="下载"></span>
+{if canDel}
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="delete" class="icn icn-del" title="删除">删除</span>
+{/if}
+</div>
+</td>
+<td class="w4">
+<div class="text">
+{if x.album}
+{var transName = x.album.tns && x.album.tns.length > 0 ? x.album.tns[0] : ''}
+<a href="/album?id=${x.album.id}" title="${x.album.name|escape}{if transName} - (${transName|escape}){/if}">${soil(x.album.name)}</a>
+{if transName}
+<span title="${transName|escape}" class="s-fc8"> - (${transName|escape})</span>
+{/if}
+{/if}
+</div>
+</td>
+</tr>
+{/list}
+</tbody>
+</table>
+</textarea>
+<textarea name="jst" id="m-wgt-song-rank-list" style="display:none;"><table class="m-table m-table-rank">
+<thead>
+<tr>
+<th class="first w1"></th>
+<th><div class="wp">标题</div></th>
+<th class="w2-1"><div class="wp">时长</div></th>
+<th class="w3"><div class="wp">歌手</div></th>
+</tr>
+</thead>
+<tbody>
+{list beg..end as y}
+{var x=xlist[y]}
+<tr id="${x.id|seed}" class="{if y%2==0}even{/if} {if disable(x)}js-dis{/if}">
+{if y<3}
+<td>
+<div class="hd">
+<span class="num">${y+1}</span>
+<div class="rk ">
+{if x.lastRank>=0}
+{if y-x.lastRank>0}
+<span class="ico u-icn u-icn-74 s-fc10">${y-x.lastRank}</span>
+{elseif y-x.lastRank==0}
+<span class="ico u-icn u-icn-72 s-fc4">0</span>
+{else}
+<span class="ico u-icn u-icn-73 s-fc9">${x.lastRank-y}</span>
+{/if}
+{else}
+<span class="u-icn u-icn-75"></span>
+{/if}
+</div>
+</div>
+</td>
+<td class="rank">
+<div class="f-cb">
+<div class="tt">
+<a href="/song?id=${x.id}">{if x.album}<img class="rpic" src="${x.album.picUrl}?param=50y50&quality=100">{/if}</a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<div class="ttc">
+<span class="txt">
+{var alia=songAlia(x)}
+<a href="/song?id=${x.id}"><b title="${x.name|escape}{if alia} - (${alia|escape}){/if}">${soil(x.name)}</b></a>{if alia}<span title="${alia|escape}" class="s-fc8"> - (${soil(alia)})</span>{/if}
+{if x.mvid>0}
+<span data-res-id="${x.id}" data-res-action="mv" title="播放mv" class="mv">MV</span>
+{/if}
+</span>
+</div>
+</div>
+</div>
+</td>
+{else}
+<td>
+<div class="hd">
+<span class="num">${y+1}</span>
+<div class="rk ">
+{if x.lastRank>=0}
+{if y-x.lastRank>0}
+<span class="ico u-icn u-icn-74 s-fc10">${y-x.lastRank}</span>
+{elseif y-x.lastRank==0}
+<span class="ico u-icn u-icn-72 s-fc4">0</span>
+{else}
+<span class="ico u-icn u-icn-73 s-fc9">${x.lastRank-y}</span>
+{/if}
+{else}
+<span class="u-icn u-icn-75"></span>
+{/if}
+</div>
+</div>
+</td>
+<td class="">
+<div class="f-cb">
+<div class="tt">
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<div class="ttc">
+<span class="txt">
+{var alia=songAlia(x)}
+<a href="/song?id=${x.id}"><b title="${x.name|escape}{if alia} - (${alia|escape}){/if}">${soil(x.name)}</b></a>{if alia}<span title="${alia|escape}" class="s-fc8"> - (${soil(alia)})</span>{/if}
+{if x.mvid>0}
+<span data-res-id="${x.id}" data-res-action="mv" title="播放mv" class="mv">MV</span>
+{/if}
+</span>
+</div>
+</div>
+</div>
+</td>
+{/if}
+<td class=" s-fc3">
+<span class="u-dur {if canDel}candel{/if}">${dur2time(x.duration/1000)}{if x.ftype==2}<i title="歌曲来自第三方网站" class="migu u-icn2 u-icn2-14"></i>{/if}</span>
+<div class="opt hshow">
+<a class="u-icn u-icn-81 icn-add" href="javascript:;" title="添加到播放列表" hidefocus="true"
+data-res-type="18"
+data-res-id="${x.id}"
+data-res-action="addto"
+{if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if}></a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="fav" class="icn icn-fav" title="收藏"></span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="share" data-res-name="${x.name}" data-res-author="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}" {if x.album}data-res-pic="${x.album.picUrl}"{/if} class="icn icn-share" title="分享">分享</span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="download" class="icn icn-dl" title="下载"></span>
+{if canDel}
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="delete" class="icn icn-del" title="删除">删除</span>
+{/if}
+</div>
+</td>
+<td class="">
+<div class="text" title="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}">
+${getArtistName(x.artists, '', '', false, false, true)}
+</div>
+</td>
+</tr>
+{/list}
+</tbody>
+</table>
+</textarea>
+<textarea name="jst" id="m-wgt-song-pgm-list" style="display:none;"><table class="m-table m-table-prog">
+<tbody id="song-list">
+{list beg..end as y}
+{var x=xlist[y]}
+<tr id="${x.id|seed}" class="{if y%2!=0}even{/if} {if disable(x)}js-dis{/if}">
+<td class="first col1">
+<div class="hd">
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<span class="num">${y+1}</span>
+</div>
+</td>
+<td class="col2">
+<div class="f-cb">
+<div class="tt">
+<div class="ttc">
+<span class="txt">
+{var alia=songAlia(x)}
+<a href="/song?id=${x.id}"><b title="${x.name|escape}{if alia} - (${alia|escape}){/if}">${soil(x.name)}</b></a>{if alia}<span title="${alia|escape}" class="s-fc8"> - (${soil(alia)})</span>{/if}
+{if x.mvid>0}
+<span data-res-id="${x.id}" data-res-action="mv" title="播放mv" class="mv">MV</span>
+{/if}
+</span>
+</div>
+</div>
+</div>
+</td>
+<td class="col3 s-fc3">
+<span class="u-dur {if canDel}candel{/if}">${dur2time(x.duration/1000)}{if x.ftype==2}<i title="歌曲来自第三方网站" class="migu u-icn2 u-icn2-14"></i>{/if}</span>
+<div class="opt hshow">
+<a class="u-icn u-icn-81 icn-add" href="javascript:;" title="添加到播放列表" hidefocus="true"
+data-res-type="18"
+data-res-id="${x.id}"
+data-res-action="addto"
+{if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if}></a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="fav" class="icn icn-fav" title="收藏"></span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="share" data-res-name="${x.name}" data-res-author="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}" {if x.album}data-res-pic="${x.album.picUrl}"{/if} class="icn icn-share" title="分享">分享</span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="download" class="icn icn-dl" title="下载"></span>
+{if canDel}
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="delete" class="icn icn-del" title="删除">删除</span>
+{/if}
+</div>
+</td>
+<td class="col4">
+<div class="text" title="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}">
+${getArtistName(x.artists, '', '', false, false, true)}
+</div>
+</td>
+<td class="col5">
+<div class="text">
+{if x.album}
+<a href="/album?id=${x.album.id}" title="${x.album.name|escape}">${soil(x.album.name)}</a>
+{/if}
+</div>
+</td>
+</tr>
+{/list}
+</tbody>
+</table>
+</textarea>
+<textarea name="jst" id="m-wgt-song-listen" style="display:none;"> <ul>
+{list beg..end as y}
+{var x=xlist[y]}
+{if extData&&extData.limit&&y>=extData.limit}
+{break}
+{/if}
+{var from=getFrom()}
+<li id="${x.id|seed}" {if y%2 !=0 }class='even'{/if}>
+<div class="hd ">
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<span class="num">${y+1}.</span>
+</div>
+<div class="song">
+<div class="tt">
+<div class="ttc">
+<span class="txt"><a href="/song?id=${x.id}"><b title="${x.name}">${x.name}</b></a>
+<span class='ar s-fc8'> <em>-</em>
+${getArtistName(x.artists, 's-fc8')}
+</span>
+</span>
+</div>
+</div>
+<div class="opt">
+<a class="u-icn u-icn-81 icn-add" href="javascript:;" title="添加到播放列表" hidefocus="true" data-res-type="18" data-res-id="${x.id}" data-res-action="addto" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if}></a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="subscribe" class="icn icn-fav" title="收藏"></span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="share" data-res-name="${x.name}" data-res-author="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}" class="icn icn-share" title="分享">分享</span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="download" class="icn icn-dl" title="下载">下载</span>
+</div>
+</div>
+<div class="tops">
+<span class="bg" style='width:${x.score*100/x.max}%;'></span>
+{if extData.showCount&&x.playCount}<span class="times f-ff2">${x.playCount}次</span>{/if}
+</div>
+</li>
+{/list}
+</ul>
+{if extData&&extData.limit&&xlist.length>extData.limit}
+<div class="more">
+<a href="/user/songs/rank?id=${hostId}" >查看更多&gt;</a>
+</div>
+{/if}
+</textarea>
+<textarea name="jst" id="m-wgt-purchased-song-list" style="display:none;"> {list beg..end as y}
+{var x=xlist[y]}
+<tr id="${x.id|seed}" class="{if y%2==1}even{/if} {if disable(x)}js-dis{/if}">
+<td class="left">
+<div class="hd {if type=='rank'}rank{/if}">
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="play" {if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if} class="ply {if isPlaying(x)}ply-z-slt{/if}">&nbsp;</span>
+<span class="num">${y+1}</span>
+{if type=='rank'}
+<div class="rk rk-1">
+{if x.lastRank>=0}
+{if y-x.lastRank>0}
+<span class="ico u-icn u-icn-74 s-fc10">${y-x.lastRank}</span>
+{elseif y-x.lastRank==0}
+<span class="ico u-icn u-icn-72 s-fc4">0</span>
+{else}
+<span class="ico u-icn u-icn-73 s-fc9">${x.lastRank-y}</span>
+{/if}
+{else}
+<span class="u-icn u-icn-75"></span>
+{/if}
+</div>
+{/if}
+</div>
+</td>
+<td class="u-hasopt">
+<div class="f-cb">
+<div class="tt">
+<div class="ttc">
+<span class="txt">
+{var alia=songAlia(x)}
+<a href="/song?id=${x.id}"><b title="${x.name|escape}{if alia} - (${alia|escape}){/if}">${soil(x.name)}</b></a>{if alia}<span title="${alia|escape}" class="s-fc8"> - (${soil(alia)})</span>{/if}
+{if x.mvid>0}
+<span data-res-id="${x.id}" data-res-action="mv" title="播放mv" class="mv">MV</span>
+{/if}
+</span>
+</div>
+</div>
+<div class="opt hshow">
+<a class="u-icn u-icn-81 icn-add" href="javascript:;" title="添加到播放列表" hidefocus="true"
+data-res-type="18"
+data-res-id="${x.id}"
+data-res-action="addto"
+{if from}data-res-from="${from.fid}" data-res-data="${from.fdata}"{/if}></a>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="fav" class="icn icn-fav" title="收藏"></span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="share" data-res-name="${x.name}" data-res-author="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}" {if x.album}data-res-pic="${x.album.picUrl}"{/if} class="icn icn-share" title="分享">分享</span>
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="download" class="icn icn-dl" title="下载"></span>
+{if canDel}
+<span data-res-id="${x.id}" data-res-type="18" data-res-action="delete" class="icn icn-del" title="删除">删除</span>
+{/if}
+</div>
+</div>
+</td>
+<td class="">
+<div class="text" title="{list x.artists as art}${art.name}{if art_index<x.artists.length-1}/{/if}{/list}">
+${getArtistName(x.artists, '', '', false, false, true)}
+</div>
+</td>
+<td class="">
+<div class="text">
+{if x.album}
+<a href="/album?id=${x.album.id}" title="${x.album.name|escape}">${soil(x.album.name)}</a>
+{/if}
+</div>
+</td>
+<td class="s-fc3">${formatTime(x.paidTime)}</td>
+</tr>
+{/list}
+</textarea>
+<textarea name="ntp" id="m-msg-private-send" style="display:none;"><div class="lyct lyct-1 f-cb">
+<div class="m-lyshare m-plshare">
+<div class="u-err j-flag" style="display: none;">最多选择10位好友</div>
+<div class="item item-1 f-cb">
+<label>发 给：</label>
+<div class="ct f-pr j-flag">
+</div>
+</div>
+<div class="item f-cb">
+<label>内 容：</label>
+<div class="ct j-flag">
+</div>
+</div>
+</div>
+</div>
+</textarea>
+</div>
+<script src="//s3.music.126.net/web/s/core_d367dd66c6cb86b1d02624f2ee472829.js?d367dd66c6cb86b1d02624f2ee472829" type="text/javascript"></script><script src="//s3.music.126.net/web/s/pt_playlist_index_b3f48f11606e38d9cd07cea756396ebf.js?b3f48f11606e38d9cd07cea756396ebf" type="text/javascript"></script>
+<script defer="defer" src="//img3.126.net/kaola/dsp1f/js/ntes-ad-cloud.min.js?v=1.0"></script>
+</body>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-38766552-1'],['_setLocalGifPath', '/UA-38766552-1/__utm.gif'],['_setLocalRemoteServerMode']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script');
+ga.type = 'text/javascript';
+ga.async = true;
+ga.src = '//wr.da.netease.com/ga.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+})();//fix ipad下的一个bug
+if (navigator.userAgent.indexOf('iPad') != -1) {
+iframeHeight = Math.max(
+Math.max(document.body.scrollHeight, document.documentElement.scrollHeight),
+Math.max(document.body.offsetHeight, document.documentElement.offsetHeight),
+Math.max(document.body.clientHeight, document.documentElement.clientHeight)
+);
+top.document.body.style.height = iframeHeight + 20 + 'px';
+}</script>
+</html>
